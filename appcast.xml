@@ -1,9 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0">
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>LiquidIPTV</title>
         <link>https://raw.githubusercontent.com/ElBeeHQ/LiquidIPTV/main/appcast.xml</link>
         <description>LiquidIPTV updates</description>
         <language>en</language>
+        <item>
+            <title>Version 0.10.02</title>
+            <pubDate>Thu, 22 Oct 2026 20:33:39 GMT</pubDate>
+            <sparkle:version>0.10.02</sparkle:version>
+            <sparkle:shortVersionString>0.10.02</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description>&lt;div style="font-family: -apple-system, sans-serif; font-size: 13px;"&gt;&lt;p&gt;A change to how LiquidIPTV is licensed and distributed. There are no changes to the app's features.&lt;/p&gt;
+&lt;h4&gt;Licence and downloads&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;LiquidIPTV is no longer published as open source.&lt;/strong&gt; It remains free to download and use for personal, non-commercial purposes under a new licence (Settings ▸ About ▸ Licence). Versions up to and including 0.10.01 were released under the GNU General Public License, version 3, and anyone who received those keeps the rights that licence gave them.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Downloads and updates stay on GitHub&lt;/strong&gt; at github.com/ElBeeHQ/LiquidIPTV, which now holds the releases, the update feed and the issue tracker. Installed copies keep updating automatically from the same address.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Settings ▸ About&lt;/strong&gt; shows the new licence and a Downloads link in place of the source-code link, and the section for VLCKit and Sparkle is now called Third-Party Software. Their licences and notices are unchanged: VLCKit is still included unmodified as a separate framework that you can replace with your own build.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
+            <enclosure url="https://github.com/ElBeeHQ/LiquidIPTV/releases/download/v0.10.02/LiquidIPTV-0.10.02.zip" length="42072428" type="application/octet-stream" sparkle:edSignature="WeWjeD6wj/0DERQixUmeMnDWCIwScpDavOje7HJhdGUGVqZepthVFHga6xswuZOG0Z3NkURh3gxtBvWq7/gyAQ==" />
+        </item>
     </channel>
 </rss>
