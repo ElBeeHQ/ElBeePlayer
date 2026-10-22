@@ -1,4 +1,8 @@
-# ElBee Player
+<p align="center">
+  <img src="assets/icon.png" alt="ElBee Player icon" width="128" height="128">
+</p>
+
+<h1 align="center">ElBee Player</h1>
 
 A native macOS IPTV player for IPTV services with an Xtream-style API, built with SwiftUI.
 
