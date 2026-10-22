@@ -6,6 +6,17 @@
         <description>LiquidIPTV updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.01</title>
+            <pubDate>Thu, 22 Oct 2026 21:57:58 GMT</pubDate>
+            <sparkle:version>0.12.01</sparkle:version>
+            <sparkle:shortVersionString>0.12.01</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description>&lt;div style="font-family: -apple-system, sans-serif; font-size: 13px;"&gt;&lt;p&gt;A new look: an amber theme and a new app icon.&lt;/p&gt;
+&lt;h4&gt;Appearance&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;New app icon.&lt;/strong&gt; ElBee Player now has the Prism icon: three amber facets on a dark glass tile. It is also the logo on the launch, sign-in and About screens, and the playlist selector in the sidebar shows the prism with your connection status. The smallest sizes use a simplified version so they stay clear.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Amber accent.&lt;/strong&gt; Selection, focus, buttons, progress bars and highlights are now golden amber instead of violet.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Active rows glow softly.&lt;/strong&gt; The selected sidebar entry, category, playing channel and filter pill use a translucent amber fill with a thin amber border.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Neutral backgrounds.&lt;/strong&gt; The window backdrop and sidebar are plain grey glass without the blue and violet tint, and the sidebar icons are one crisp tone that turns amber when selected.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Tag pills.&lt;/strong&gt; Quality tags such as 4K, UHD and HEVC are now subtle translucent pills with a faint border.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Diagnostics overlay&lt;/strong&gt; has an amber hairline border.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
+            <enclosure url="https://github.com/ElBeeHQ/ElBeePlayer/releases/download/v0.12.01/ElBeePlayer-0.12.01-update.zip" length="41630744" type="application/octet-stream" sparkle:edSignature="OYV+S5l8K9bE+OX6jL6hUqelLFoSLWkPHQ4ZtKKJFHjMVAUNS3NftgHHrR9GlNn78Ygc0m4Oo6glnTGF0amnDQ==" />
+        </item>
+        <item>
             <title>Version 0.11.02</title>
             <pubDate>Thu, 22 Oct 2026 21:33:00 GMT</pubDate>
             <sparkle:version>0.11.02</sparkle:version>

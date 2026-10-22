@@ -3,6 +3,23 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.12.01
+
+A new look: an amber theme and a new app icon.
+
+### Appearance
+
+- **New app icon.** ElBee Player now has the Prism icon: three amber facets on a dark glass tile. It is also the logo on the
+  launch, sign-in and About screens, and the playlist selector in the sidebar shows the prism with your connection status.
+  The smallest sizes use a simplified version so they stay clear.
+- **Amber accent.** Selection, focus, buttons, progress bars and highlights are now golden amber instead of violet.
+- **Active rows glow softly.** The selected sidebar entry, category, playing channel and filter pill use a translucent amber
+  fill with a thin amber border.
+- **Neutral backgrounds.** The window backdrop and sidebar are plain grey glass without the blue and violet tint, and the
+  sidebar icons are one crisp tone that turns amber when selected.
+- **Tag pills.** Quality tags such as 4K, UHD and HEVC are now subtle translucent pills with a faint border.
+- **Diagnostics overlay** has an amber hairline border.
+
 ## v0.11.02
 
 Fixes updating to ElBee Player from inside the app. There are no other changes.
