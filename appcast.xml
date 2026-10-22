@@ -6,6 +6,17 @@
         <description>LiquidIPTV updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.11.02</title>
+            <pubDate>Thu, 22 Oct 2026 21:33:00 GMT</pubDate>
+            <sparkle:version>0.11.02</sparkle:version>
+            <sparkle:shortVersionString>0.11.02</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description>&lt;div style="font-family: -apple-system, sans-serif; font-size: 13px;"&gt;&lt;p&gt;Fixes updating to ElBee Player from inside the app. There are no other changes.&lt;/p&gt;
+&lt;h4&gt;Updating&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Copies installed under the old name can now update.&lt;/strong&gt; The in-app updater could not install version 0.11.01 on a copy still called LiquidIPTV, and reported the update as improperly signed. That message was misleading: the updater picks the app to install by the installed app's file name, and the rename had changed it. Updates for those copies now carry the app under the name they expect. Your data comes across as described for 0.11.01.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;The app may keep its old file name&lt;/strong&gt; in your Applications folder after updating (it still says ElBee Player inside). You can rename it to ElBee Player in Finder at any time. Later updates work either way.&lt;/li&gt;&lt;li&gt;Version 0.11.01 can still be downloaded and installed by hand; it simply could not be installed by the updater.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
+            <enclosure url="https://github.com/ElBeeHQ/ElBeePlayer/releases/download/v0.11.02/ElBeePlayer-0.11.02-update.zip" length="42131642" type="application/octet-stream" sparkle:edSignature="z0XsCuUdl1PKPv7mVeF1q/4pttPo51S5/wuIbM4mZxbxV7/HIshGLNsgHklvNC0H3LexjrQGITuKv9DO3kakAg==" />
+        </item>
+        <item>
             <title>Version 0.11.01</title>
             <pubDate>Thu, 22 Oct 2026 21:23:13 GMT</pubDate>
             <sparkle:version>0.11.01</sparkle:version>

@@ -3,6 +3,20 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.11.02
+
+Fixes updating to ElBee Player from inside the app. There are no other changes.
+
+### Updating
+
+- **Copies installed under the old name can now update.** The in-app updater could not install version 0.11.01 on a copy
+  still called LiquidIPTV, and reported the update as improperly signed. That message was misleading: the updater picks the
+  app to install by the installed app's file name, and the rename had changed it. Updates for those copies now carry the app
+  under the name they expect. Your data comes across as described for 0.11.01.
+- **The app may keep its old file name** in your Applications folder after updating (it still says ElBee Player inside).
+  You can rename it to ElBee Player in Finder at any time. Later updates work either way.
+- Version 0.11.01 can still be downloaded and installed by hand; it simply could not be installed by the updater.
+
 ## v0.11.01
 
 LiquidIPTV is now **ElBee Player**. This release changes the name and how your data is stored, and adds one setting.
