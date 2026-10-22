@@ -6,6 +6,23 @@
         <description>LiquidIPTV updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.11.01</title>
+            <pubDate>Thu, 22 Oct 2026 21:23:13 GMT</pubDate>
+            <sparkle:version>0.11.01</sparkle:version>
+            <sparkle:shortVersionString>0.11.01</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description>&lt;div style="font-family: -apple-system, sans-serif; font-size: 13px;"&gt;&lt;p&gt;LiquidIPTV is now &lt;strong&gt;ElBee Player&lt;/strong&gt;. This release changes the name and how your data is stored, and adds one setting. It is the same app: your playlists, settings and favourites come with you.&lt;/p&gt;
+&lt;h4&gt;A new name&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;ElBee Player&lt;/strong&gt; replaces the old name everywhere: the app (&lt;code&gt;ElBee Player.app&lt;/code&gt;), Settings ▸ About, the licence and the notices. Downloads, updates and the issue tracker are at github.com/ElBeeHQ/ElBeePlayer. Copies you already have find this update at the same address as before.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Your data moves over automatically.&lt;/strong&gt; The first time it opens, ElBee Player brings across your settings, playlists, favourites, history, resume points, category choices, Series Link rules and downloads list from the previous version. macOS may ask for permission twice: once to read the previous version's data and once to use your saved passwords. Choose &lt;strong&gt;Allow&lt;/strong&gt; or &lt;strong&gt;Always Allow&lt;/strong&gt;; if you refuse, nothing is lost and it asks again next time.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Please re-choose your folders.&lt;/strong&gt; macOS ties permission to a folder to the app that was given it, so the &lt;strong&gt;recordings folder&lt;/strong&gt; and the &lt;strong&gt;downloads folder&lt;/strong&gt; must be chosen again in Settings ▸ Storage. Until then, recordings and downloads go to your Downloads folder. Reminders you had set in the TV Guide also need setting again, and macOS asks once more for permission to show notifications.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Credentials and privacy&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Server address, username and password are all kept in the macOS Keychain.&lt;/strong&gt; Before, only the password was; the address and username were in the app's preferences. Existing playlists are moved over once, and the old copies are deleted only after the new ones are saved.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Account details no longer appear in preference names or cache folder names.&lt;/strong&gt; Favourites, history, resume points and category choices are labelled with an anonymised identifier instead of "username@server", and are renamed for you.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;The README now has Legal &amp;amp; Disclaimer and Privacy &amp;amp; Security sections.&lt;/strong&gt; ElBee Player is a media player that provides no content; you supply your own and are responsible for your right to view, record and download it. It collects no telemetry, analytics or personal data, and its only network connections are to your own IPTV service and to GitHub for updates.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Sports&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Custom Sports Keywords&lt;/strong&gt; (Settings ▸ Playback ▸ Streaming &amp;amp; Network). Add your own words, such as a broadcaster's name, to treat matching channels as sports channels for Sports Ultra-Low Latency Mode and for hiding spoilers. Only generic words (sport, football, soccer, golf, cricket, rugby, tennis and the like) are built in, so channels that are named only by a broadcaster need their name added here.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Smaller changes&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;Example text in Settings and the sign-in screen no longer names real broadcasters or programmes, and the server field's hint is now "Server address and port".&lt;/li&gt;&lt;li&gt;The description of supported services now reads "IPTV services with an Xtream-style API".&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
+            <enclosure url="https://github.com/ElBeeHQ/ElBeePlayer/releases/download/v0.11.01/ElBeePlayer-0.11.01.zip" length="42133017" type="application/octet-stream" sparkle:edSignature="qO+G87JICqtytoriXLHBW98vs2UOVKIILIGe1yCXP9NX12ptJeMsvfNO7uzL17jFRhTwPz2D6/70T0U1qaUIDA==" />
+        </item>
+        <item>
             <title>Version 0.10.02</title>
             <pubDate>Thu, 22 Oct 2026 20:33:39 GMT</pubDate>
             <sparkle:version>0.10.02</sparkle:version>
