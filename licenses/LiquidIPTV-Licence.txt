@@ -1,0 +1,40 @@
+LiquidIPTV Licence
+
+Copyright (c) 2026 ElBeeHQ. All rights reserved.
+
+1. Licence
+   You may download, install and use LiquidIPTV, free of charge, on Macs that you own or control, for your own
+   personal, non-commercial use.
+
+2. Restrictions
+   Except as this licence or the law allows, you may not: (a) copy, redistribute or republish LiquidIPTV, or offer it
+   for download elsewhere; (b) sell, rent, lease or sublicense it; (c) modify it or create works based on it;
+   (d) decompile, disassemble or reverse engineer it, or try to extract its source code; or (e) remove or alter any
+   copyright or licence notice in it.
+
+3. Third-party software
+   LiquidIPTV includes third-party components, including VLCKit (LGPL 2.1 or later) and Sparkle (MIT), each under its
+   own licence; see the Third-Party Notices. Nothing in this licence limits your rights under those licences, including
+   your right to replace VLCKit with your own build of it.
+
+4. Your content
+   LiquidIPTV is an independent player. It provides no channels, films or programmes; it plays what your own IPTV
+   provider supplies. You are responsible for having the right to access that content and to record or download it.
+
+5. No warranty
+   LiquidIPTV is provided "as is", without warranty of any kind, express or implied, including fitness for a particular
+   purpose and non-infringement.
+
+6. Limit of liability
+   To the fullest extent the law allows, the author is not liable for any loss or damage arising from your use of
+   LiquidIPTV, including lost data, recordings, downloads or playlists.
+
+7. Updates and ending this licence
+   LiquidIPTV may update itself, and updates are covered by this licence. The author may stop distributing or
+   supporting LiquidIPTV at any time. This licence ends automatically if you breach it, and you must then stop using
+   LiquidIPTV and delete your copies.
+
+8. Earlier versions
+   Versions of LiquidIPTV up to and including 0.10.01 were released under the GNU General Public License, version 3.
+   Anyone who received those versions keeps the rights that licence gave them for those versions. This licence applies
+   to version 0.10.02 and every later version.

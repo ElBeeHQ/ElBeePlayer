@@ -1,0 +1,38 @@
+LiquidIPTV is Copyright (c) 2026 ElBeeHQ. All rights reserved. It is free to download and use for personal,
+non-commercial purposes under the licence included with the app (LiquidIPTV-Licence.txt). Versions up to and
+including 0.10.01 were released under the GNU General Public License, version 3. Downloads and support:
+https://github.com/ElBeeHQ/LiquidIPTV
+
+LiquidIPTV uses the following third-party software.
+
+------------------------------------------------------------------------
+VLCKit 3.7.2 (libVLC)  --  GNU Lesser General Public License, version 2.1 or later
+------------------------------------------------------------------------
+LiquidIPTV plays video and audio with VLCKit, the VideoLAN project's framework around libVLC.
+Copyright (C) the VideoLAN team and contributors.
+
+VLCKit is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General
+Public License as published by the Free Software Foundation, either version 2.1 of the License, or (at your
+option) any later version. It is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. A copy of the
+licence is included with LiquidIPTV (LGPL-2.1.txt).
+
+Source code: https://code.videolan.org/videolan/VLCKit  and  https://code.videolan.org/videolan/vlc
+
+VLCKit is included unmodified as a separate dynamic framework (LiquidIPTV.app/Contents/Frameworks/VLCKit.framework),
+so you can replace it with your own build of VLCKit. You can obtain the exact version used by LiquidIPTV from
+the project above, or by asking at https://github.com/ElBeeHQ/LiquidIPTV/issues.
+
+------------------------------------------------------------------------
+Sparkle 2  --  MIT licence (with notices for bundled components)
+------------------------------------------------------------------------
+LiquidIPTV updates itself with Sparkle. Copyright (c) 2006-2024 Andy Matuschak and the Sparkle contributors.
+The full licence text is included with LiquidIPTV (Sparkle-LICENSE.txt).
+Source code: https://github.com/sparkle-project/Sparkle
+
+------------------------------------------------------------------------
+Trademarks and content
+------------------------------------------------------------------------
+LiquidIPTV is an independent player. It is not affiliated with VideoLAN or the VLC project, and it does not
+provide any channels, films or programmes: it plays what your own IPTV provider supplies. You are responsible
+for having the right to access that content.
