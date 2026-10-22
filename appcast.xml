@@ -6,6 +6,21 @@
         <description>LiquidIPTV updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.13.01</title>
+            <pubDate>Thu, 22 Oct 2026 22:50:16 GMT</pubDate>
+            <sparkle:version>0.13.01</sparkle:version>
+            <sparkle:shortVersionString>0.13.01</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description>&lt;div style="font-family: -apple-system, sans-serif; font-size: 13px;"&gt;&lt;p&gt;A richer Movies and Series page, a new app icon, and a tidier update path.&lt;/p&gt;
+&lt;h4&gt;Movies and Series&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;You May Also Like.&lt;/strong&gt; A shelf of posters under the details, from the same category, with titles that share a genre first. Click one to open it.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Fanart backdrop.&lt;/strong&gt; When your provider supplies one, a faded image sits behind the page.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Watch Trailer.&lt;/strong&gt; A button that opens the trailer in your browser, when the provider lists one.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Cast and director as chips.&lt;/strong&gt; Names wrap neatly onto as many lines as they need instead of one long string.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Season picker.&lt;/strong&gt; Series show one season at a time, chosen from a dropdown. It opens on the season you are watching.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Tidier episode rows.&lt;/strong&gt; Provider prefixes are removed from episode names, with the air date and run time beneath. Stills and descriptions appear when the provider supplies them.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Age ratings.&lt;/strong&gt; A badge appears beside the star rating when the provider sends one (many do not).&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Appearance&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;New app icon,&lt;/strong&gt; a light glass tile with an amber hexagon, also used on the launch, sign-in and About screens and in the sidebar's playlist selector.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Refresh menu.&lt;/strong&gt; The refresh button is now a menu: Refresh All, Refresh Category, Refresh Movies and Refresh Series.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Calmer colours.&lt;/strong&gt; Hearts are red, Event tags match the other tags, and the app's accent is amber throughout, including the Settings tabs.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Updating&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;Updates no longer carry a second copy of the app for the old name. Settings and playlists from before ElBee Player's rename are no longer imported, since that carry-over has long since run.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
+            <enclosure url="https://github.com/ElBeeHQ/ElBeePlayer/releases/download/v0.13.01/ElBeePlayer-0.13.01.zip" length="41086014" type="application/octet-stream" sparkle:edSignature="O6mT8vWfm6IO9yO46CymKzHbsMFxMMntaTvMBMaK9ajOuw7Ky/fwtzFJm171lXNcNNqTTBkwdDxDznvKB3W0Cw==" />
+        </item>
+        <item>
             <title>Version 0.12.01</title>
             <pubDate>Thu, 22 Oct 2026 21:57:58 GMT</pubDate>
             <sparkle:version>0.12.01</sparkle:version>

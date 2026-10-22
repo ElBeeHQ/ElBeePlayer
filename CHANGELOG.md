@@ -3,6 +3,35 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.13.01
+
+A richer Movies and Series page, a new app icon, and a tidier update path.
+
+### Movies and Series
+
+- **You May Also Like.** A shelf of posters under the details, from the same category, with titles that share a genre
+  first. Click one to open it.
+- **Fanart backdrop.** When your provider supplies one, a faded image sits behind the page.
+- **Watch Trailer.** A button that opens the trailer in your browser, when the provider lists one.
+- **Cast and director as chips.** Names wrap neatly onto as many lines as they need instead of one long string.
+- **Season picker.** Series show one season at a time, chosen from a dropdown. It opens on the season you are watching.
+- **Tidier episode rows.** Provider prefixes are removed from episode names, with the air date and run time beneath. Stills
+  and descriptions appear when the provider supplies them.
+- **Age ratings.** A badge appears beside the star rating when the provider sends one (many do not).
+
+### Appearance
+
+- **New app icon,** a light glass tile with an amber hexagon, also used on the launch, sign-in and About screens and in
+  the sidebar's playlist selector.
+- **Refresh menu.** The refresh button is now a menu: Refresh All, Refresh Category, Refresh Movies and Refresh Series.
+- **Calmer colours.** Hearts are red, Event tags match the other tags, and the app's accent is amber throughout,
+  including the Settings tabs.
+
+### Updating
+
+- Updates no longer carry a second copy of the app for the old name. Settings and playlists from before ElBee Player's
+  rename are no longer imported, since that carry-over has long since run.
+
 ## v0.12.01
 
 A new look: an amber theme and a new app icon.
