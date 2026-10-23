@@ -4,9 +4,162 @@
 
 <h1 align="center">ElBee Player</h1>
 
-A native macOS IPTV player for IPTV services with an Xtream-style API, built with SwiftUI.
+<p align="center">
+  <strong>A fast, native IPTV player for the Mac.</strong><br>
+  Live TV, a full TV Guide, movies, series and radio, built from the ground up with SwiftUI.
+</p>
 
-This repository hosts the downloads and the update feed for ElBee Player.
+<p align="center">
+  <a href="https://github.com/ElBeeHQ/ElBeePlayer/releases/latest"><strong>Download the latest release</strong></a>
+  &nbsp;·&nbsp;
+  <a href="CHANGELOG.md">What's new</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/ElBeeHQ/ElBeePlayer/issues">Report a problem</a>
+</p>
+
+<p align="center">
+  Free for personal use · macOS 15 or later · Apple Silicon and Intel · Updates itself
+</p>
+
+---
+
+ElBee Player works with IPTV services that offer an Xtream-style API. Sign in with your provider's server address,
+username and password, and your channels, guide, movies and series are ready in seconds. Every visit after that opens
+straight from a cache on your Mac.
+
+> **ElBee Player is a player only.** It comes with no channels, playlists or content of any kind. You bring your own
+> service. See [Legal & Disclaimer](#legal--disclaimer).
+
+## Highlights
+
+### A home screen made for you
+
+- **Home** opens on a banner of new releases with backdrops, plots and one-click Play or More Info. It runs edge to
+  edge, under the toolbar and the sidebar.
+- **Continue Watching** picks up exactly where you left off, and **On Now** tiles show what's on your favourite
+  channels, how far through it is and what's next.
+- **Recommended for You** and **Because You Watched** are worked out on your Mac from what you watch, favourite and
+  finish. Each one says why it was chosen. Nothing leaves your Mac.
+- **Arrange Home** to reorder its sections or switch any off, and choose which screen the app opens on.
+
+### Now Playing
+
+- **Live channels, movies and episodes** all open on one Now Playing page. Live TV shows the programme guide below the
+  picture. Movies show their details, cast and director. Episodes show their plot and the episodes up next.
+- **Up Next appears as the credits roll.** ElBee Player spots the end credits in the picture itself and starts a
+  6-second countdown, with **Play Now** and **Keep Watching**.
+- **← / → to skip and Space to pause**, with a "+10s" pill, just as in full screen.
+- **The picture glides** between Now Playing and the mini player, which sits neatly in the sidebar while you browse.
+
+### Advanced Video
+
+- **Ambient Glow** surrounds the picture with soft light in the colours at its edges, updated five times a second. In
+  full screen it fills the black bars, and on Now Playing it spreads into the page around the picture. In Dark Mode it
+  glows. In Light Mode it gently tints the page, and dark scenes cast a soft shadow instead.
+- **Match Framerate** switches your display to a refresh rate that fits the stream in full screen, such as 50 Hz for
+  25 or 50 fps or 59.94 Hz for 29.97, so pans don't judder. Your display goes back as it was afterwards.
+- **Deinterlacing:** Auto, Yadif, **Yadif 2x** (smooth 50 full frames a second from 50i sport) and Blend. Changes apply
+  to the stream already playing.
+- **Video upscaling** sharpens lower-resolution channels on Apple Silicon. **Decoding options**, subtitles and audio
+  tracks are all there too.
+- Everything is in one **Advanced Video** menu in the player, and in Settings › Playback.
+
+### Live TV and the TV Guide
+
+- **A scrolling TV Guide** you can drag around with the mouse. Channel names stay in view as you scroll through time,
+  and you can set **reminders** for programmes.
+- **Multi-View** plays up to four channels at once, each fully independent (⇧⌘M).
+- **Catch-up TV** where your provider offers it.
+- **Sports mode:** a low-latency profile that runs closer to the live broadcast, plus optional **spoiler hiding** for
+  programme descriptions on sports channels.
+- **Instant resume:** the app opens quietly on your last channel.
+
+### Record and download
+
+- **Record live channels** with one click, or set up **Series Link** to record programmes automatically by keyword.
+  It adds padding before and after, skips repeats and protects your free disk space (⇧⌘R).
+- **Download movies and episodes** to watch offline.
+- Recordings and downloads go to a folder you choose.
+
+### Movies and series
+
+- **Rich detail pages** with fanart backdrops, ratings, age ratings, cast and director, trailers, and a **You May Also
+  Like** shelf.
+- **One season at a time**, with episode stills, air dates and running times.
+- **A source and quality menu** when a title comes in several versions.
+- **Resume points, favourites, history and ratings** across the whole library.
+
+### Your library, your way
+
+- **Content Languages:** tick the languages you want, and only categories, channels and titles in those languages show,
+  everywhere in the app.
+- **Strip provider tags** such as "TOP - " or "4K - " from titles.
+- **Manage Categories** to reorder, hide or lock categories and their channels (⇧⌘K).
+- **Several playlists**, switched from the sidebar, with the catalogue refreshing quietly in the background.
+- **A parental lock** that asks for Touch ID, an Apple Watch or your Mac's password before a locked category opens.
+  The system does the checking, and ElBee Player never sees your password.
+
+### Feels at home on the Mac
+
+- **The system's own glass** for the toolbar, player controls, mini player and pop-ups on macOS 26.
+- **Light, Dark or Automatic** for ElBee Player alone, from the sun and moon button by the Settings gear.
+- **Interface Size** makes text larger throughout the app on a big or high-resolution display.
+- **Spotlight search**, **media keys** and **Control Centre** playback controls.
+- **Stream diagnostics** overlay (⌘I), **audio normalisation** and a **night mode** for quieter evenings.
+- **Travel & Tethering Mode** spots a phone hotspot and limits stream quality, so you don't use up your data.
+- **Every setting explains exactly what it does**, grouped so you can find it quickly.
+
+## Install
+
+1. Download `ElBeePlayer-x.y.z.zip` from the [latest release](https://github.com/ElBeeHQ/ElBeePlayer/releases/latest).
+2. Unzip it and drag **ElBee Player** into your Applications folder.
+3. The app is not notarised by Apple, so the first time you open it macOS may say it cannot verify it. Open
+   **System Settings → Privacy & Security**, scroll to the message about ElBee Player and click **Open Anyway**.
+   If macOS says the app is "damaged", run this once in Terminal and open it again:
+   ```bash
+   xattr -dr com.apple.quarantine "/Applications/ElBee Player.app"
+   ```
+4. Sign in with your provider's server address, username and password.
+
+**Requirements:** macOS 15 or later, on Apple Silicon or Intel. The system glass look needs macOS 26, and video
+upscaling needs Apple Silicon. Everything else works on every supported Mac.
+
+## Updates
+
+ElBee Player updates itself. Open **Settings → General → Software Updates** and choose **Check for Updates Now…**, or
+leave automatic checks on. Updates are downloaded from this repository and checked against ElBee Player's signing key
+before they're installed. Then the app restarts. Your playlists, favourites and settings are kept.
+
+See the [changelog](CHANGELOG.md) for what changed in each release.
+
+## Keyboard shortcuts
+
+| Shortcut | Action |
+| --- | --- |
+| Space | Play or pause |
+| ← / → | Skip back or forward |
+| ⌘F | Search |
+| ⌘I | Stream diagnostics |
+| ⇧⌘M | Multi-View |
+| ⇧⌘K | Manage Categories |
+| ⇧⌘R | Series Link (auto-record rules) |
+
+## Privacy & Security
+
+- **All user credentials, including server addresses, usernames, and passwords, are stored securely within the
+  encrypted macOS Keychain.** None of it is sent to the developer.
+- **No telemetry, analytics, accounts, advertising or tracking.** ElBee Player does not send what you watch, your
+  playlists, your favourites or your settings to the developer or to any third party. Recommendations and credits
+  detection run entirely on your Mac.
+- **The only network connections it makes** are to the IPTV service you enter (channel lists, programme guide, the
+  artwork addresses the service supplies, and the streams themselves) and to GitHub, to check for and download updates.
+  You can turn automatic update checks off in Settings → General → Software Updates. As with any web request, GitHub can
+  see your IP address and the app version.
+- **Local data** (cached channel lists, guide and artwork, favourites, history and settings) stays on your Mac, inside the
+  app's sandbox, and is labelled with an anonymised identifier rather than your server address or username. You can
+  clear the caches in Settings → Storage.
+- **App Sandbox:** the app runs in the macOS App Sandbox. It can reach the network and the folders you choose for
+  recordings and downloads (Downloads by default), and nothing else.
 
 ## Legal & Disclaimer
 
@@ -21,58 +174,9 @@ This repository hosts the downloads and the update feed for ElBee Player.
 - ElBee Player is not affiliated with or endorsed by any broadcaster, content owner, IPTV service, VideoLAN, Apple or
   Sparkle. All names and trademarks belong to their respective owners.
 
-## Features
-
-- Live TV, a scrolling TV Guide with reminders, Movies, Series and Radio
-- Several playlists, instant launch from a cache, and a silent resume of your last channel
-- Favourites, watch history, resume points, ratings and details
-- Mini-player, full screen, Multi-View (up to four channels), subtitles, deinterlacing and decoding options
-- Series Link: record programmes automatically by keyword, with padding, repeat-skipping and disk safeguards
-- Recording of live channels, offline VOD downloads, and catch-up TV where your provider offers it
-- Audio normalisation and night mode, a stream diagnostics overlay (⌘I), and optional video sharpening on Apple Silicon
-- Sports low-latency mode and spoiler hiding, a source / quality menu for movies and series
-- Travel & Tethering Mode, which limits stream quality on a phone hotspot
-- Spotlight search, media keys and Control Centre, a parental lock, and automatic updates
-
-## Install
-
-1. Download `ElBeePlayer-x.y.z.zip` from the [latest release](https://github.com/ElBeeHQ/ElBeePlayer/releases/latest).
-2. Unzip it and drag **ElBee Player** into your Applications folder.
-3. The app is not notarised by Apple, so the first time macOS may say it cannot verify it. Open
-   **System Settings → Privacy & Security**, scroll to the message about ElBee Player and click **Open Anyway**.
-   If macOS says the app is "damaged", run this once in Terminal and open it again:
-   ```bash
-   xattr -dr com.apple.quarantine "/Applications/ElBee Player.app"
-   ```
-4. Sign in with your provider's server address, username and password.
-
-Requires macOS 15 or later (Apple Silicon or Intel).
-
-## Updates
-
-Open **Settings → General → Software Updates** and choose **Check for Updates Now…**, or leave automatic checks on.
-Updates are downloaded from this repository, checked against ElBee Player's signing key, installed for you, and the app
-restarts. Your playlists, favourites and settings are kept.
-
-## Privacy & Security
-
-- **All user credentials, including server addresses, usernames, and passwords, are stored securely within the
-  encrypted macOS Keychain.** None of it is sent to the developer.
-- **No telemetry, analytics, accounts, advertising or tracking.** ElBee Player does not send what you watch, your
-  playlists, your favourites or your settings to the developer or to any third party.
-- **The only network connections it makes** are to the IPTV service you enter (channel lists, programme guide, the
-  artwork addresses the service supplies, and the streams themselves) and to GitHub, to check for and download updates.
-  You can turn automatic update checks off in Settings → General → Software Updates. As with any web request, GitHub can
-  see your IP address and the app version.
-- **Local data** (cached channel lists, guide and artwork, favourites, history and settings) stays on your Mac, inside the
-  app's sandbox, and is labelled with an anonymised identifier rather than your server address or username. You can
-  clear the caches in Settings → Storage.
-- **App Sandbox:** the app runs in the macOS App Sandbox. It can reach the network and the folders you choose for
-  recordings and downloads (Downloads by default), and nothing else.
-
 ## Support
 
-Open an [issue](https://github.com/ElBeeHQ/ElBeePlayer/issues) to report a problem or ask for a feature.
+Found a problem or have an idea? Open an [issue](https://github.com/ElBeeHQ/ElBeePlayer/issues).
 
 ## Licence
 
