@@ -6,6 +6,23 @@
         <description>LiquidIPTV updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.14.01</title>
+            <pubDate>Fri, 23 Oct 2026 01:24:37 GMT</pubDate>
+            <sparkle:version>0.14.01</sparkle:version>
+            <sparkle:shortVersionString>0.14.01</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description>&lt;div style="font-family: -apple-system, sans-serif; font-size: 13px;"&gt;&lt;p&gt;A new window layout with section tabs across the top, a faster TV Guide you can drag around, and new settings for text size, your starting category and resetting the app.&lt;/p&gt;
+&lt;h4&gt;Layout&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Section tabs in the toolbar.&lt;/strong&gt; Live TV, TV Guide, Radio, Movies, Series, Recently Added and Library sit in one bar across the top, centred on the window. In a narrow window they switch to icons.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Two columns.&lt;/strong&gt; The sidebar now shows the chosen section's categories, so there is more room for what you're watching.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Library tab.&lt;/strong&gt; Favourites and History live together under Library, with a filter for what to show.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Now Playing button.&lt;/strong&gt; Jumps to the channel that's playing, or says so when nothing is.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Radio Stations and Guide&lt;/strong&gt; are chosen at the top of the sidebar.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;One glass toolbar.&lt;/strong&gt; The buttons, tabs and a new search field share the same frosted glass, with a soft glass fade under the toolbar in Dark Mode. The window drags only from the empty space around them.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hover highlights and tooltips&lt;/strong&gt; on sidebar rows, like the channel list.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;TV Guide&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Channel names stay in view&lt;/strong&gt; as you scroll through time, and the "now" line no longer runs over them.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Faster scrolling,&lt;/strong&gt; especially with a full guide.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Drag to move around&lt;/strong&gt; the guide with a mouse.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Day controls&lt;/strong&gt; sit under the section tabs.&lt;/li&gt;&lt;li&gt;No programme tooltips over the full-screen player.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Settings&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Interface Size&lt;/strong&gt; (Appearance): Automatic, Large, Extra Large or Maximum makes text larger throughout the app, for example on a high-resolution display.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Default Channel Category&lt;/strong&gt; (General): Live TV and the TV Guide open on the category you choose. Set per playlist.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;More reset options&lt;/strong&gt; (General): reset settings, your library, your category choices, or erase everything and start again.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Fixes and polish&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;New app icon,&lt;/strong&gt; the Antenna TV set.&lt;/li&gt;&lt;li&gt;Movies open without a pause.&lt;/li&gt;&lt;li&gt;Light Mode: no dark strip at the top, and readable text over backdrops. Dark Mode: no flicker in the header.&lt;/li&gt;&lt;li&gt;Toolbar icons are all the same size.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
+            <enclosure url="https://github.com/ElBeeHQ/ElBeePlayer/releases/download/v0.14.01/ElBeePlayer-0.14.01.zip" length="41672510" type="application/octet-stream" sparkle:edSignature="i0T5STwm2VQv9G7hyZoZ+5wwYJ7BJYaZX6ZOAKWJF2VvjDJzyGzXvUBYTaRz7XJU4p5tlWjRTPEEVUuJkyuvBA==" />
+        </item>
+        <item>
             <title>Version 0.13.01</title>
             <pubDate>Thu, 22 Oct 2026 22:50:16 GMT</pubDate>
             <sparkle:version>0.13.01</sparkle:version>

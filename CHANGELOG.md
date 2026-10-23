@@ -3,6 +3,41 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.14.01
+
+A new window layout with section tabs across the top, a faster TV Guide you can drag around, and new settings for text size, your starting category and resetting the app.
+
+### Layout
+
+- **Section tabs in the toolbar.** Live TV, TV Guide, Radio, Movies, Series, Recently Added and Library sit in one bar across the top, centred on the window. In a narrow window they switch to icons.
+- **Two columns.** The sidebar now shows the chosen section's categories, so there is more room for what you're watching.
+- **Library tab.** Favourites and History live together under Library, with a filter for what to show.
+- **Now Playing button.** Jumps to the channel that's playing, or says so when nothing is.
+- **Radio Stations and Guide** are chosen at the top of the sidebar.
+- **One glass toolbar.** The buttons, tabs and a new search field share the same frosted glass, with a soft glass fade under the toolbar in Dark Mode. The window drags only from the empty space around them.
+- **Hover highlights and tooltips** on sidebar rows, like the channel list.
+
+### TV Guide
+
+- **Channel names stay in view** as you scroll through time, and the "now" line no longer runs over them.
+- **Faster scrolling,** especially with a full guide.
+- **Drag to move around** the guide with a mouse.
+- **Day controls** sit under the section tabs.
+- No programme tooltips over the full-screen player.
+
+### Settings
+
+- **Interface Size** (Appearance): Automatic, Large, Extra Large or Maximum makes text larger throughout the app, for example on a high-resolution display.
+- **Default Channel Category** (General): Live TV and the TV Guide open on the category you choose. Set per playlist.
+- **More reset options** (General): reset settings, your library, your category choices, or erase everything and start again.
+
+### Fixes and polish
+
+- **New app icon,** the Antenna TV set.
+- Movies open without a pause.
+- Light Mode: no dark strip at the top, and readable text over backdrops. Dark Mode: no flicker in the header.
+- Toolbar icons are all the same size.
+
 ## v0.13.01
 
 A richer Movies and Series page, a new app icon, and a tidier update path.
