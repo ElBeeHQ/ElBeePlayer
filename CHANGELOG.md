@@ -15,7 +15,7 @@ A new Home screen, content in the languages you choose, and a reorganised Settin
 - **Recommended for You**, chosen on your Mac from what you watch, favourite and finish: genres, categories, franchises and more, with the reason under each poster. Plus **Because You Watched** your latest title.
 - Favourite movies and series on short shelves at the bottom.
 - **Arrange Home** in Settings › Appearance › Home Screen: reorder sections or switch any off.
-- Titles show without provider tags such as “NF - ” or “A+ - ”.
+- Titles show without provider tags such as “TOP - ” or “4K - ”.
 - Choose a different start screen in Settings › General › Startup › Open On.
 
 ### Content
