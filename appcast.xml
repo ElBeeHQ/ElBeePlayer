@@ -6,6 +6,23 @@
         <description>LiquidIPTV updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.16.01</title>
+            <pubDate>Fri, 23 Oct 2026 16:32:31 GMT</pubDate>
+            <sparkle:version>0.16.01</sparkle:version>
+            <sparkle:shortVersionString>0.16.01</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description>&lt;div style="font-family: -apple-system, sans-serif; font-size: 13px;"&gt;&lt;p&gt;Advanced Video in the player, ambient light round the picture, movies and episodes on Now Playing, Up Next as the credits roll, and the system's own glass across the app.&lt;/p&gt;
+&lt;h4&gt;Advanced Video&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;A new Advanced Video menu&lt;/strong&gt; in the player (the sparkles-TV icon), also in Settings › Playback › Video.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Ambient Glow:&lt;/strong&gt; soft light round the picture in the colours at its edges, three zones to a side, following the picture five times a second. It fills the bars in full screen, spreads under the sidebar and into the page on Now Playing, glows in Dark Mode and tints (or, for dark scenes, softly shades) the page in Light Mode.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Match Framerate:&lt;/strong&gt; in full screen, the display switches to a rate that fits the stream (50 Hz for 25 or 50 fps, 59.94 Hz for 29.97, and so on) and switches back afterwards.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Deinterlacing&lt;/strong&gt; now offers Auto and &lt;strong&gt;Yadif 2x&lt;/strong&gt; (50 full frames a second from 50i sport), and changes apply to the stream already playing.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Now Playing&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Movies and episodes&lt;/strong&gt; now open on the Now Playing page too, with their details, cast, episode plot and the episodes up next, plus a seek bar.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Up Next appears as the credits begin&lt;/strong&gt;, detected from the picture, with a 6-second countdown, Play Now and Keep Watching; otherwise in the final minute.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;← / → seek, Space pauses&lt;/strong&gt;, and the "+10s" pill shows, as in full screen.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;The picture glides&lt;/strong&gt; between Now Playing and the mini player.&lt;/li&gt;&lt;li&gt;Leaving full screen returns to Now Playing; Back no longer restarts an episode.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Look and feel&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;The system's own glass&lt;/strong&gt; for the toolbar, player controls, mini player, pop-ups and their buttons on macOS 26.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;The mini player&lt;/strong&gt; now sits in the sidebar above the playlist bar.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Home's banner&lt;/strong&gt; runs edge to edge, up under the toolbar and under the sidebar.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Light, Dark or Automatic&lt;/strong&gt; for ElBee alone, in Settings › Appearance › Window or from the sun and moon button by the Settings gear, crossfading like the system switch.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;A livelier loading screen&lt;/strong&gt;: a drifting amber glow, a progress bar and a checklist of what's loading, finishing cleanly even when the library opens from its cache.&lt;/li&gt;&lt;li&gt;Softer poster hover, Window Background Opacity (Dark Mode) replaces the old vibrancy setting, and Light Mode's sidebar and toolbar now match the system.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Fixes&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;No white bar at the top of the screen in full screen, and no header flashing as it opens.&lt;/li&gt;&lt;li&gt;The Reconnecting pill clears as soon as the picture is back.&lt;/li&gt;&lt;li&gt;Ambient Glow and Match Framerate keep working when a stream restarts.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
+            <enclosure url="https://github.com/ElBeeHQ/ElBeePlayer/releases/download/v0.16.01/ElBeePlayer-0.16.01.zip" length="42857046" type="application/octet-stream" sparkle:edSignature="MLedQ5dLUV6uXn/nXsf2P58bsq7mfW2mpdlTlvG1MBeIoVrUCqQTSGC0VHetzXwdfqC9gEUccxkQ6qKuLMmbBQ==" />
+        </item>
+        <item>
             <title>Version 0.15.01</title>
             <pubDate>Fri, 23 Oct 2026 02:27:52 GMT</pubDate>
             <sparkle:version>0.15.01</sparkle:version>

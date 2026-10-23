@@ -3,6 +3,40 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.16.01
+
+Advanced Video in the player, ambient light round the picture, movies and episodes on Now Playing, Up Next as the credits roll, and the system's own glass across the app.
+
+### Advanced Video
+
+- **A new Advanced Video menu** in the player (the sparkles-TV icon), also in Settings › Playback › Video.
+- **Ambient Glow:** soft light round the picture in the colours at its edges, three zones to a side, following the picture five times a second. It fills the bars in full screen, spreads under the sidebar and into the page on Now Playing, glows in Dark Mode and tints (or, for dark scenes, softly shades) the page in Light Mode.
+- **Match Framerate:** in full screen, the display switches to a rate that fits the stream (50 Hz for 25 or 50 fps, 59.94 Hz for 29.97, and so on) and switches back afterwards.
+- **Deinterlacing** now offers Auto and **Yadif 2x** (50 full frames a second from 50i sport), and changes apply to the stream already playing.
+
+### Now Playing
+
+- **Movies and episodes** now open on the Now Playing page too, with their details, cast, episode plot and the episodes up next, plus a seek bar.
+- **Up Next appears as the credits begin**, detected from the picture, with a 6-second countdown, Play Now and Keep Watching; otherwise in the final minute.
+- **← / → seek, Space pauses**, and the "+10s" pill shows, as in full screen.
+- **The picture glides** between Now Playing and the mini player.
+- Leaving full screen returns to Now Playing; Back no longer restarts an episode.
+
+### Look and feel
+
+- **The system's own glass** for the toolbar, player controls, mini player, pop-ups and their buttons on macOS 26.
+- **The mini player** now sits in the sidebar above the playlist bar.
+- **Home's banner** runs edge to edge, up under the toolbar and under the sidebar.
+- **Light, Dark or Automatic** for ElBee alone, in Settings › Appearance › Window or from the sun and moon button by the Settings gear, crossfading like the system switch.
+- **A livelier loading screen**: a drifting amber glow, a progress bar and a checklist of what's loading, finishing cleanly even when the library opens from its cache.
+- Softer poster hover, Window Background Opacity (Dark Mode) replaces the old vibrancy setting, and Light Mode's sidebar and toolbar now match the system.
+
+### Fixes
+
+- No white bar at the top of the screen in full screen, and no header flashing as it opens.
+- The Reconnecting pill clears as soon as the picture is back.
+- Ambient Glow and Match Framerate keep working when a stream restarts.
+
 ## v0.15.01
 
 A new Home screen, content in the languages you choose, and a reorganised Settings window.
@@ -363,7 +397,7 @@ workspace, a quicker way to switch playlists, and the first set of native macOS 
     the last-refreshed time, reminder lead time and sound, and a switch for highlighting catch-up channels.
   - **Multi-View:** default layout, mute non-focused quadrants, highlight the active border, and stop decoding on hidden
     quadrants.
-  - **Appearance:** keep the window on top, Liquid Glass vibrancy with *Reset to Default*, show channel logos in lists, and
+  - **Appearance:** keep the window on top, glass strength with *Reset to Default*, show channel logos in lists, and
     compact EPG cells.
   - **About:** now also shows the build number.
 - **Category management moved out of Settings** into its own **Manage Categories** window: *Library ▸ Manage Categories…*
