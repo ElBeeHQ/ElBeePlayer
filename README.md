@@ -24,8 +24,9 @@
 ---
 
 ElBee Player works with IPTV services that offer an Xtream-style API. Sign in with your provider's server address,
-username and password, and your channels, guide, movies and series are ready in seconds. Every visit after that opens
-straight from a cache on your Mac.
+username and password, and your channels, programme guide, movies and series are ready in moments. A short setup guide
+then helps you choose your languages, categories and preferences. Every visit after that opens straight from a cache on
+your Mac.
 
 > **ElBee Player is a player only.** It comes with no channels, playlists or content of any kind. You bring your own
 > service. See [Legal & Disclaimer](#legal--disclaimer).
@@ -48,14 +49,18 @@ straight from a cache on your Mac.
   picture. Movies show their details, cast and director. Episodes show their plot and the episodes up next.
 - **Up Next appears as the credits roll.** ElBee Player spots the end credits in the picture itself and starts a
   6-second countdown, with **Play Now** and **Keep Watching**.
-- **← / → to skip and Space to pause**, with a "+10s" pill, just as in full screen.
+- **← / → to skip and Space to pause**, with a "+10s" pill, just as in full screen, without bringing up the controls.
+- **Subtitles** from the player itself: switch them on or off and choose the language. While they're on, the controls
+  sit below the picture so they never cover them.
+- **Mute stays on** for whatever you play next, until you unmute or quit.
 - **The picture glides** between Now Playing and the mini player, which sits neatly in the sidebar while you browse.
 
 ### Advanced Video
 
-- **Ambient Glow** surrounds the picture with soft light in the colours at its edges, updated five times a second. In
-  full screen it fills the black bars, and on Now Playing it spreads into the page around the picture. In Dark Mode it
-  glows. In Light Mode it gently tints the page, and dark scenes cast a soft shadow instead.
+- **Ambient Glow** surrounds the picture with soft light in the colours at its edges, updated ten times a second. It
+  changes with a scene at once and stays steady otherwise. In full screen it softly fills the black bars, and on Now
+  Playing it spreads into the page around the picture. In Dark Mode it glows. In Light Mode it gently tints the page,
+  and dark scenes cast a soft shadow instead.
 - **Match Framerate** switches your display to a refresh rate that fits the stream in full screen, such as 50 Hz for
   25 or 50 fps or 59.94 Hz for 29.97, so pans don't judder. Your display goes back as it was afterwards.
 - **Deinterlacing:** Auto, Yadif, **Yadif 2x** (smooth 50 full frames a second from 50i sport) and Blend. Changes apply
@@ -64,10 +69,35 @@ straight from a cache on your Mac.
   tracks are all there too.
 - Everything is in one **Advanced Video** menu in the player, and in Settings › Playback.
 
-### Live TV and the TV Guide
+### Live TV
 
-- **A scrolling TV Guide** you can drag around with the mouse. Channel names stay in view as you scroll through time,
-  and you can set **reminders** for programmes.
+- **Channel spotlight:** click a channel and it fills a banner at the top: what's on, how far through it is, what's
+  next, and Watch, Record and Favourite. Double-click to play straight away, or move through the list with ↑ / ↓ and
+  press Return.
+- **Live preview:** the channel you click plays, muted, right in the banner. It uses your one stream (most providers
+  allow only one), waits a moment as you click down the list, and holds back while you're recording, watching a movie
+  or episode, or using Multi-View.
+- **One row per channel:** HD, 4K, +1 and other versions of a channel share a row, with a button to play each one.
+- **Now and next in every row**, with sorting by number or name, and a find box for the category.
+- **Categories grouped by country** in the sidebar, under headings you can fold away.
+
+### TV Guide
+
+- **A scrolling guide** you can drag around with the mouse. Channel names stay in view as you scroll through time.
+- **Programme spotlight:** click a programme to see its details. If it's on now, watch it, with the live preview. If
+  it's later, set a **reminder** or a Series Link. If it has finished, watch it from catch-up.
+- **Day buttons** from catch-up days to a week ahead, a **Now** button, and All / Favourites / Catch-Up filters.
+- **A calm grid:** a thin progress bar on what's on now, earlier programmes dimmed, bells only where a reminder is set,
+  and an amber line marking the time.
+
+### Radio
+
+- **Station tiles** coloured by genre, with **genre buttons** to narrow them and your **Recently Played** stations.
+- **Now Playing banner** for the station you're listening to, with Pause, Favourite and volume. Tiles play without
+  leaving the page.
+
+### Multi-View, catch-up and sport
+
 - **Multi-View** plays up to four channels at once, each fully independent (⇧⌘M).
 - **Catch-up TV** where your provider offers it.
 - **Sports mode:** a low-latency profile that runs closer to the live broadcast, plus optional **spoiler hiding** for
@@ -107,7 +137,8 @@ straight from a cache on your Mac.
 - **Spotlight search**, **media keys** and **Control Centre** playback controls.
 - **Stream diagnostics** overlay (⌘I), **audio normalisation** and a **night mode** for quieter evenings.
 - **Travel & Tethering Mode** spots a phone hotspot and limits stream quality, so you don't use up your data.
-- **Every setting explains exactly what it does**, grouped so you can find it quickly.
+- **Every setting explains exactly what it does**, grouped so you can find it quickly. Each of the redesigned pages
+  can be switched back to its simpler layout.
 
 ## Install
 
@@ -138,6 +169,7 @@ See the [changelog](CHANGELOG.md) for what changed in each release.
 | --- | --- |
 | Space | Play or pause |
 | ← / → | Skip back or forward |
+| ↑ / ↓, Return | Move the Live TV spotlight, then play |
 | ⌘F | Search |
 | ⌘I | Stream diagnostics |
 | ⇧⌘M | Multi-View |

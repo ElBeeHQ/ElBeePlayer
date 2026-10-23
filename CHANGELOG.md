@@ -3,6 +3,47 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.17.01
+
+Redesigned Live TV, TV Guide and Radio pages in Home's style, with a live preview, a first-time setup guide, and a calmer, steadier player.
+
+### Live TV
+
+- **Channel spotlight:** click a channel to see it in a banner at the top: what's on, how far through it is, what's next, and Watch, Record and Favourite. Double-click to play straight away.
+- **Live preview:** the clicked channel plays, muted, in the banner instead of the mini player. It uses your one stream, never a second one. It waits a moment as you click down the list, and holds back while you're recording, watching a movie or episode, or using Multi-View.
+- **One row per channel:** HD, 4K, +1 and other versions share a row, as buttons that play each one.
+- **Now and next in each row,** with sort, find, ↑ / ↓ to move the spotlight, and Return to play.
+- **Sidebar headings for each country** (and for other prefixes), which fold away.
+
+### TV Guide
+
+- **Programme spotlight:** click a programme for its details. You can watch it if it's on now (with the live preview), set a reminder or Series Link if it's later, or watch from catch-up if it has finished.
+- **Day buttons** with **Now**, and All / Favourites / Catch-Up.
+- **Quieter grid:** bells only where a reminder is set, a thin progress bar for what's on, earlier programmes dimmed, and an amber now line with the time.
+
+### Radio
+
+- **Station tiles** coloured by genre, **genre buttons**, a **Recently Played** shelf, and the station playing in a **Now Playing banner** with its controls. Tiles play without leaving the page.
+
+### Getting started
+
+- **First-time setup:** after signing in to a new playlist, a short guide covers languages, categories, the guide, what to open on, text size, Ambient Glow and the parental lock.
+- **A new sign-in screen** that flows into the loading screen. The loading screen now also fetches the TV Guide for up to 200 channels.
+- **Erase Everything** reopens the app on the sign-in screen.
+
+### Player
+
+- **Subtitles button on Now Playing,** with Show Subtitles and a language list. Subtitles no longer flicker, and the controls sit below the picture while they're on.
+- **Mute stays on** for what you play next, until you unmute or quit.
+- **← / → skip** without bringing up the controls.
+- **Smoother Ambient Glow:** it follows scene changes at once and smooths out flicker. Full screen's glow is softer.
+- **A tidier glide** between Now Playing and the mini player, with no black bars or lingering box.
+- **The heart is in the same place on every player.** On movie and series pages, it's a heart button beside Trailer.
+
+### Settings
+
+- **New and moved settings:** Appearance › Channel Lists, Content › Names & Grouping, and a new **Live TV & Guide** tab, so each setting sits where you'd look for it. Every redesign can be switched back.
+
 ## v0.16.01
 
 Advanced Video in the player, ambient light round the picture, movies and episodes on Now Playing, Up Next as the credits roll, and the system's own glass across the app.
