@@ -3,6 +3,40 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.15.01
+
+A new Home screen, content in the languages you choose, and a reorganised Settings window.
+
+### Home
+
+- **Home is the first tab and the screen the app opens on.** It replaces the Library tab; Favourites and History are in its sidebar.
+- **New releases banner** with backdrops, plots and Play or More Info.
+- **Continue Watching**, and your favourite channels as **On Now** tiles showing what's on, how far through it is and what's next.
+- **Recommended for You**, chosen on your Mac from what you watch, favourite and finish: genres, categories, franchises and more, with the reason under each poster. Plus **Because You Watched** your latest title.
+- Favourite movies and series on short shelves at the bottom.
+- **Arrange Home** in Settings › Appearance › Home Screen: reorder sections or switch any off.
+- Titles show without provider tags such as “NF - ” or “A+ - ”.
+- Choose a different start screen in Settings › General › Startup › Open On.
+
+### Content
+
+- **Content Languages** replaces Hide Non-English: tick the languages you want, and only categories, channels and titles in those languages show, everywhere in the app. It recognises tags such as NL|, FR -, NL-TOP - and 4K-NL -, words and scripts.
+- **Strip Provider Tags from Titles** cleans movie and series titles on every page.
+- **Right-click a category** in the sidebar to reorder its channels, hide it, or lock it.
+- The catalogue now refreshes quietly every 3 hours, so new releases appear without restarting (not while saving data).
+
+### Settings
+
+- **Reorganised:** the icons along the top are categories, each with a sidebar of groups, and a new Content category.
+- **Every setting now explains exactly what it does.**
+- **Manage Categories** is now inside Settings › Content › Categories (⌘⇧K still opens it), with the selection's actions in one menu.
+- **Interface Size, Open On and more reset options** are covered by Reset Settings; Settings opens centred.
+- The sidebar footer is one line: playlist and Settings.
+
+### Fixes
+
+- Clicking the current tab returns to its main page, for example Home from a movie page.
+
 ## v0.14.01
 
 A new window layout with section tabs across the top, a faster TV Guide you can drag around, and new settings for text size, your starting category and resetting the app.

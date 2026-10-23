@@ -6,6 +6,23 @@
         <description>LiquidIPTV updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.15.01</title>
+            <pubDate>Fri, 23 Oct 2026 02:27:52 GMT</pubDate>
+            <sparkle:version>0.15.01</sparkle:version>
+            <sparkle:shortVersionString>0.15.01</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description>&lt;div style="font-family: -apple-system, sans-serif; font-size: 13px;"&gt;&lt;p&gt;A new Home screen, content in the languages you choose, and a reorganised Settings window.&lt;/p&gt;
+&lt;h4&gt;Home&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Home is the first tab and the screen the app opens on.&lt;/strong&gt; It replaces the Library tab; Favourites and History are in its sidebar.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;New releases banner&lt;/strong&gt; with backdrops, plots and Play or More Info.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Continue Watching&lt;/strong&gt;, and your favourite channels as &lt;strong&gt;On Now&lt;/strong&gt; tiles showing what's on, how far through it is and what's next.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Recommended for You&lt;/strong&gt;, chosen on your Mac from what you watch, favourite and finish: genres, categories, franchises and more, with the reason under each poster. Plus &lt;strong&gt;Because You Watched&lt;/strong&gt; your latest title.&lt;/li&gt;&lt;li&gt;Favourite movies and series on short shelves at the bottom.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Arrange Home&lt;/strong&gt; in Settings › Appearance › Home Screen: reorder sections or switch any off.&lt;/li&gt;&lt;li&gt;Titles show without provider tags such as “NF - ” or “A+ - ”.&lt;/li&gt;&lt;li&gt;Choose a different start screen in Settings › General › Startup › Open On.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Content&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Content Languages&lt;/strong&gt; replaces Hide Non-English: tick the languages you want, and only categories, channels and titles in those languages show, everywhere in the app. It recognises tags such as NL|, FR -, NL-TOP - and 4K-NL -, words and scripts.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Strip Provider Tags from Titles&lt;/strong&gt; cleans movie and series titles on every page.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Right-click a category&lt;/strong&gt; in the sidebar to reorder its channels, hide it, or lock it.&lt;/li&gt;&lt;li&gt;The catalogue now refreshes quietly every 3 hours, so new releases appear without restarting (not while saving data).&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Settings&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Reorganised:&lt;/strong&gt; the icons along the top are categories, each with a sidebar of groups, and a new Content category.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Every setting now explains exactly what it does.&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Manage Categories&lt;/strong&gt; is now inside Settings › Content › Categories (⌘⇧K still opens it), with the selection's actions in one menu.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Interface Size, Open On and more reset options&lt;/strong&gt; are covered by Reset Settings; Settings opens centred.&lt;/li&gt;&lt;li&gt;The sidebar footer is one line: playlist and Settings.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Fixes&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;Clicking the current tab returns to its main page, for example Home from a movie page.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
+            <enclosure url="https://github.com/ElBeeHQ/ElBeePlayer/releases/download/v0.15.01/ElBeePlayer-0.15.01.zip" length="42241912" type="application/octet-stream" sparkle:edSignature="50bo1Ux2rFmIr2cR3v2uWt2jOGRGHmgMcV+Pnro6QeToVcjZJXOSS5J3Afw1/FepOT4n5f4Ay4Z8xTRa6CgzCA==" />
+        </item>
+        <item>
             <title>Version 0.14.01</title>
             <pubDate>Fri, 23 Oct 2026 01:24:37 GMT</pubDate>
             <sparkle:version>0.14.01</sparkle:version>
