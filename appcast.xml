@@ -6,6 +6,23 @@
         <description>LiquidIPTV updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.19.01</title>
+            <pubDate>Sat, 24 Oct 2026 18:43:57 GMT</pubDate>
+            <sparkle:version>0.19.01</sparkle:version>
+            <sparkle:shortVersionString>0.19.01</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description>&lt;div style="font-family: -apple-system, sans-serif; font-size: 13px;"&gt;&lt;p&gt;A plainer look if you want one, and Smooth Picture Moves: an experimental way of drawing the video that removes the pause when the picture moves between pages.&lt;/p&gt;
+&lt;h4&gt;Moving the picture&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Smooth Picture Moves (experimental):&lt;/strong&gt; Settings › Playback › Display. ElBee Player draws each video frame itself, so the picture can move between the banner, the mini player and Now Playing without the short freeze. It applies after you quit and reopen the app, and is off by default.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hardware decoding stays on,&lt;/strong&gt; and subtitles are drawn on the picture as usual, including on 4K.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;No thin black bars&lt;/strong&gt; at the sides of the picture, and the picture keeps its own shape.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Deinterlacing with Yadif 2x&lt;/strong&gt; works with it.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;One refreshed still&lt;/strong&gt; is used as the picture lands, so the glide no longer stutters on arrival.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Appearance&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Plain Look:&lt;/strong&gt; Settings › Appearance › Window swaps the system glass for a plainer surface everywhere in the app.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Fixes&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Back from the live dashboard&lt;/strong&gt; returns to the page you came from, and the picture glides back with you.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;The mini player's control bar&lt;/strong&gt; is a single tidy capsule, with the sliders sized to fit.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Dark mode:&lt;/strong&gt; the Now Playing stage no longer fades slowly when you go to Live TV or the TV Guide.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Fanart:&lt;/strong&gt; the blurred backdrop on title pages loads once, without a flicker or seam, and the Guide banner backdrop suits both light and dark.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Known issues&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;Back from a movie or episode goes to the mini player rather than the Guide.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
+            <enclosure url="https://github.com/ElBeeHQ/ElBeePlayer/releases/download/v0.19.01/ElBeePlayer-0.19.01.zip" length="44023120" type="application/octet-stream" sparkle:edSignature="LfvFUrK6tjwZLBDnIx7YPziVbTWxvct6Q5O81gNgOY6pZpO5rTZKCbsLZcM0pMjyNo6HzkcS+nIVyYDi2zkACw==" />
+        </item>
+        <item>
             <title>Version 0.18.01</title>
             <pubDate>Sat, 24 Oct 2026 04:57:21 GMT</pubDate>
             <sparkle:version>0.18.01</sparkle:version>

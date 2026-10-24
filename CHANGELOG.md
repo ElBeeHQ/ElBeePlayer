@@ -3,6 +3,33 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.19.01
+
+A plainer look if you want one, and Smooth Picture Moves: an experimental way of drawing the video that removes the pause when the picture moves between pages.
+
+### Moving the picture
+
+- **Smooth Picture Moves (experimental):** Settings › Playback › Display. ElBee Player draws each video frame itself, so the picture can move between the banner, the mini player and Now Playing without the short freeze. It applies after you quit and reopen the app, and is off by default.
+- **Hardware decoding stays on,** and subtitles are drawn on the picture as usual, including on 4K.
+- **No thin black bars** at the sides of the picture, and the picture keeps its own shape.
+- **Deinterlacing with Yadif 2x** works with it.
+- **One refreshed still** is used as the picture lands, so the glide no longer stutters on arrival.
+
+### Appearance
+
+- **Plain Look:** Settings › Appearance › Window swaps the system glass for a plainer surface everywhere in the app.
+
+### Fixes
+
+- **Back from the live dashboard** returns to the page you came from, and the picture glides back with you.
+- **The mini player's control bar** is a single tidy capsule, with the sliders sized to fit.
+- **Dark mode:** the Now Playing stage no longer fades slowly when you go to Live TV or the TV Guide.
+- **Fanart:** the blurred backdrop on title pages loads once, without a flicker or seam, and the Guide banner backdrop suits both light and dark.
+
+### Known issues
+
+- Back from a movie or episode goes to the mini player rather than the Guide.
+
 ## v0.18.01
 
 Players that look and behave the same everywhere, a smoother glide to and from the banner, hover controls on the live preview, and a round of fixes to Live TV, the TV Guide and Settings.

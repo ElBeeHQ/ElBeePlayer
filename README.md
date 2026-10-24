@@ -54,7 +54,8 @@ your Mac.
   sit below the picture so they never cover them.
 - **Mute stays on** for whatever you play next, until you unmute or quit.
 - **The picture glides** between Now Playing, the Live TV and Guide banners and the mini player, and keeps playing as it
-  moves.
+  moves. **Smooth Picture Moves** (Settings > Playback, experimental) removes the short pause when the picture changes
+  place; it keeps hardware decoding and subtitles, and applies after a restart.
 - **The same controls in every player:** the mini player, Now Playing and full screen share one set of buttons, with
   Full Screen always last. A glass **close cross** appears when you point at the picture and ends the video.
 - **A clean mini player:** just the picture, with its controls over it when you point at it.
@@ -138,6 +139,7 @@ your Mac.
 ### Feels at home on the Mac
 
 - **The system's own glass** for the toolbar, player controls, mini player and pop-ups on macOS 26.
+- **Plain Look** (Settings > Appearance) swaps the system glass for a plainer look, if you prefer it.
 - **Light, Dark or Automatic** for ElBee Player alone, from the sun and moon button by the Settings gear.
 - **Interface Size** makes text larger throughout the app on a big or high-resolution display.
 - **Spotlight search**, **media keys** and **Control Centre** playback controls.
