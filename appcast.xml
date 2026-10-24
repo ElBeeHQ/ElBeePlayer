@@ -6,6 +6,27 @@
         <description>LiquidIPTV updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.18.01</title>
+            <pubDate>Sat, 24 Oct 2026 04:57:21 GMT</pubDate>
+            <sparkle:version>0.18.01</sparkle:version>
+            <sparkle:shortVersionString>0.18.01</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description>&lt;div style="font-family: -apple-system, sans-serif; font-size: 13px;"&gt;&lt;p&gt;Players that look and behave the same everywhere, a smoother glide to and from the banner, hover controls on the live preview, and a round of fixes to Live TV, the TV Guide and Settings.&lt;/p&gt;
+&lt;h4&gt;Player&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;One set of controls everywhere:&lt;/strong&gt; the mini player, Now Playing and full screen use the same buttons, icons and order, with Full Screen always last. Full screen's button changes icon, and leaving full screen always returns to Now Playing.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;A glass close cross replaces Stop:&lt;/strong&gt; every player shows a cross in its corner that closes the video completely. It appears when you move the pointer over the picture and fades away with the controls.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;A cleaner mini player:&lt;/strong&gt; the grey control area is gone. Pause, the progress bar, volume and the buttons to open Now Playing and full screen sit over the picture when you point at it.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Expand to Now Playing&lt;/strong&gt; has its own button, next to Full Screen.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;All player controls sit on the same glass,&lt;/strong&gt; including badges, banners and the skip pill.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Live TV and TV Guide&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;The live preview has controls:&lt;/strong&gt; click Muted to turn the sound on, then point at the picture for Mute, Expand to Now Playing and Full Screen. Double-click the picture to open Now Playing.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;The picture stays in the banner while you browse categories,&lt;/strong&gt; instead of dropping to the mini player when the new category doesn't hold the channel.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Right-click a combined channel&lt;/strong&gt; to choose which version to play. The sharpest picture (for example 4K) is marked Best Quality, while the row still plays HD by default.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Switching Combine Duplicate Categories&lt;/strong&gt; keeps you where you are and no longer closes Now Playing.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Strip Country Prefixes and Group Categories by Country now work together:&lt;/strong&gt; names follow the strip setting everywhere, and the headings carry the country.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;A new preview takes the sound of the last one:&lt;/strong&gt; if you were listening, it starts with sound.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Channel changes are quicker:&lt;/strong&gt; the banner waits 250 ms before tuning, covers the picture with a blurred frame until the first frame is on screen, then crossfades in 0.15 s.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;The TV Guide opens faster:&lt;/strong&gt; its rows are worked out in the background and kept.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Moving the picture&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;The picture glides&lt;/strong&gt; between the Live TV and Guide banners, the mini player and Now Playing in either direction, flying out at the click and landing as the page appears. It keeps playing while it moves.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Stable between pages:&lt;/strong&gt; swapping between Live TV and the Guide no longer risks a black picture.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Loading screen&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Every step starts grey&lt;/strong&gt; and lights up only when it has finished loading, with the same spinner on each.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Settings&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Appearance › Home Screen:&lt;/strong&gt; New Releases can be switched off, but always stays at the top.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Storage › Cache&lt;/strong&gt; shows the real sizes again and Clear is available.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;About&lt;/strong&gt; fits the window without scrolling.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Ambient Glow is on by default&lt;/strong&gt; for new installs.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Known issues&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;Going from Now Playing to the TV Guide still takes a moment to change page.&lt;/li&gt;&lt;li&gt;The picture is a little softer than the live video for a moment as it lands.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
+            <enclosure url="https://github.com/ElBeeHQ/ElBeePlayer/releases/download/v0.18.01/ElBeePlayer-0.18.01.zip" length="44184628" type="application/octet-stream" sparkle:edSignature="ihxc7NjKycRnXOJ/SBYKxA2uh/kjCgTye6AUPlWFby+iW9fo723dnl8CbzfQGZWxyk96DteYEHaua3Ka3LteDw==" />
+        </item>
+        <item>
             <title>Version 0.17.01</title>
             <pubDate>Fri, 23 Oct 2026 20:29:33 GMT</pubDate>
             <sparkle:version>0.17.01</sparkle:version>

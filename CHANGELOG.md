@@ -3,6 +3,50 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.18.01
+
+Players that look and behave the same everywhere, a smoother glide to and from the banner, hover controls on the live preview, and a round of fixes to Live TV, the TV Guide and Settings.
+
+### Player
+
+- **One set of controls everywhere:** the mini player, Now Playing and full screen use the same buttons, icons and order, with Full Screen always last. Full screen's button changes icon, and leaving full screen always returns to Now Playing.
+- **A glass close cross replaces Stop:** every player shows a cross in its corner that closes the video completely. It appears when you move the pointer over the picture and fades away with the controls.
+- **A cleaner mini player:** the grey control area is gone. Pause, the progress bar, volume and the buttons to open Now Playing and full screen sit over the picture when you point at it.
+- **Expand to Now Playing** has its own button, next to Full Screen.
+- **All player controls sit on the same glass,** including badges, banners and the skip pill.
+
+### Live TV and TV Guide
+
+- **The live preview has controls:** click Muted to turn the sound on, then point at the picture for Mute, Expand to Now Playing and Full Screen. Double-click the picture to open Now Playing.
+- **The picture stays in the banner while you browse categories,** instead of dropping to the mini player when the new category doesn't hold the channel.
+- **Right-click a combined channel** to choose which version to play. The sharpest picture (for example 4K) is marked Best Quality, while the row still plays HD by default.
+- **Switching Combine Duplicate Categories** keeps you where you are and no longer closes Now Playing.
+- **Strip Country Prefixes and Group Categories by Country now work together:** names follow the strip setting everywhere, and the headings carry the country.
+- **A new preview takes the sound of the last one:** if you were listening, it starts with sound.
+- **Channel changes are quicker:** the banner waits 250 ms before tuning, covers the picture with a blurred frame until the first frame is on screen, then crossfades in 0.15 s.
+- **The TV Guide opens faster:** its rows are worked out in the background and kept.
+
+### Moving the picture
+
+- **The picture glides** between the Live TV and Guide banners, the mini player and Now Playing in either direction, flying out at the click and landing as the page appears. It keeps playing while it moves.
+- **Stable between pages:** swapping between Live TV and the Guide no longer risks a black picture.
+
+### Loading screen
+
+- **Every step starts grey** and lights up only when it has finished loading, with the same spinner on each.
+
+### Settings
+
+- **Appearance › Home Screen:** New Releases can be switched off, but always stays at the top.
+- **Storage › Cache** shows the real sizes again and Clear is available.
+- **About** fits the window without scrolling.
+- **Ambient Glow is on by default** for new installs.
+
+### Known issues
+
+- Going from Now Playing to the TV Guide still takes a moment to change page.
+- The picture is a little softer than the live video for a moment as it lands.
+
 ## v0.17.01
 
 Redesigned Live TV, TV Guide and Radio pages in Home's style, with a live preview, a first-time setup guide, and a calmer, steadier player.

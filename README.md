@@ -53,7 +53,11 @@ your Mac.
 - **Subtitles** from the player itself: switch them on or off and choose the language. While they're on, the controls
   sit below the picture so they never cover them.
 - **Mute stays on** for whatever you play next, until you unmute or quit.
-- **The picture glides** between Now Playing and the mini player, which sits neatly in the sidebar while you browse.
+- **The picture glides** between Now Playing, the Live TV and Guide banners and the mini player, and keeps playing as it
+  moves.
+- **The same controls in every player:** the mini player, Now Playing and full screen share one set of buttons, with
+  Full Screen always last. A glass **close cross** appears when you point at the picture and ends the video.
+- **A clean mini player:** just the picture, with its controls over it when you point at it.
 
 ### Advanced Video
 
@@ -74,10 +78,12 @@ your Mac.
 - **Channel spotlight:** click a channel and it fills a banner at the top: what's on, how far through it is, what's
   next, and Watch, Record and Favourite. Double-click to play straight away, or move through the list with ↑ / ↓ and
   press Return.
-- **Live preview:** the channel you click plays, muted, right in the banner. It uses your one stream (most providers
-  allow only one), waits a moment as you click down the list, and holds back while you're recording, watching a movie
-  or episode, or using Multi-View.
-- **One row per channel:** HD, 4K, +1 and other versions of a channel share a row, with a button to play each one.
+- **Live preview:** the channel you click plays right in the banner. It uses your one stream (most providers allow
+  only one), waits a moment as you click down the list, and holds back while you're recording, watching a movie or
+  episode, or using Multi-View. Click **Muted** for sound, point at the picture for Mute, Expand to Now Playing and Full
+  Screen, or double-click it to open Now Playing. It stays in the banner as you browse other categories.
+- **One row per channel:** HD, 4K, +1 and other versions of a channel share a row, with a button to play each one, or
+  right-click for the list, with the sharpest picture marked.
 - **Now and next in every row**, with sorting by number or name, and a find box for the category.
 - **Categories grouped by country** in the sidebar, under headings you can fold away.
 
@@ -137,6 +143,7 @@ your Mac.
 - **Spotlight search**, **media keys** and **Control Centre** playback controls.
 - **Stream diagnostics** overlay (⌘I), **audio normalisation** and a **night mode** for quieter evenings.
 - **Travel & Tethering Mode** spots a phone hotspot and limits stream quality, so you don't use up your data.
+- **Glass over the picture:** every control, badge and banner over a video sits on the same glass.
 - **Every setting explains exactly what it does**, grouped so you can find it quickly. Each of the redesigned pages
   can be switched back to its simpler layout.
 
