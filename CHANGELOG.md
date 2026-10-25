@@ -3,6 +3,14 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.21.02
+
+Live Captions that are easier to follow.
+
+### Player
+
+- **Live Captions roll up, two lines at a time:** words appear one after another at the end of the bottom line, and when it's full the line moves up and a new one starts below. Words you've already read stay where they are instead of shuffling along with every new word, and the plate keeps one size. Words the Mac is still working out are a little dimmer and settle once it's sure of them. Speech carries straight on from one phrase to the next, and the captions clear after a few seconds of quiet.
+
 ## v0.21.01
 
 Full screen in one smooth move, Live Captions, and the picture's glow behind the banners.

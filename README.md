@@ -54,7 +54,8 @@ your Mac.
   Large) that changes at once, without restarting the stream. While they're on, the controls sit below the picture so
   they never cover them.
 - **Live Captions** (experimental, macOS 26): your Mac writes captions for live channels that have no subtitles, from
-  the channel's sound, on your Mac.
+  the channel's sound, on your Mac. They build up word by word on two lines that roll up, so what you've read stays
+  put.
 - **Full screen in one smooth move:** the picture grows to fill the screen and shrinks back, with the menu bar and Dock
   hidden and no slide to a new Space. **Use Full-Screen Spaces** (Settings > Playback) gives it a Space of its own.
 - **A banner for what you're watching:** press Back while a movie or episode plays and the picture glides into a banner
