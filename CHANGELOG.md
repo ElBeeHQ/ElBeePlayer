@@ -3,6 +3,26 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.20.01
+
+A banner for movies and episodes, a live Subtitle Size, a quieter launch and a round of polish.
+
+### Player
+
+- **A banner for movies and episodes:** pressing Back from Now Playing while a movie or episode plays now flies the picture into a banner at the top of the page, as Live TV does, instead of the mini player. It shows the title (and episode), how far through you are, and the usual controls over the picture. It appears on every page except Live TV, the TV Guide and Radio, which keep their own banners.
+
+### Polish
+
+- **Opening the app** no longer flashes a "Signing in…" screen before the loading screen: the logo shows alone, in the same place as on the loading screen, and the status only appears if signing in takes more than a moment.
+- **TV Guide:** every programme block, including the one on now, and every channel in the list brightens under the pointer, in either cell style.
+- **Live TV:** channels near the bottom of the list highlight under the pointer again while something is playing; the room left for the mini player no longer blocks them.
+- **Reconnecting…** now shows over the picture in the Live TV and Guide banners, and in the movie and episode banner, as it does in the other players.
+- **A movie or episode keeps the top banner** when you go to Live TV or the TV Guide, instead of dropping into the mini player. Their channel banners step aside meanwhile, and a click on a channel plays it. Home's new releases banner steps aside too, so there is never a second banner under the first.
+- **Resume Last Channel on Launch:** if the channel can’t be reached, or its picture stays black for ten seconds (a provider keeping a channel that is down on air as a black feed), it is dropped quietly and you stay on the page you opened on, with no player left over. The mini player or banner picture doesn't show until the first real frame arrives, so a dead channel never flashes a black box.
+- **Subtitle Size:** Settings › Playback › Subtitles & Audio sets how large subtitles are drawn (Small, Standard, Large or Extra Large), from the next stream you start. The Subtitles button on Now Playing and in full screen has the same choice. The text changes at once, without restarting the stream.
+- **Ambient Glow** switches itself off while the picture has thick black bars of its own, and comes back when they go.
+- **Toolbar:** the section tabs and the buttons beside them light up softly under the pointer.
+
 ## v0.19.01
 
 A plainer look if you want one, and Smooth Picture Moves: an experimental way of drawing the video that removes the pause when the picture moves between pages.
@@ -28,7 +48,7 @@ A plainer look if you want one, and Smooth Picture Moves: an experimental way of
 
 ### Known issues
 
-- Back from a movie or episode goes to the mini player rather than the Guide.
+- Back from a movie or episode goes to the mini player rather than the Guide. (Fixed in the next release.)
 
 ## v0.18.01
 

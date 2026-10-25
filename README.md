@@ -50,19 +50,23 @@ your Mac.
 - **Up Next appears as the credits roll.** ElBee Player spots the end credits in the picture itself and starts a
   6-second countdown, with **Play Now** and **Keep Watching**.
 - **← / → to skip and Space to pause**, with a "+10s" pill, just as in full screen, without bringing up the controls.
-- **Subtitles** from the player itself: switch them on or off and choose the language. While they're on, the controls
-  sit below the picture so they never cover them.
+- **Subtitles** from the player itself: switch them on or off, choose the language and pick a size (Small to Extra
+  Large) that changes at once, without restarting the stream. While they're on, the controls sit below the picture so
+  they never cover them.
+- **A banner for what you're watching:** press Back while a movie or episode plays and the picture glides into a banner
+  at the top of the page, with the title, your progress and the controls, while you browse anywhere else in the app.
 - **Mute stays on** for whatever you play next, until you unmute or quit.
 - **The picture glides** between Now Playing, the Live TV and Guide banners and the mini player, and keeps playing as it
   moves. **Smooth Picture Moves** (Settings > Playback, experimental) removes the short pause when the picture changes
   place; it keeps hardware decoding and subtitles, and applies after a restart.
 - **The same controls in every player:** the mini player, Now Playing and full screen share one set of buttons, with
   Full Screen always last. A glass **close cross** appears when you point at the picture and ends the video.
+- **Reconnecting… is shown, not hidden:** if a stream drops, a pill over the picture says so while the app tries again.
 - **A clean mini player:** just the picture, with its controls over it when you point at it.
 
 ### Advanced Video
 
-- **Ambient Glow** surrounds the picture with soft light in the colours at its edges, updated ten times a second. It
+- **Ambient Glow** (which switches itself off while the picture has thick black bars of its own) surrounds the picture with soft light in the colours at its edges, updated ten times a second. It
   changes with a scene at once and stays steady otherwise. In full screen it softly fills the black bars, and on Now
   Playing it spreads into the page around the picture. In Dark Mode it glows. In Light Mode it gently tints the page,
   and dark scenes cast a soft shadow instead.
@@ -143,6 +147,11 @@ your Mac.
 - **Light, Dark or Automatic** for ElBee Player alone, from the sun and moon button by the Settings gear.
 - **Interface Size** makes text larger throughout the app on a big or high-resolution display.
 - **Spotlight search**, **media keys** and **Control Centre** playback controls.
+- **Quiet launch:** optionally resume the last channel, muted if you like. A channel that can't be reached, or that is
+  only sending black, is dropped silently, so you never land on an empty box.
+- **Keychain and the sandbox:** your sign-in is kept in the macOS Keychain, and the app runs in the App Sandbox.
+- **iCloud sync** (optional) shares favourites and Continue Watching between your Macs.
+- **Hover feedback everywhere:** toolbar tabs, guide programmes and channel rows light up softly under the pointer.
 - **Stream diagnostics** overlay (⌘I), **audio normalisation** and a **night mode** for quieter evenings.
 - **Travel & Tethering Mode** spots a phone hotspot and limits stream quality, so you don't use up your data.
 - **Glass over the picture:** every control, badge and banner over a video sits on the same glass.
