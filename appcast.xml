@@ -6,6 +6,19 @@
         <description>LiquidIPTV updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.21.01</title>
+            <pubDate>Sun, 25 Oct 2026 16:57:30 GMT</pubDate>
+            <sparkle:version>0.21.01</sparkle:version>
+            <sparkle:shortVersionString>0.21.01</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description>&lt;div style="font-family: -apple-system, sans-serif; font-size: 13px;"&gt;&lt;p&gt;Full screen in one smooth move, Live Captions, and the picture's glow behind the banners.&lt;/p&gt;
+&lt;h4&gt;Player&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Full screen in one smooth move:&lt;/strong&gt; the picture grows from where it is to fill the screen, and shrinks back to Now Playing, with no slide to a new Space. The menu bar and Dock hide while you watch and come back when you point at them. If you'd rather have full screen in a Space of its own, to swipe between it and your other apps, turn on Settings › Playback › Display › Use Full-Screen Spaces.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Live Captions (experimental, macOS 26):&lt;/strong&gt; your Mac can write captions for live channels that have no subtitles of their own, from the channel's sound, on your Mac. Turn them on in Settings › Playback › Subtitles &amp;amp; Audio (after a restart), then from the Subtitles button.&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;Polish&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Ambient Glow behind the banners:&lt;/strong&gt; the Live TV, Guide and movie banners take on the picture's light, and the mini player's glow spills out across the page beside it.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;One click&lt;/strong&gt; on a banner's picture opens Now Playing.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
+            <enclosure url="https://github.com/ElBeeHQ/ElBeePlayer/releases/download/v0.21.01/ElBeePlayer-0.21.01.zip" length="44338986" type="application/octet-stream" sparkle:edSignature="dicH9aP+M5eJ/5fFRf5jV8vxJxKiK+BzI4+9T8Uk+qliJkWJUTfsVtEfOUOIqRqaaVcJa5L5faji0kQUAPBIAg==" />
+        </item>
+        <item>
             <title>Version 0.20.01</title>
             <pubDate>Sun, 25 Oct 2026 04:27:36 GMT</pubDate>
             <sparkle:version>0.20.01</sparkle:version>

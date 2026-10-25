@@ -3,6 +3,20 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.21.01
+
+Full screen in one smooth move, Live Captions, and the picture's glow behind the banners.
+
+### Player
+
+- **Full screen in one smooth move:** the picture grows from where it is to fill the screen, and shrinks back to Now Playing, with no slide to a new Space. The menu bar and Dock hide while you watch and come back when you point at them. If you'd rather have full screen in a Space of its own, to swipe between it and your other apps, turn on Settings › Playback › Display › Use Full-Screen Spaces.
+- **Live Captions (experimental, macOS 26):** your Mac can write captions for live channels that have no subtitles of their own, from the channel's sound, on your Mac. Turn them on in Settings › Playback › Subtitles & Audio (after a restart), then from the Subtitles button.
+
+### Polish
+
+- **Ambient Glow behind the banners:** the Live TV, Guide and movie banners take on the picture's light, and the mini player's glow spills out across the page beside it.
+- **One click** on a banner's picture opens Now Playing.
+
 ## v0.20.01
 
 A banner for movies and episodes, a live Subtitle Size, a quieter launch and a round of polish.

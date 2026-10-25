@@ -53,6 +53,10 @@ your Mac.
 - **Subtitles** from the player itself: switch them on or off, choose the language and pick a size (Small to Extra
   Large) that changes at once, without restarting the stream. While they're on, the controls sit below the picture so
   they never cover them.
+- **Live Captions** (experimental, macOS 26): your Mac writes captions for live channels that have no subtitles, from
+  the channel's sound, on your Mac.
+- **Full screen in one smooth move:** the picture grows to fill the screen and shrinks back, with the menu bar and Dock
+  hidden and no slide to a new Space. **Use Full-Screen Spaces** (Settings > Playback) gives it a Space of its own.
 - **A banner for what you're watching:** press Back while a movie or episode plays and the picture glides into a banner
   at the top of the page, with the title, your progress and the controls, while you browse anywhere else in the app.
 - **Mute stays on** for whatever you play next, until you unmute or quit.
@@ -63,12 +67,14 @@ your Mac.
   Full Screen always last. A glass **close cross** appears when you point at the picture and ends the video.
 - **Reconnecting… is shown, not hidden:** if a stream drops, a pill over the picture says so while the app tries again.
 - **A clean mini player:** just the picture, with its controls over it when you point at it.
+- **One click** on a banner's picture opens Now Playing.
 
 ### Advanced Video
 
 - **Ambient Glow** (which switches itself off while the picture has thick black bars of its own) surrounds the picture with soft light in the colours at its edges, updated ten times a second. It
   changes with a scene at once and stays steady otherwise. In full screen it softly fills the black bars, and on Now
-  Playing it spreads into the page around the picture. In Dark Mode it glows. In Light Mode it gently tints the page,
+  Playing it spreads into the page around the picture. It also lights the Live TV, Guide and movie banners, and spills
+  out of the mini player across the page. In Dark Mode it glows. In Light Mode it gently tints the page,
   and dark scenes cast a soft shadow instead.
 - **Match Framerate** switches your display to a refresh rate that fits the stream in full screen, such as 50 Hz for
   25 or 50 fps or 59.94 Hz for 29.97, so pans don't judder. Your display goes back as it was afterwards.
