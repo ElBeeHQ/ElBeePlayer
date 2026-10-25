@@ -58,14 +58,14 @@ your Mac.
   put.
 - **Full screen in one smooth move:** the picture grows to fill the screen and shrinks back, with the menu bar and Dock
   hidden and no slide to a new Space. **Use Full-Screen Spaces** (Settings > Playback) gives it a Space of its own.
-- **A banner for what you're watching:** press Back while a movie or episode plays and the picture glides into a banner
-  at the top of the page, with the title, your progress and the controls, while you browse anywhere else in the app.
+- **A movie or episode on its own page:** press Back while one plays and the picture moves to the top of its page,
+  above the details, with the usual controls. Browse anywhere else and it carries on in the mini player.
 - **Mute stays on** for whatever you play next, until you unmute or quit.
 - **The picture glides** between Now Playing, the Live TV and Guide banners and the mini player, and keeps playing as it
   moves. **Smooth Picture Moves** (Settings > Playback, experimental) removes the short pause when the picture changes
   place; it keeps hardware decoding and subtitles, and applies after a restart.
-- **The same controls in every player:** the mini player, Now Playing and full screen share one set of buttons, with
-  Full Screen always last. A glass **close cross** appears when you point at the picture and ends the video.
+- **The same controls in every player:** the mini player, the floating window, the banners, Now Playing and full screen
+  share one set of buttons, with Full Screen always last. A glass **close cross** appears when you point at the picture and ends the video.
 - **Reconnecting… is shown, not hidden:** if a stream drops, a pill over the picture says so while the app tries again.
 - **A clean mini player:** just the picture, with its controls over it when you point at it.
 - **One click** on a banner's picture opens Now Playing.
@@ -74,14 +74,13 @@ your Mac.
 
 - **Ambient Glow** (which switches itself off while the picture has thick black bars of its own) surrounds the picture with soft light in the colours at its edges, updated ten times a second. It
   changes with a scene at once and stays steady otherwise. In full screen it softly fills the black bars, and on Now
-  Playing it spreads into the page around the picture. It also lights the Live TV, Guide and movie banners, and spills
-  out of the mini player across the page. In Dark Mode it glows. In Light Mode it gently tints the page,
+  Playing it spreads into the page around the picture. It also lights the Live TV and Guide banners. In Dark Mode it glows. In Light Mode it gently tints the page,
   and dark scenes cast a soft shadow instead.
-- **Match Framerate** switches your display to a refresh rate that fits the stream in full screen, such as 50 Hz for
+- **Match Frame Rate** switches your display to a refresh rate that fits the stream in full screen, such as 50 Hz for
   25 or 50 fps or 59.94 Hz for 29.97, so pans don't judder. Your display goes back as it was afterwards.
 - **Deinterlacing:** Auto, Yadif, **Yadif 2x** (smooth 50 full frames a second from 50i sport) and Blend. Changes apply
   to the stream already playing.
-- **Video upscaling** sharpens lower-resolution channels on Apple Silicon. **Decoding options**, subtitles and audio
+- **Sharpening** makes lower-resolution channels crisper on Apple Silicon. **Decoding options**, subtitles and audio
   tracks are all there too.
 - Everything is in one **Advanced Video** menu in the player, and in Settings › Playback.
 
@@ -141,11 +140,12 @@ your Mac.
 
 - **Content Languages:** tick the languages you want, and only categories, channels and titles in those languages show,
   everywhere in the app.
-- **Strip provider tags** such as "TOP - " or "4K - " from titles.
+- **Hide provider tags** such as "TOP - " or "4K - " in titles.
 - **Manage Categories** to reorder, hide or lock categories and their channels (⇧⌘K).
 - **Several playlists**, switched from the sidebar, with the catalogue refreshing quietly in the background.
 - **A parental lock** that asks for Touch ID, an Apple Watch or your Mac's password before a locked category opens.
-  The system does the checking, and ElBee Player never sees your password.
+  The system does the checking, and ElBee Player never sees your password. Unlocked categories can lock again after a
+  set time, and locked ones can be hidden altogether.
 
 ### Feels at home on the Mac
 
@@ -160,10 +160,10 @@ your Mac.
 - **iCloud sync** (optional) shares favourites and Continue Watching between your Macs.
 - **Hover feedback everywhere:** toolbar tabs, guide programmes and channel rows light up softly under the pointer.
 - **Stream diagnostics** overlay (⌘I), **audio normalisation** and a **night mode** for quieter evenings.
-- **Travel & Tethering Mode** spots a phone hotspot and limits stream quality, so you don't use up your data.
+- **Data Saver** spots a phone hotspot and limits stream quality, so you don't use up your data.
 - **Glass over the picture:** every control, badge and banner over a video sits on the same glass.
-- **Every setting explains exactly what it does**, grouped so you can find it quickly. Each of the redesigned pages
-  can be switched back to its simpler layout.
+- **Every setting explains exactly what it does**, grouped so you can find it quickly, and **Search Settings** (⌘F in
+  Settings) finds any of them by name or by the words you'd use. Each page has its own Restore Defaults.
 
 ## Install
 
@@ -177,8 +177,8 @@ your Mac.
    ```
 4. Sign in with your provider's server address, username and password.
 
-**Requirements:** macOS 15 or later, on Apple Silicon or Intel. The system glass look needs macOS 26, and video
-upscaling needs Apple Silicon. Everything else works on every supported Mac.
+**Requirements:** macOS 15 or later, on Apple Silicon or Intel. The system glass look needs macOS 26, and
+Sharpening needs Apple Silicon. Everything else works on every supported Mac.
 
 ## Updates
 

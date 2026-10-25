@@ -3,6 +3,47 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.22.01
+
+Settings you can search, a tidier layout, clearer descriptions, a handful of new settings, and one set of controls for every small player.
+
+### Player
+
+- **One set of controls for every small player:** the mini-player, the floating window, the pictures in the Live TV and Guide banners, a title's page and Radio's banner all share the same glass controls: Play/Pause, the skips, the progress bar, Mute and volume, Expand to Now Playing and Full Screen last. With less room the volume slider goes first, then the progress bar, never a button.
+- **A movie or episode plays on its own page:** while Now Playing is closed, the title's page shows the picture above its details, with the same controls and close cross. On other pages it plays in the mini-player. While a title plays, its page leaves out Play, Resume and Start Over, which would restart it.
+- **The movie and episode banner is gone:** the banner that held a playing movie or episode across the top of every page (added in v0.20.01) has been removed. The Live TV and Guide spotlights and Home's new releases banner now stay put while a movie or episode plays; the spotlight shows the channel without a live preview then, since most providers allow only one stream.
+- **Live Caption Size:** Live Captions have a size of their own, set apart from Subtitle Size, in Settings and in the player's Subtitles button while captions are on.
+
+### Finding your way round Settings
+
+- **Search Settings:** a search field at the top of every sidebar (⌘F) finds any setting by its name or by the words you'd use for it, such as "hotspot", "sleep" or "parental". Click a result, or press Return for the best one, and Settings opens on its page with the setting highlighted.
+- **A tidier layout:** seven categories instead of eight. Multi-View is now a group in Playback. Subtitles & Captions and Audio are separate groups. Sport has its own group in Live TV & Guide, holding Ultra-Low Latency, Hide Sports Spoilers and Custom Sports Keywords. Series Link's auto-delete and free-space limit sit with the rest of Series Link. Use Full-Screen Spaces is in Playback › Player, Default Channel Category is in Live TV & Guide › Live TV, and Interface Size is in Appearance › Window & Text.
+- **Every description rewritten:** shorter, and each says when the setting takes effect and what it leaves alone.
+- **Clearer names:** Data Saver (was Travel & Tethering Mode), Hide Country Prefixes and Hide Provider Tags in Titles (were Strip…), Hide Sports Spoilers, Sharpening (was Video Upscaling: it sharpens rather than upscales), Night Mode, Even Out Volume (was Audio Normalisation), Match Frame Rate, Audio Language and Subtitle Language. Your choices are kept.
+- **Restore Defaults on every page** puts only that page's settings back, leaving the rest as they are.
+- **Greyed-out settings say why,** such as "Turn on Channel Spotlight to use this."
+- **Beta badges** mark Live Captions and Smooth Picture Moves, and one banner with **Relaunch Now** appears when a setting needs the app to reopen.
+
+### New settings
+
+- **Play Next Episode Automatically** (Playback › Player, on): turn it off and Up Next waits for you to click Play Now, with no countdown.
+- **Pause When Screen Locks** (Playback › Player): pauses when your display sleeps, your Mac locks or another user switches in. Radio carries on.
+- **Remember Volume** (Playback › Audio, on): the player opens at the volume you left it at, instead of 100%.
+- **Last Viewed** for Default Channel Category: Live TV and the TV Guide reopen on the category you were last in.
+- **Switch to the Channel** (Live TV & Guide › Reminders): as a reminder appears, its channel starts too, while ElBee Player is open.
+- **Re-Lock After** (Content › Parental Lock): unlocked categories lock again after 5 minutes, 15 minutes or an hour, or as before when the app quits. A longer time asks for Touch ID or your password.
+- **Hide Locked Categories** (Content › Parental Lock): leaves locked categories out of the sidebar, the lists, the TV Guide and search. Showing them again asks for Touch ID or your password.
+- **Image Cache Limit** (Storage › Cache, 1 GB): how much space logos and posters may take before the oldest make room.
+
+### Polish
+
+- **Clicking a reminder** now opens its channel.
+- **TV Guide:** programmes no longer sit on top of one another when a provider sends the same programme twice or listings that overlap; each channel shows one programme at a time, and "on now" is always the right one. Guide data already saved is tidied too.
+- **The mini-player's glow is gone:** the Ambient Glow that spread from the mini-player across the page beside it (added in v0.21.01) has been removed. Ambient Glow still lights full screen, Now Playing and the banners.
+- **TV Guide:** the calmer programme grid and the row of day buttons are now the only look, so Quieter Programme Cells and Day Buttons are gone from Settings.
+- **Live TV & Guide** opens on its Live TV page again after Settings is reopened, not on Guide Data.
+- **Reset Library** names the iCloud setting correctly.
+
 ## v0.21.02
 
 Live Captions that are easier to follow.
