@@ -3,6 +3,31 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.24.01
+
+Smooth Picture Moves is now on for everyone, with HDR, each stream's own colours, and subtitles that no longer cost the earth.
+
+### Smooth Picture Moves, now the default
+
+- **On by default:** the picture glides between the mini-player, Now Playing, the banners and title pages without a pause. If you turned it off, it stays off. The Beta badge is gone, and its description in Settings › Playback › Video now says what it does and what turning it off changes.
+- **HDR:** HDR10 and HLG streams play in 10-bit and show in HDR, brighter than white, on displays that support it, with smooth gradients. Before, they were shown flat and washed out.
+- **Each stream's own colours:** ElBee Player now reads the colour settings a stream carries (from its playlist, its file or the video itself) instead of guessing from the picture's size, so an HD stream made with SD colours, or the other way round, looks right from the first frame. Live channels sent as raw MPEG-TS aren't read, to avoid a second connection to your provider, and keep the usual choice.
+- **Subtitles stay on hardware decoding:** turning subtitles on no longer moves decoding to the processor. On a test Mac, a 1080p channel with subtitles went from 33% of the processor to 7%, and a 4K 10-bit film from more than a whole core to 15%. They appear at once, with no pause, and 4K and 10-bit films now show subtitles too. HDR shows in 8-bit while subtitles are on, as they can't be drawn into 10-bit pictures.
+
+### Live TV
+
+- **Falls back faster:** when a provider refuses a channel's first address, ElBee Player moves on to the next at once (or within about 8 seconds if the provider answers with an error page), instead of retrying the first one for half a minute or more.
+- **Remembers what works:** once a channel has played from its second address, it goes straight there for the rest of the session, reconnects included.
+
+### Fixes
+
+- **The standard player's colours:** with Smooth Picture Moves off, reds, magentas and blues were about 10% too strong on wide-colour displays. They now match.
+- **Match Frame Rate** switches the display's refresh rate again in full screen, for live channels and films (it had stopped in v0.23.02).
+
+### Known issues
+
+- **Sharpening** may make no visible difference to the picture. It's being looked into.
+
 ## v0.23.02
 
 Subtitles you can line up with the dialogue, a clearer Subtitles button, and less work while you watch.

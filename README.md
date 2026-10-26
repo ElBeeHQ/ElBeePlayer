@@ -64,8 +64,10 @@ your Mac.
   above the details, with the usual controls. Browse anywhere else and it carries on in the mini player.
 - **Mute stays on** for whatever you play next, until you unmute or quit.
 - **The picture glides** between Now Playing, the Live TV and Guide banners and the mini player, and keeps playing as it
-  moves. **Smooth Picture Moves** (Settings > Playback, beta) removes the short pause when the picture changes
-  place, with hardware decoding and the picture handed straight to the graphics chip. It applies after a restart.
+  moves, with no pause (**Smooth Picture Moves**, on by default in Settings > Playback). ElBee Player draws each frame
+  itself, with hardware decoding: colours follow each stream's own colour settings, and subtitles stay on hardware
+  decoding, so they cost little energy, 4K included.
+- **HDR:** HDR10 and HLG streams play in 10-bit and show in HDR, brighter than white, on displays that support it.
 - **The same controls in every player:** the mini player, the floating window, the banners, Now Playing and full screen
   share one set of buttons, with Full Screen always last. A glass **close cross** appears when you point at the picture and ends the video.
 - **Cast to a TV or speaker:** the Cast button in every player lists the TVs and speakers on your network. Pick one and
