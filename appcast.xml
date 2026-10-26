@@ -6,6 +6,17 @@
         <description>LiquidIPTV updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.24.02</title>
+            <pubDate>Mon, 26 Oct 2026 17:40:06 GMT</pubDate>
+            <sparkle:version>0.24.02</sparkle:version>
+            <sparkle:shortVersionString>0.24.02</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description>&lt;div style="font-family: -apple-system, sans-serif; font-size: 13px;"&gt;&lt;p&gt;Sharpening that works, a subscription reminder, download progress and far less energy on Live TV and the Guide.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Sharpening works:&lt;/strong&gt; lower-resolution channels look crisper, on your Mac's graphics chip.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Subscription reminder:&lt;/strong&gt; a note tells you when your playlist runs out within 7 days.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Download progress:&lt;/strong&gt; movies, series and episodes show a progress bar with the time left.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;TV Guide&lt;/strong&gt; opens on the half hour before now, and programme titles stay in view as you scroll.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Far lighter on your Mac:&lt;/strong&gt; Live TV and the Guide use a fraction of the energy, and Ambient Glow follows the picture more closely for less.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Fixes:&lt;/strong&gt; Float Video no longer crashes, full screen with Match Frame Rate no longer flashes black, and All Channels opens without a hang.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;The full list of changes is on the GitHub releases page.&lt;/p&gt;&lt;/div&gt;</description>
+            <enclosure url="https://github.com/ElBeeHQ/ElBeePlayer/releases/download/v0.24.02/ElBeePlayer-0.24.02.zip" length="45118024" type="application/octet-stream" sparkle:edSignature="54vZ09F7mPsCk8d0dbXv7nccuKsKq8Oa727jV3de5UZJi2qganon/Rzs9gDRW0i6ZsJ+xAgGSqXVzZ6leDkHCg==" />
+        </item>
+        <item>
             <title>Version 0.24.01</title>
             <pubDate>Mon, 26 Oct 2026 04:05:13 GMT</pubDate>
             <sparkle:version>0.24.01</sparkle:version>

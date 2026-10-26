@@ -3,6 +3,47 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.24.02
+
+Sharpening that works, a subscription reminder, download progress bars, a TV Guide that opens where you need it, and far less energy on Live TV and the Guide.
+
+### New
+
+- **Subscription reminder:** when your playlist's subscription runs out within 7 days, a note above the playlist switcher says when. Close it and it stays away for the rest of the day, for that playlist. The date is checked again with your provider when you come back to the app or wake your Mac.
+- **Download progress:** a movie or series being downloaded shows a progress bar under its title, with the size and time left, and **Cancel** on the movie's page. A series adds up all its episodes, and each downloading episode has a small bar of its own in its row.
+- **Movies and episodes open in Now Playing**, like live channels. Full screen is one click away.
+
+### Video
+
+- **Sharpening works:** it had made no difference to the picture. It now sharpens on your Mac's graphics chip, with both renderers, alongside deinterlacing and subtitles, and you can see the difference between 0% and 100%. Auto still leaves 4K alone.
+- **Ambient Glow follows the picture:** in the Live TV and Guide banners it now takes new light at once, so cuts show straight away, and holds steady through compression noise in a still scene.
+- **Even light round the picture:** a thin strip of glow no longer fades to nothing at its ends (the dark gap above a banner's picture), and the light is read from just inside the picture, past the dark lines some streams have at their edges.
+- **Blues in Light Mode:** a vivid blue picture now tints the page blue instead of casting a grey shadow.
+
+### TV Guide
+
+- **Opens on the half hour before now,** so the now line sits a little way in and what's on now shows from its start. **Now** jumps to the same place.
+- **Titles stay in view:** a programme that started before the visible part of the guide shows its title and times from the edge you can see.
+
+### Lighter on your Mac
+
+- **Live TV and the TV Guide:** with a channel in the banner and nothing else happening, ElBee Player went from more than 1,000 Energy Impact to about 60–90 on a test Mac. The banner's backdrop carries over between Live TV and the Guide without starting again.
+- **Ambient Glow costs far less:** each new light is drawn once and faded by the system, instead of redrawing the window on every frame of a fade. On a test Mac, the app's main work with the glow on fell from 8.6 to 1.1 seconds in every 30.
+- **The guide redraws less:** one channel's guide arriving no longer redraws every row on screen, each row's programmes are drawn in one go, and rows wait until scrolling settles before loading a full day.
+- **Smoother sidebars:** moving the pointer down the Live TV and Guide sidebars no longer makes every row redraw, and scrolling holds about 120 frames a second.
+- **All Channels without a hang:** long channel lists are sorted into rows in the background, with a spinner meanwhile, instead of freezing the window.
+- **Channel logos** are kept ready in memory as you scroll. Clear Image Cache empties them.
+
+### Fixes
+
+- **Float Video** no longer crashes when you open it, or when you minimise the window while a video plays. The picture goes straight to the floating window, without passing through the mini-player, and Expand, double-click and Full Screen from the floating window now glide from where it is.
+- **Full screen with Match Frame Rate** no longer goes black for a moment: the display's refresh rate changes once the picture has settled. Displays with a variable refresh rate, such as a MacBook Pro's built-in display, are left at their own rate.
+- **Ambient Glow in the banners** now starts when the app resumes your last channel at launch and you open Live TV or the TV Guide.
+- **The mini-player stays** when you choose a section in the sidebar while Now Playing is open.
+- **Toolbar tooltips:** Now Playing, Multi-View, Refresh and Auto-Record each show their own tooltip, and VoiceOver reads Multi-View by its own name.
+- **Home's banner** no longer changes slide while its window is in the background.
+- **Fewer layout warnings** in the console when the picture moves between pages.
+
 ## v0.24.01
 
 Smooth Picture Moves is now on for everyone, with HDR, each stream's own colours, and subtitles that no longer cost the earth.
@@ -23,10 +64,6 @@ Smooth Picture Moves is now on for everyone, with HDR, each stream's own colours
 
 - **The standard player's colours:** with Smooth Picture Moves off, reds, magentas and blues were about 10% too strong on wide-colour displays. They now match.
 - **Match Frame Rate** switches the display's refresh rate again in full screen, for live channels and films (it had stopped in v0.23.02).
-
-### Known issues
-
-- **Sharpening** may make no visible difference to the picture. It's being looked into.
 
 ## v0.23.02
 

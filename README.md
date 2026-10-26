@@ -87,10 +87,12 @@ your Mac.
   Playing it spreads into the page around the picture. It also lights the Live TV and Guide banners. In Dark Mode it glows. In Light Mode it gently tints the page,
   and dark scenes cast a soft shadow instead.
 - **Match Frame Rate** switches your display to a refresh rate that fits the stream in full screen, such as 50 Hz for
-  25 or 50 fps or 59.94 Hz for 29.97, so pans don't judder. Your display goes back as it was afterwards.
+  25 or 50 fps or 59.94 Hz for 29.97, so pans don't judder. Your display goes back as it was afterwards. Displays
+  with a variable refresh rate, such as a MacBook Pro's built-in display, are left at their own rate.
 - **Deinterlacing:** Auto, Yadif, **Yadif 2x** (smooth 50 full frames a second from 50i sport) and Blend. Changes apply
   to the stream already playing. Auto treats only live channels marked as interlaced, and 4K is never deinterlaced.
-- **Sharpening** makes lower-resolution channels crisper on Apple Silicon. **Decoding options**, subtitles and audio
+- **Sharpening** makes lower-resolution channels crisper on Apple Silicon, on the graphics chip, with a strength you
+  choose. Auto leaves 4K alone. **Decoding options**, subtitles and audio
   tracks are all there too.
 - Everything is in one **Advanced Video** menu in the player, and in Settings › Playback.
 
@@ -110,7 +112,8 @@ your Mac.
 
 ### TV Guide
 
-- **A scrolling guide** you can drag around with the mouse. Channel names stay in view as you scroll through time.
+- **A scrolling guide** you can drag around with the mouse. It opens on the half hour before now, so what's on now
+  shows from its start. Channel names and programme titles stay in view as you scroll through time.
 - **Programme spotlight:** click a programme to see its details. If it's on now, watch it, with the live preview. If
   it's later, set a **reminder** or a Series Link. If it has finished, watch it from catch-up.
 - **Day buttons** from catch-up days to a week ahead, a **Now** button, and All / Favourites / Catch-Up filters.
@@ -135,7 +138,8 @@ your Mac.
 
 - **Record live channels** with one click, or set up **Series Link** to record programmes automatically by keyword.
   It adds padding before and after, skips repeats and protects your free disk space (⇧⌘R).
-- **Download movies and episodes** to watch offline.
+- **Download movies and episodes** to watch offline, with a progress bar, the size and the time left on each title
+  (a series adds up its episodes).
 - Recordings and downloads go to a folder you choose.
 
 ### Movies and series
@@ -155,6 +159,8 @@ your Mac.
 - **Several playlists**, switched from the sidebar, with the catalogue refreshing quietly in the background. The app
   opens on a **playlist chooser** showing each server's status (⌘1 to ⌘9 to sign in), or straight into the playlist
   you choose in Settings › General › Startup. File › Choose Playlist… (⇧⌘P) goes back to it.
+- **Subscription reminder:** a week before your playlist's subscription runs out, a note above the playlist switcher
+  says when. Close it and it waits until the next day.
 - **A parental lock** that asks for Touch ID, an Apple Watch or your Mac's password before a locked category opens.
   The system does the checking, and ElBee Player never sees your password. Unlocked categories can lock again after a
   set time, and locked ones can be hidden altogether.
