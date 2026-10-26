@@ -3,6 +3,35 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.25.01
+
+More control while you watch, a What's New panel after each update, and your favourite categories pinned to Home.
+
+### While you watch
+
+- **Playback options:** a new **⋯** button in every player, and a new **Playback** menu in the menu bar, hold the five
+  options below. A short note over the picture confirms each change.
+- **Sound timing:** if the sound runs ahead of the picture or behind it, move it earlier or later in 0.05-second steps
+  (⌥⌘[ and ⌥⌘]). The timing is remembered for each channel, film and episode.
+- **Playback speed:** watch movies and episodes from 0.5× to 2× (⌥⌘← and ⌥⌘→). The speed carries on to the next title
+  until you quit. Live channels always play at normal speed.
+- **Previous Channel (⌘L)** goes back to the channel you were watching before, in the same player.
+- **Sleep timer:** stop playback after 15 minutes to 2 hours, at the end of the programme, or at the end of the movie
+  or episode (before the next one starts). The sound fades out over a few seconds first.
+- **Save Still (⌥⌘S)** saves the picture on screen as a full-size image in your recordings folder.
+
+### New
+
+- **What's New:** after an update, once ElBee Player has signed back in to your playlist, a panel over the library shows what changed in every version since the one you last used, newest first. Press **Continue** (or Return or Escape) to carry on. **Help › What's New in ElBee Player** shows the current version's notes again at any time. The notes come with the app, so they need no connection.
+- **Every update in the update window:** when you skip a few updates, the update window now lists the changes in each version since yours, not only the newest.
+- **Pin categories to Home:** right-click a category in Live TV, the TV Guide, Radio, Movies or Series and choose **Pin to Home**. It appears under **Pinned** in the Home sidebar, one click from opening it. Drag pins to reorder them, and right-click one to unpin it. **Reset Category Choices** clears pins too.
+
+### Fixes
+
+- **Live Captions with sound timing or speed:** with Live Captions on, a changed speed or a saved sound timing now
+  stays in step with the picture straight away, instead of until the next skip.
+- **Mini-player after Now Playing:** going from Now Playing back to Home no longer leaves the mini-player empty a moment after the picture lands in it.
+
 ## v0.24.02
 
 Sharpening that works, a subscription reminder, download progress bars, a TV Guide that opens where you need it, and far less energy on Live TV and the Guide.

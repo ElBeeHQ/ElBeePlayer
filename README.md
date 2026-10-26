@@ -42,6 +42,8 @@ your Mac.
 - **Recommended for You** and **Because You Watched** are worked out on your Mac from what you watch, favourite and
   finish. Each one says why it was chosen. Nothing leaves your Mac.
 - **Arrange Home** to reorder its sections or switch any off, and choose which screen the app opens on.
+- **Pin categories to Home:** right-click a category in Live TV, the TV Guide, Radio, Movies or Series and choose
+  **Pin to Home**. It sits under **Pinned** in the Home sidebar, one click away. Drag pins to reorder them.
 
 ### Now Playing
 
@@ -62,6 +64,9 @@ your Mac.
   hidden and no slide to a new Space. **Use Full-Screen Spaces** (Settings > Playback) gives it a Space of its own.
 - **A movie or episode on its own page:** press Back while one plays and the picture moves to the top of its page,
   above the details, with the usual controls. Browse anywhere else and it carries on in the mini player.
+- **Playback options** (the ⋯ button, or the Playback menu): move the sound earlier or later for a channel or title
+  (remembered), watch movies and episodes from 0.5× to 2×, jump back to the **Previous Channel** (⌘L), set a **sleep
+  timer** (up to 2 hours, or to the end of the programme or movie), and **Save Still** to keep the picture as an image.
 - **Mute stays on** for whatever you play next, until you unmute or quit.
 - **The picture glides** between Now Playing, the Live TV and Guide banners and the mini player, and keeps playing as it
   moves, with no pause (**Smooth Picture Moves**, on by default in Settings > Playback). ElBee Player draws each frame
@@ -202,7 +207,9 @@ Sharpening needs Apple Silicon. Everything else works on every supported Mac.
 
 ElBee Player updates itself. Open **Settings → General → Software Updates** and choose **Check for Updates Now…**, or
 leave automatic checks on. Updates are downloaded from this repository and checked against ElBee Player's signing key
-before they're installed. Then the app restarts. Your playlists, favourites and settings are kept.
+before they're installed. Then the app restarts. Your playlists, favourites and settings are kept. Afterwards a
+**What's New** panel lists what changed in every version since the one you last used (Help › What's New in ElBee
+Player shows it again).
 
 See the [changelog](CHANGELOG.md) for what changed in each release.
 
@@ -216,6 +223,10 @@ See the [changelog](CHANGELOG.md) for what changed in each release.
 | ⌘F | Search |
 | ⌘I | Stream diagnostics |
 | ⌘[ / ⌘] | Subtitles earlier or later |
+| ⌥⌘[ / ⌥⌘] | Sound earlier or later |
+| ⌥⌘← / ⌥⌘→ | Slower or faster (movies and episodes) |
+| ⌘L | Previous channel |
+| ⌥⌘S | Save still |
 | ⇧⌘M | Multi-View |
 | ⇧⌘K | Manage Categories |
 | ⇧⌘R | Series Link (auto-record rules) |
