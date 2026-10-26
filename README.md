@@ -52,10 +52,12 @@ your Mac.
 - **← / → to skip and Space to pause**, with a "+10s" pill, just as in full screen, without bringing up the controls.
 - **Subtitles** from the player itself: switch them on or off, choose the language and pick a size (Small to Extra
   Large) that changes at once, without restarting the stream. While they're on, the controls sit below the picture so
-  they never cover them.
+  they never cover them. Subtitles a channel sends as pictures keep the channel's own size.
+- **Subtitle timing:** if a channel's subtitles run ahead of the dialogue or behind it, move them earlier or later in
+  half-second steps (⌘[ and ⌘]). The timing is remembered for each channel, film and episode.
 - **Live Captions** (experimental, macOS 26): your Mac writes captions for live channels that have no subtitles, from
   the channel's sound, on your Mac. They build up word by word on two lines that roll up, so what you've read stays
-  put.
+  put. Only one of captions and subtitles shows at a time.
 - **Full screen in one smooth move:** the picture grows to fill the screen and shrinks back, with the menu bar and Dock
   hidden and no slide to a new Space. **Use Full-Screen Spaces** (Settings > Playback) gives it a Space of its own.
 - **A movie or episode on its own page:** press Back while one plays and the picture moves to the top of its page,
@@ -205,6 +207,7 @@ See the [changelog](CHANGELOG.md) for what changed in each release.
 | ↑ / ↓, Return | Move the Live TV spotlight, then play |
 | ⌘F | Search |
 | ⌘I | Stream diagnostics |
+| ⌘[ / ⌘] | Subtitles earlier or later |
 | ⇧⌘M | Multi-View |
 | ⇧⌘K | Manage Categories |
 | ⇧⌘R | Series Link (auto-record rules) |

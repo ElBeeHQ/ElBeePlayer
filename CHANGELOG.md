@@ -3,6 +3,22 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.23.02
+
+Subtitles you can line up with the dialogue, a clearer Subtitles button, and less work while you watch.
+
+### Subtitles
+
+- **Subtitle timing:** when a channel's subtitles run ahead of the dialogue or behind it, move them with **Show Earlier** and **Show Later** in the player's Subtitles button, or **View › Subtitles Earlier (⌘[)** and **Subtitles Later (⌘])**, in half-second steps. The timing is remembered for each channel, film and episode, and **Reset Timing** puts it back.
+- **A clearer Subtitles button:** it's split into **Subtitles from the Channel** (Show Subtitles, Language and Timing) and **Live Captions · Made on This Mac**, so it's clear where each comes from. Language and Timing are now submenus, so the menu stays short however many languages a channel has.
+- **One at a time:** turning on subtitles turns Live Captions off, and the other way round, so two lines of text never sit over the picture. Subtitles on by default no longer switch on over captions you've turned on.
+- **One Text Size:** a single Text Size sets the size of whichever is showing. Subtitles a channel sends as pictures (most live TV subtitles) keep the channel's own size, and the menu says so rather than offering a size that can't change them.
+- **4K subtitles with Smooth Picture Moves:** a 4K or 10-bit film stays on hardware decoding with subtitles on, rather than taking several processor cores. Its subtitles can't show with Smooth Picture Moves, and the Subtitles button says to turn it off for them.
+
+### Lighter on your Mac
+
+- **Less work while playing:** the player no longer refreshes its controls, the glow, the Now Playing info and the frame-rate check several times a second for nothing. They update when something actually changes, such as the picture's size or frame rate becoming known.
+
 ## v0.23.01
 
 Cast to a TV or speaker, a choice of playlist at launch, and a player that's far lighter on your Mac's battery.

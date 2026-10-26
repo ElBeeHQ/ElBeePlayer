@@ -6,6 +6,15 @@
         <description>LiquidIPTV updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.23.02</title>
+            <pubDate>Mon, 26 Oct 2026 02:45:10 GMT</pubDate>
+            <sparkle:version>0.23.02</sparkle:version>
+            <sparkle:shortVersionString>0.23.02</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description>&lt;div style="font-family: -apple-system, sans-serif; font-size: 13px;"&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Subtitle timing:&lt;/strong&gt; move a channel's subtitles earlier or later (⌘[ and ⌘]) when they don't match the dialogue. Remembered for each channel, film and episode.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;A clearer Subtitles button:&lt;/strong&gt; subtitles from the channel and Live Captions are set apart, and only one shows at a time.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Less work while playing:&lt;/strong&gt; the player no longer refreshes itself several times a second for nothing.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
+            <enclosure url="https://github.com/ElBeeHQ/ElBeePlayer/releases/download/v0.23.02/ElBeePlayer-0.23.02.zip" length="44886428" type="application/octet-stream" sparkle:edSignature="xrmqE82j/uhveViZsDD0u9a3WDLznAsxr3uewv1Ms9BNLdk4HCkSCR9lY8W70tCoe2rr5knZw9344Y8NuD9bDA==" />
+        </item>
+        <item>
             <title>Version 0.23.01</title>
             <pubDate>Mon, 26 Oct 2026 00:29:09 GMT</pubDate>
             <sparkle:version>0.23.01</sparkle:version>
