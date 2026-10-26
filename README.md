@@ -62,24 +62,30 @@ your Mac.
   above the details, with the usual controls. Browse anywhere else and it carries on in the mini player.
 - **Mute stays on** for whatever you play next, until you unmute or quit.
 - **The picture glides** between Now Playing, the Live TV and Guide banners and the mini player, and keeps playing as it
-  moves. **Smooth Picture Moves** (Settings > Playback, experimental) removes the short pause when the picture changes
-  place; it keeps hardware decoding and subtitles, and applies after a restart.
+  moves. **Smooth Picture Moves** (Settings > Playback, beta) removes the short pause when the picture changes
+  place, with hardware decoding and the picture handed straight to the graphics chip. It applies after a restart.
 - **The same controls in every player:** the mini player, the floating window, the banners, Now Playing and full screen
   share one set of buttons, with Full Screen always last. A glass **close cross** appears when you point at the picture and ends the video.
+- **Cast to a TV or speaker:** the Cast button in every player lists the TVs and speakers on your network. Pick one and
+  what's playing carries on there from the same spot, with Play/Pause, the skips and the progress bar still working.
+  **Stop Casting** brings it back to your Mac. **Cast Quality** in Settings › Playback sets how hard your Mac works when
+  a device can't play a stream as it is.
 - **Reconnecting… is shown, not hidden:** if a stream drops, a pill over the picture says so while the app tries again.
 - **A clean mini player:** just the picture, with its controls over it when you point at it.
 - **One click** on a banner's picture opens Now Playing.
 
 ### Advanced Video
 
-- **Ambient Glow** (which switches itself off while the picture has thick black bars of its own) surrounds the picture with soft light in the colours at its edges, updated ten times a second. It
+- **Ambient Glow** surrounds the picture with soft light in the colours at its edges, about twelve times a second,
+  and costs little energy: it redraws only when its colours change. Widescreen films keep their glow, taken from the
+  picture inside their black bars (with Smooth Picture Moves the bars are trimmed and the glow fills them). It
   changes with a scene at once and stays steady otherwise. In full screen it softly fills the black bars, and on Now
   Playing it spreads into the page around the picture. It also lights the Live TV and Guide banners. In Dark Mode it glows. In Light Mode it gently tints the page,
   and dark scenes cast a soft shadow instead.
 - **Match Frame Rate** switches your display to a refresh rate that fits the stream in full screen, such as 50 Hz for
   25 or 50 fps or 59.94 Hz for 29.97, so pans don't judder. Your display goes back as it was afterwards.
 - **Deinterlacing:** Auto, Yadif, **Yadif 2x** (smooth 50 full frames a second from 50i sport) and Blend. Changes apply
-  to the stream already playing.
+  to the stream already playing. Auto treats only live channels marked as interlaced, and 4K is never deinterlaced.
 - **Sharpening** makes lower-resolution channels crisper on Apple Silicon. **Decoding options**, subtitles and audio
   tracks are all there too.
 - Everything is in one **Advanced Video** menu in the player, and in Settings › Playback.
@@ -142,7 +148,9 @@ your Mac.
   everywhere in the app.
 - **Hide provider tags** such as "TOP - " or "4K - " in titles.
 - **Manage Categories** to reorder, hide or lock categories and their channels (⇧⌘K).
-- **Several playlists**, switched from the sidebar, with the catalogue refreshing quietly in the background.
+- **Several playlists**, switched from the sidebar, with the catalogue refreshing quietly in the background. The app
+  opens on a **playlist chooser** showing each server's status (⌘1 to ⌘9 to sign in), or straight into the playlist
+  you choose in Settings › General › Startup. File › Choose Playlist… (⇧⌘P) goes back to it.
 - **A parental lock** that asks for Touch ID, an Apple Watch or your Mac's password before a locked category opens.
   The system does the checking, and ElBee Player never sees your password. Unlocked categories can lock again after a
   set time, and locked ones can be hidden altogether.
@@ -200,6 +208,7 @@ See the [changelog](CHANGELOG.md) for what changed in each release.
 | ⇧⌘M | Multi-View |
 | ⇧⌘K | Manage Categories |
 | ⇧⌘R | Series Link (auto-record rules) |
+| ⇧⌘P | Choose Playlist |
 
 ## Privacy & Security
 
@@ -210,6 +219,8 @@ See the [changelog](CHANGELOG.md) for what changed in each release.
   detection run entirely on your Mac.
 - **The only network connections it makes** are to the IPTV service you enter (channel lists, programme guide, the
   artwork addresses the service supplies, and the streams themselves) and to GitHub, to check for and download updates.
+  When you cast, it also finds TVs and speakers on your local network and sends the stream to the one you pick; macOS
+  asks your permission for that the first time.
   You can turn automatic update checks off in Settings → General → Software Updates. As with any web request, GitHub can
   see your IP address and the app version.
 - **Local data** (cached channel lists, guide and artwork, favourites, history and settings) stays on your Mac, inside the

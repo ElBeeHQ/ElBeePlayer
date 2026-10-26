@@ -3,6 +3,50 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.23.01
+
+Cast to a TV or speaker, a choice of playlist at launch, and a player that's far lighter on your Mac's battery.
+
+### Casting
+
+- **Cast to a TV or speaker:** a new Cast button sits with the other player buttons in the mini-player, the floating window, the banners, Now Playing, full screen and Radio. It lists the TVs and speakers on your network as they're found. Pick one and what's playing carries on there, from the same spot.
+- **While casting**, the picture shows "Casting to" and the device's name, with **Stop Casting**. Play/Pause, the skips and the progress bar control the device. Its volume is set with its own remote, so Mute and the volume slider are greyed out, and Live Captions are off.
+- **Stop Casting** brings playback back to your Mac from the same spot. If the device is switched off or leaves the network, playback comes back on its own, with a note saying so. Closing the video ends casting too.
+- **Cast Quality** (Settings › Playback › Streaming & Data): how hard your Mac works when a device can't play a stream's format as it is, from Fastest to Best Picture.
+- **Stays awake:** your Mac doesn't go to sleep while casting, as it's sending the stream to the device. Its display can still sleep.
+- **The first time** you open the Cast button, macOS asks to let ElBee Player find devices on your local network.
+- **For a TV that works with Screen Mirroring**, turn on Screen Mirroring in Control Centre and play in full screen on that display.
+
+### Playlists
+
+- **Choose a playlist at launch:** with playlists saved, ElBee Player opens on a chooser listing each one with its server's status, checked with its saved login. Click one, or press ⌘1 to ⌘9, to sign in. **Add Playlist…** opens the sign-in form, which now starts empty and has a **Back to Playlists** button.
+- **Sign In Automatically To** (Settings › General › Startup): pick a playlist to sign in to as the app opens, without the chooser. **Ask Each Time** is the default. If the playlist can't sign in, the chooser opens with the reason. Hold Option as the app opens to see the chooser anyway.
+- **File › Choose Playlist… (⇧⌘P)** goes back to the chooser.
+
+### Lighter on your Mac
+
+- **Far less energy while you watch:** ElBee Player no longer shows as using significant energy. On a test Mac, a 1080p film went from about 72% of the processor to 25–35%, and 4K plays at about 35–40%.
+- **Ambient Glow is much cheaper to draw:** it's drawn at a fraction of its size and scaled up, and it only redraws when its colours change visibly, at most 30 times a second. It looks the same.
+- **Smooth Picture Moves uses hardware decoding:** a wrong setting had made it decode every stream on the processor. Frames now go to the graphics chip in their own format, rather than being converted on the processor, and 4K pictures are no longer shrunk on the processor first.
+- **Ambient Glow and the picture ready for the next glide** read the picture without holding the app up.
+- **Deinterlacing skips pictures that are never interlaced:** 4K is never deinterlaced, and Auto leaves movies and episodes alone, since they're made progressive. Always still treats movies and episodes up to 1080 lines.
+
+### Smooth Picture Moves (beta)
+
+- **Subtitles:** they can only be drawn into a picture decoded on the processor, so turning subtitles on switches that stream to the processor for as long as they show, with a moment's pause, and turning them off switches back. While you're recording, the switch waits until the recording stops.
+- **Colours match the standard player:** no more crushed shadows or harsh skin tones.
+- **Widescreen films fill the glow:** with Ambient Glow on, the black bars above and below are trimmed off and the glow starts at the picture's own edge, lighting where the bars were. Not while subtitles show, as they may sit in a bar.
+
+### Ambient Glow
+
+- **Stays on for widescreen films:** it used to switch off when the picture had black bars. Now it takes its colours from the picture inside them.
+- **Dark scenes** are no longer mistaken for black bars.
+
+### Polish
+
+- **The player's controls stay up** while the Cast list is open, so moving to a device no longer closes it.
+- **Deinterlacing's description** in Settings says what Auto and Always now do.
+
 ## v0.22.01
 
 Settings you can search, a tidier layout, clearer descriptions, a handful of new settings, and one set of controls for every small player.
