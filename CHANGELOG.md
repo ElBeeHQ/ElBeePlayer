@@ -3,6 +3,17 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.25.02
+
+ElBee Player has a website: elbeehq.com, with downloads, the notes for every release, an install guide and support.
+
+### New
+
+- **elbeehq.com:** download the latest version, read What's New for every release, and find an install guide, answers to common questions, keyboard shortcuts and a way to contact us.
+- **Linked from the app:** the website sits at the foot of the sign-in, playlist chooser and loading screens, in **About ElBee Player**, in **Settings › About** and at the bottom of the **What's New** panel. The update window links to it under the notes.
+- **Help menu:** **ElBee Player Website**, **Release Notes** and **Report a Problem**, in place of a Help item that had nothing to open.
+- **Settings › About:** a **Website** row, **Legal & Terms** beside the licence, and **Report a Problem** under **Support**.
+
 ## v0.25.01
 
 More control while you watch, a What's New panel after each update, and your favourite categories pinned to Home.

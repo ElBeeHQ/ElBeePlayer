@@ -12,6 +12,8 @@
 <p align="center">
   <a href="https://github.com/ElBeeHQ/ElBeePlayer/releases/latest"><strong>Download the latest release</strong></a>
   &nbsp;·&nbsp;
+  <a href="https://elbeehq.com">Website</a>
+  &nbsp;·&nbsp;
   <a href="CHANGELOG.md">What's new</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/ElBeeHQ/ElBeePlayer/issues">Report a problem</a>
@@ -264,9 +266,14 @@ See the [changelog](CHANGELOG.md) for what changed in each release.
 - ElBee Player is not affiliated with or endorsed by any broadcaster, content owner, IPTV service, VideoLAN, Apple or
   Sparkle. All names and trademarks belong to their respective owners.
 
+The full terms are at [elbeehq.com/legal.html](https://elbeehq.com/legal.html), and the privacy policy at
+[elbeehq.com/privacy.html](https://elbeehq.com/privacy.html).
+
 ## Support
 
-Found a problem or have an idea? Open an [issue](https://github.com/ElBeeHQ/ElBeePlayer/issues).
+Found a problem or have an idea? Open an [issue](https://github.com/ElBeeHQ/ElBeePlayer/issues), or send a private
+message from [elbeehq.com](https://elbeehq.com/support.html#contact). The install guide and answers to common
+questions are there too.
 
 ## Licence
 
