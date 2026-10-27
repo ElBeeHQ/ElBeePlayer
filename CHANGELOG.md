@@ -3,13 +3,22 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.26.02: Clearer sign-in wording
+
+Accounts you sign in to with a server address, username and password are now called Server Sign-In.
+
+### Improved
+
+- **Server Sign-In:** the sign-in screen and **Manage Playlists › Add Playlist** call this kind of account **Server Sign-In**, beside **M3U Playlist**. Your saved playlists, favourites and history are unchanged.
+- **Clearer message:** when a server sends something the app can't read, the message now asks you to check it's the server address your service gives you for signing in with an IPTV player.
+
 ## v0.26.01: M3U playlists
 
-M3U playlists join Xtream Codes accounts, Manage Playlists is redesigned with backup addresses for each account, and ElBee Player now installs from a disk image.
+M3U playlists join server sign-in accounts, Manage Playlists is redesigned with backup addresses for each account, and ElBee Player now installs from a disk image.
 
 ### New
 
-- **M3U playlists:** add a playlist from a web address or a file on your Mac, alongside Xtream Codes accounts (**Manage Playlists › Add Playlist**, or the sign-in screen). Its TV guide comes from the address the playlist names, or one you enter.
+- **M3U playlists:** add a playlist from a web address or a file on your Mac, alongside accounts you sign in to with a server address, username and password (**Manage Playlists › Add Playlist**, or the sign-in screen). Its TV guide comes from the address the playlist names, or one you enter.
 - **Backup addresses:** give an account other addresses for the same service. They're tried in order when the main server doesn't answer, each shows whether it's working, and the playlist list warns when one stops responding.
 - **Install window:** ElBee Player now downloads as a disk image. Opening it shows the app beside your Applications folder, ready to drag across. Copies already installed keep updating from inside the app as before.
 
@@ -583,7 +592,7 @@ It is the same app: your playlists, settings and favourites come with you.
 
 - Example text in Settings and the sign-in screen no longer names real broadcasters or programmes, and the server field's
   hint is now "Server address and port".
-- The description of supported services now reads "IPTV services with an Xtream-style API".
+- The description of supported services is clearer.
 
 ## v0.10.02
 

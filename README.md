@@ -25,9 +25,9 @@
 
 ---
 
-ElBee Player works with IPTV services that offer an Xtream-style API, and with M3U playlists. Sign in with your
-provider's server address, username and password, or add an M3U playlist from a web address or a file on your Mac,
-and your channels, programme guide, movies and series are ready in moments. A short setup guide
+ElBee Player works with IPTV services you sign in to with a server address, username and password, and with M3U
+playlists from a web address or a file on your Mac. Sign in, and your channels, programme guide, movies and series
+are ready in moments. A short setup guide
 then helps you choose your languages, categories and preferences. Every visit after that opens straight from a cache on
 your Mac.
 
@@ -266,10 +266,11 @@ See the [changelog](CHANGELOG.md) for what changed in each release.
 
 - ElBee Player does not include, host, sell, recommend or link to any channels, playlists, programme listings or IPTV
   services, and it ships with no example providers.
+- It is made for use with lawful services and content only.
 - It contains no tools to bypass encryption, copy protection or access controls.
 - Recording and downloading are for your personal use of content you have the right to record or download.
-- ElBee Player is not affiliated with or endorsed by any broadcaster, content owner, IPTV service, VideoLAN, Apple or
-  Sparkle. All names and trademarks belong to their respective owners.
+- ElBee Player is not affiliated with or endorsed by any broadcaster, content owner, IPTV service, maker of IPTV server
+  software, VideoLAN, Apple or Sparkle. All names and trademarks belong to their respective owners.
 
 The full terms are at [elbeehq.com/legal.html](https://elbeehq.com/legal.html), and the privacy policy at
 [elbeehq.com/privacy.html](https://elbeehq.com/privacy.html).
