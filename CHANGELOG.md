@@ -3,7 +3,25 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
-## v0.25.02
+## v0.26.01: M3U playlists
+
+M3U playlists join Xtream Codes accounts, Manage Playlists is redesigned with backup addresses for each account, and ElBee Player now installs from a disk image.
+
+### New
+
+- **M3U playlists:** add a playlist from a web address or a file on your Mac, alongside Xtream Codes accounts (**Manage Playlists › Add Playlist**, or the sign-in screen). Its TV guide comes from the address the playlist names, or one you enter.
+- **Backup addresses:** give an account other addresses for the same service. They're tried in order when the main server doesn't answer, each shows whether it's working, and the playlist list warns when one stops responding.
+- **Install window:** ElBee Player now downloads as a disk image. Opening it shows the app beside your Applications folder, ready to drag across. Copies already installed keep updating from inside the app as before.
+
+### Improved
+
+- **Manage Playlists:** redesigned, with every playlist in a sidebar showing its status and library size, a larger **Add Playlist** button, tidier details, and nothing to scroll past to save. Drag playlists to reorder them; editing a playlist's server or username keeps its favourites and history.
+
+### Fixes
+
+- **Banners:** a faint dark line no longer runs half way across the banner on Home, Live TV and the TV Guide, and the picture's glow now spreads smoothly behind the text.
+
+## v0.25.02: elbeehq.com
 
 ElBee Player has a website: elbeehq.com, with downloads, the notes for every release, an install guide and support.
 
@@ -14,7 +32,7 @@ ElBee Player has a website: elbeehq.com, with downloads, the notes for every rel
 - **Help menu:** **ElBee Player Website**, **Release Notes** and **Report a Problem**, in place of a Help item that had nothing to open.
 - **Settings › About:** a **Website** row, **Legal & Terms** beside the licence, and **Report a Problem** under **Support**.
 
-## v0.25.01
+## v0.25.01: Playback options, Pin to Home, What's New
 
 More control while you watch, a What's New panel after each update, and your favourite categories pinned to Home.
 
@@ -43,7 +61,7 @@ More control while you watch, a What's New panel after each update, and your fav
   stays in step with the picture straight away, instead of until the next skip.
 - **Mini-player after Now Playing:** going from Now Playing back to Home no longer leaves the mini-player empty a moment after the picture lands in it.
 
-## v0.24.02
+## v0.24.02: Sharpening, subscription reminder, download progress, lighter Live TV and Guide
 
 Sharpening that works, a subscription reminder, download progress bars, a TV Guide that opens where you need it, and far less energy on Live TV and the Guide.
 
@@ -84,7 +102,7 @@ Sharpening that works, a subscription reminder, download progress bars, a TV Gui
 - **Home's banner** no longer changes slide while its window is in the background.
 - **Fewer layout warnings** in the console when the picture moves between pages.
 
-## v0.24.01
+## v0.24.01: Smooth Picture Moves by default, HDR, stream colours, subtitles on hardware
 
 Smooth Picture Moves is now on for everyone, with HDR, each stream's own colours, and subtitles that no longer cost the earth.
 
@@ -105,7 +123,7 @@ Smooth Picture Moves is now on for everyone, with HDR, each stream's own colours
 - **The standard player's colours:** with Smooth Picture Moves off, reds, magentas and blues were about 10% too strong on wide-colour displays. They now match.
 - **Match Frame Rate** switches the display's refresh rate again in full screen, for live channels and films (it had stopped in v0.23.02).
 
-## v0.23.02
+## v0.23.02: Subtitle timing, a clearer Subtitles button, less work while playing
 
 Subtitles you can line up with the dialogue, a clearer Subtitles button, and less work while you watch.
 
@@ -121,7 +139,7 @@ Subtitles you can line up with the dialogue, a clearer Subtitles button, and les
 
 - **Less work while playing:** the player no longer refreshes its controls, the glow, the Now Playing info and the frame-rate check several times a second for nothing. They update when something actually changes, such as the picture's size or frame rate becoming known.
 
-## v0.23.01
+## v0.23.01: Casting, a playlist chooser at launch, and far lower energy use
 
 Cast to a TV or speaker, a choice of playlist at launch, and a player that's far lighter on your Mac's battery.
 
@@ -165,7 +183,7 @@ Cast to a TV or speaker, a choice of playlist at launch, and a player that's far
 - **The player's controls stay up** while the Cast list is open, so moving to a device no longer closes it.
 - **Deinterlacing's description** in Settings says what Auto and Always now do.
 
-## v0.22.01
+## v0.22.01: Searchable Settings, new settings and shared player controls
 
 Settings you can search, a tidier layout, clearer descriptions, a handful of new settings, and one set of controls for every small player.
 
@@ -206,7 +224,7 @@ Settings you can search, a tidier layout, clearer descriptions, a handful of new
 - **Live TV & Guide** opens on its Live TV page again after Settings is reopened, not on Guide Data.
 - **Reset Library** names the iCloud setting correctly.
 
-## v0.21.02
+## v0.21.02: Roll-up Live Captions
 
 Live Captions that are easier to follow.
 
@@ -214,7 +232,7 @@ Live Captions that are easier to follow.
 
 - **Live Captions roll up, two lines at a time:** words appear one after another at the end of the bottom line, and when it's full the line moves up and a new one starts below. Words you've already read stay where they are instead of shuffling along with every new word, and the plate keeps one size. Words the Mac is still working out are a little dimmer and settle once it's sure of them. Speech carries straight on from one phrase to the next, and the captions clear after a few seconds of quiet.
 
-## v0.21.01
+## v0.21.01: In-place full screen, Live Captions and banner glow
 
 Full screen in one smooth move, Live Captions, and the picture's glow behind the banners.
 
@@ -228,7 +246,7 @@ Full screen in one smooth move, Live Captions, and the picture's glow behind the
 - **Ambient Glow behind the banners:** the Live TV, Guide and movie banners take on the picture's light, and the mini player's glow spills out across the page beside it.
 - **One click** on a banner's picture opens Now Playing.
 
-## v0.20.01
+## v0.20.01: Movie banner, live Subtitle Size, quiet launch resume
 
 A banner for movies and episodes, a live Subtitle Size, a quieter launch and a round of polish.
 
@@ -248,7 +266,7 @@ A banner for movies and episodes, a live Subtitle Size, a quieter launch and a r
 - **Ambient Glow** switches itself off while the picture has thick black bars of its own, and comes back when they go.
 - **Toolbar:** the section tabs and the buttons beside them light up softly under the pointer.
 
-## v0.19.01
+## v0.19.01: Plain Look and Smooth Picture Moves
 
 A plainer look if you want one, and Smooth Picture Moves: an experimental way of drawing the video that removes the pause when the picture moves between pages.
 
@@ -275,7 +293,7 @@ A plainer look if you want one, and Smooth Picture Moves: an experimental way of
 
 - Back from a movie or episode goes to the mini player rather than the Guide. (Fixed in the next release.)
 
-## v0.18.01
+## v0.18.01: Uniform player controls, glass close cross, hover controls on the live preview, and a rebuilt picture glide
 
 Players that look and behave the same everywhere, a smoother glide to and from the banner, hover controls on the live preview, and a round of fixes to Live TV, the TV Guide and Settings.
 
@@ -319,7 +337,7 @@ Players that look and behave the same everywhere, a smoother glide to and from t
 - Going from Now Playing to the TV Guide still takes a moment to change page.
 - The picture is a little softer than the live video for a moment as it lands.
 
-## v0.17.01
+## v0.17.01: Live TV, TV Guide and Radio redesigns, live preview, and first-time setup
 
 Redesigned Live TV, TV Guide and Radio pages in Home's style, with a live preview, a first-time setup guide, and a calmer, steadier player.
 
@@ -360,7 +378,7 @@ Redesigned Live TV, TV Guide and Radio pages in Home's style, with a live previe
 
 - **New and moved settings:** Appearance › Channel Lists, Content › Names & Grouping, and a new **Live TV & Guide** tab, so each setting sits where you'd look for it. Every redesign can be switched back.
 
-## v0.16.01
+## v0.16.01: Advanced Video, ambient light, Now Playing for movies and episodes, and system glass
 
 Advanced Video in the player, ambient light round the picture, movies and episodes on Now Playing, Up Next as the credits roll, and the system's own glass across the app.
 
@@ -394,7 +412,7 @@ Advanced Video in the player, ambient light round the picture, movies and episod
 - The Reconnecting pill clears as soon as the picture is back.
 - Ambient Glow and Match Framerate keep working when a stream restarts.
 
-## v0.15.01
+## v0.15.01: Home screen, Content Languages and reorganised Settings
 
 A new Home screen, content in the languages you choose, and a reorganised Settings window.
 
@@ -428,7 +446,7 @@ A new Home screen, content in the languages you choose, and a reorganised Settin
 
 - Clicking the current tab returns to its main page, for example Home from a movie page.
 
-## v0.14.01
+## v0.14.01: Section tabs, faster TV Guide, Interface Size and reset options
 
 A new window layout with section tabs across the top, a faster TV Guide you can drag around, and new settings for text size, your starting category and resetting the app.
 
@@ -463,7 +481,7 @@ A new window layout with section tabs across the top, a faster TV Guide you can 
 - Light Mode: no dark strip at the top, and readable text over backdrops. Dark Mode: no flicker in the header.
 - Toolbar icons are all the same size.
 
-## v0.13.01
+## v0.13.01: Richer detail pages, Light Canvas icon and migration clean-up
 
 A richer Movies and Series page, a new app icon, and a tidier update path.
 
@@ -492,7 +510,7 @@ A richer Movies and Series page, a new app icon, and a tidier update path.
 - Updates no longer carry a second copy of the app for the old name. Settings and playlists from before ElBee Player's
   rename are no longer imported, since that carry-over has long since run.
 
-## v0.12.01
+## v0.12.01: Amber theme and Prism app icon
 
 A new look: an amber theme and a new app icon.
 
@@ -509,7 +527,7 @@ A new look: an amber theme and a new app icon.
 - **Tag pills.** Quality tags such as 4K, UHD and HEVC are now subtle translucent pills with a faint border.
 - **Diagnostics overlay** has an amber hairline border.
 
-## v0.11.02
+## v0.11.02: Updating fixes for copies installed under the previous name
 
 Fixes updating to ElBee Player from inside the app. There are no other changes.
 
@@ -523,7 +541,7 @@ Fixes updating to ElBee Player from inside the app. There are no other changes.
   You can rename it to ElBee Player in Finder at any time. Later updates work either way.
 - Version 0.11.01 can still be downloaded and installed by hand; it simply could not be installed by the updater.
 
-## v0.11.01
+## v0.11.01: A new name: ElBee Player
 
 LiquidIPTV is now **ElBee Player**. This release changes the name and how your data is stored, and adds one setting.
 It is the same app: your playlists, settings and favourites come with you.

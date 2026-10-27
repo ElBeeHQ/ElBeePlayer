@@ -25,8 +25,9 @@
 
 ---
 
-ElBee Player works with IPTV services that offer an Xtream-style API. Sign in with your provider's server address,
-username and password, and your channels, programme guide, movies and series are ready in moments. A short setup guide
+ElBee Player works with IPTV services that offer an Xtream-style API, and with M3U playlists. Sign in with your
+provider's server address, username and password, or add an M3U playlist from a web address or a file on your Mac,
+and your channels, programme guide, movies and series are ready in moments. A short setup guide
 then helps you choose your languages, categories and preferences. Every visit after that opens straight from a cache on
 your Mac.
 
@@ -166,6 +167,10 @@ your Mac.
 - **Several playlists**, switched from the sidebar, with the catalogue refreshing quietly in the background. The app
   opens on a **playlist chooser** showing each server's status (⌘1 to ⌘9 to sign in), or straight into the playlist
   you choose in Settings › General › Startup. File › Choose Playlist… (⇧⌘P) goes back to it.
+- **Manage Playlists:** every playlist in a sidebar with its status and library size; add, edit, reorder and remove
+  them. An M3U playlist can name its own TV guide (XMLTV), or you can enter one.
+- **Backup addresses:** give an account other addresses for the same service. They're tried in order when the main
+  server doesn't answer, each shows whether it's working, and the playlist list warns when one stops responding.
 - **Subscription reminder:** a week before your playlist's subscription runs out, a note above the playlist switcher
   says when. Close it and it waits until the next day.
 - **A parental lock** that asks for Touch ID, an Apple Watch or your Mac's password before a locked category opens.
@@ -192,8 +197,8 @@ your Mac.
 
 ## Install
 
-1. Download `ElBeePlayer-x.y.z.zip` from the [latest release](https://github.com/ElBeeHQ/ElBeePlayer/releases/latest).
-2. Unzip it and drag **ElBee Player** into your Applications folder.
+1. Download `ElBeePlayer-x.y.z.dmg` from the [latest release](https://github.com/ElBeeHQ/ElBeePlayer/releases/latest).
+2. Open it and drag **ElBee Player** onto **Applications** in the window that appears, then eject the disk image.
 3. The app is not notarised by Apple, so the first time you open it macOS may say it cannot verify it. Open
    **System Settings → Privacy & Security**, scroll to the message about ElBee Player and click **Open Anyway**.
    If macOS says the app is "damaged", run this once in Terminal and open it again:
