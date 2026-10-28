@@ -52,6 +52,7 @@ your Mac.
 
 - **Live channels, movies and episodes** all open on one Now Playing page. Live TV shows the programme guide below the
   picture. Movies show their details, cast and director. Episodes show their plot and the episodes up next.
+- **Skip Intro (Beta)** learns a series' opening titles and offers to skip them.
 - **Up Next appears as the credits roll.** ElBee Player spots the end credits in the picture itself and starts a
   6-second countdown, with **Play Now** and **Keep Watching**.
 - **← / → to skip and Space to pause**, with a "+10s" pill, just as in full screen, without bringing up the controls.
@@ -137,7 +138,7 @@ your Mac.
 ### Multi-View, catch-up and sport
 
 - **Multi-View** plays up to four channels at once, each fully independent (⇧⌘M).
-- **Catch-up TV** where your provider offers it.
+- **Catch-up TV** where your provider offers it, including **Start from Beginning** for the programme on now.
 - **Sports mode:** a low-latency profile that runs closer to the live broadcast, plus optional **spoiler hiding** for
   programme descriptions on sports channels.
 - **Instant resume:** the app opens quietly on your last channel.

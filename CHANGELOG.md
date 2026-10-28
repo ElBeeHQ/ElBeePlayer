@@ -3,6 +3,15 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.27.01: Start from Beginning and Skip Intro
+
+Watch the programme on now from its start, and skip a series' opening titles with one click.
+
+### New
+
+- **Start from Beginning:** on a channel that keeps a catch-up archive, watch the programme on now from its start. It's in the player's controls and in the Live TV and TV Guide banners. **Go Live** takes you back to the channel, and you return to it by yourself when you catch up.
+- **Skip Intro (Beta):** ElBee Player learns each series' opening titles by comparing the start of one episode with the next. From then on, **Skip Intro** appears over the picture while they play. **Settings › Playback › Player** can turn it off, have it skip by itself, or forget what it has learnt.
+
 ## v0.26.02: Clearer sign-in wording
 
 Accounts you sign in to with a server address, username and password are now called Server Sign-In.
