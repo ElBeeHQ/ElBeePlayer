@@ -50,6 +50,12 @@ your Mac.
 
 ### Now Playing
 
+- **Rewind live TV:** on a channel that keeps a catch-up archive, click or drag back along the live timeline to watch
+  from there, or use **Rewind 1 Minute**; **Jump to Live** takes you back.
+- **A clear control bar** on Now Playing and in full screen: the programme and time left on top, a full-width timeline
+  that shows where a click would land, and Play/Pause in the centre with Record and Favourite on one side and
+  Subtitles, Cast, volume, **More** and Full Screen on the other. Every button lights up under the pointer and says what
+  it does. Scroll over the picture to change the volume.
 - **Live channels, movies and episodes** all open on one Now Playing page. Live TV shows the programme guide below the
   picture. Movies show their details, cast and director. Episodes show their plot and the episodes up next.
 - **Skip Intro (Beta)** learns a series' opening titles and offers to skip them.
@@ -68,7 +74,7 @@ your Mac.
   hidden and no slide to a new Space. **Use Full-Screen Spaces** (Settings > Playback) gives it a Space of its own.
 - **A movie or episode on its own page:** press Back while one plays and the picture moves to the top of its page,
   above the details, with the usual controls. Browse anywhere else and it carries on in the mini player.
-- **Playback options** (the ⋯ button, or the Playback menu): move the sound earlier or later for a channel or title
+- **Playback options** (the **More** button, or the Playback menu): move the sound earlier or later for a channel or title
   (remembered), watch movies and episodes from 0.5× to 2×, jump back to the **Previous Channel** (⌘L), set a **sleep
   timer** (up to 2 hours, or to the end of the programme or movie), and **Save Still** to keep the picture as an image.
 - **Mute stays on** for whatever you play next, until you unmute or quit.
@@ -138,7 +144,8 @@ your Mac.
 ### Multi-View, catch-up and sport
 
 - **Multi-View** plays up to four channels at once, each fully independent (⇧⌘M).
-- **Catch-up TV** where your provider offers it, including **Start from Beginning** for the programme on now.
+- **Catch-Up** where your provider offers it: a Catch-Up tab for programmes that have already aired, **Start from
+  Beginning** for the programme on now, and rewinding live TV from its timeline.
 - **Sports mode:** a low-latency profile that runs closer to the live broadcast, plus optional **spoiler hiding** for
   programme descriptions on sports channels.
 - **Instant resume:** the app opens quietly on your last channel.

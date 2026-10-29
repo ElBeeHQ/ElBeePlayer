@@ -3,6 +3,36 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.28.01: Catch-Up and a Clearer Player
+
+Watch programmes that have already aired from the new Catch-Up tab, rewind live TV from its timeline, and use a cleaner, redesigned control bar.
+
+### New
+
+- **Catch-Up:** a new **Catch-Up** tab, shown when your playlist has channels that keep an archive, for programmes that have already aired. Browse **Just Finished** and a shelf for each channel, or pick a channel in the sidebar, where they're grouped under the same categories as Live TV and follow your **Content Languages** and hidden categories. Point at a programme and move along it to choose where to start. It works with M3U playlists that carry catch-up details too.
+- **Catch-Up Preview Frames:** pointing at a programme can show still frames from the archive as you move along it. **Settings › TV Guide › Catch-Up** sets whether they load always, only when nothing is playing (so they never interrupt what you're watching on a one-connection plan), or never.
+
+### While you watch
+
+- **Redesigned player controls:** Now Playing and full screen share one cleaner control bar. The programme or elapsed time sits at the top with the time left at the right, the timeline runs the full width beneath them, and the controls below are in three zones: **Record** (now a labelled button) and Favourite on the left, Play/Pause in the exact centre with the same number of controls either side, and Subtitles, Cast, the volume, **More** and Full Screen on the right. **More** gathers the playback options, the video settings and Float Video. Every button lights up under the pointer and its tooltip says what it does and which key does the same. The icons share one outline style and size, the speaker's waves follow the volume, and the Up Next card lines up with the bar.
+- **Rewind live TV:** on a channel that keeps a catch-up archive, the live timeline is now a seek bar. Click or drag back along the programme to watch from there (to the minute), or use **Rewind 1 Minute**, and **Jump to Live** takes you back. On a channel without an archive the timeline is a plain progress line, and its tooltip says the channel can't be rewound.
+- **Seek bar:** pointing at it thickens the track, grows the handle and shows where a click would land: a lighter fill from the current position to the pointer and the time there ("1:23 / 4:56"). With keyboard navigation on, Tab reaches the seek bar and the volume slider: on the seek bar the arrow keys move 5 seconds (a minute in the archive), and Home and End go to the start or end. VoiceOver reads the position as "1 minute 23 seconds of 4 minutes 56 seconds".
+- **Easier to read:** the LIVE badge is a deeper red so its text stands out, the slider tracks are clearer against the glass, and with keyboard navigation every player button shows which one has focus.
+- **Speed and sleep timer at a glance:** while a movie plays at another speed, or a sleep timer is set, a small chip beside the other controls on the right shows it ("1.5×", "25 min"). Click it to go back to normal speed or turn the timer off.
+- **Scroll for volume:** scroll up or down over the picture on Now Playing or in full screen to change the volume, with a small meter showing the level.
+- **Connection status:** when a stream drops, the picture says so wherever it's showing (full screen, Now Playing, the mini-player, the floating window and banners): **Reconnecting** with each attempt, **Waiting for the network** while your Mac is offline, and **Connection Lost** with **Try Again** if it can't come back.
+- **Seeking in the archive:** in Catch-Up and **Start from Beginning**, the seek bar shows the programme's own time and you can move anywhere in it. The skip buttons and the ← and → keys move a whole minute there, the smallest step an archive allows. Skipping past what has aired in Start from Beginning takes you back to the live channel.
+
+### Improved
+
+- **Live captions:** a darker plate and brighter text, so captions stay readable over a bright picture, with words still being worked out easier to make out in Light Mode.
+- **Sidebar headings:** folded country and category headings are easier to read in Dark Mode.
+
+### Fixes
+
+- **Mini-player:** no longer disappears on the Catch-Up page after you leave Now Playing.
+- **What's New:** the toolbar buttons no longer show over the What's New panel.
+
 ## v0.27.01: Start from Beginning and Skip Intro
 
 Watch the programme on now from its start, and skip a series' opening titles with one click.
