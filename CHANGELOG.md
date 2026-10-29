@@ -3,6 +3,15 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.28.02: Opens Again
+
+ElBee Player no longer depends on a developer certificate, so it can't stop opening when one is withdrawn. If ElBee Player won't open, please download this version manually from elbeehq.com or GitHub.
+
+### Fixes
+
+- **Opens again:** earlier versions were signed with a developer certificate that Apple has since withdrawn, which stops them from opening. This version is signed without one, so that can't happen again. If ElBee Player won't open, please download this version manually from [elbeehq.com](https://elbeehq.com) or [GitHub](https://github.com/ElBeeHQ/ElBeePlayer/releases/latest), open the disk image and drag ElBee Player onto Applications, replacing the old copy. Your playlists, favourites and settings are kept.
+- **The first time you open it:** macOS may say it can't verify the app (open **System Settings › Privacy & Security** and click **Open Anyway**), and may ask once whether ElBee Player can use the sign-in details it saved: click **Always Allow**.
+
 ## v0.28.01: Catch-Up and a Clearer Player
 
 Watch programmes that have already aired from the new Catch-Up tab, rewind live TV from its timeline, and use a cleaner, redesigned control bar.
