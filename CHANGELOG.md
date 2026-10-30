@@ -3,6 +3,14 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.29.02: Closing in Full Screen
+
+The close button works again in full screen.
+
+### Fixes
+
+- **Closing a video in full screen:** the close button (×) only brought up the controls. It now closes the video.
+
 ## v0.29.01: Next and Previous
 
 Step to the next or previous channel, station or episode from the player, the menu bar or your keyboard, with the same controls in every size of player.
