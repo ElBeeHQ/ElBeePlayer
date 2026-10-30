@@ -3,6 +3,39 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.29.01: Next and Previous
+
+Step to the next or previous channel, station or episode from the player, the menu bar or your keyboard, with the same controls in every size of player.
+
+### In short
+
+- Next and Previous for channels, stations and episodes (⌘→ / ⌘←, or your media keys)
+- Previous Channel is now called Last Watched Channel (⌘L)
+- Live Captions now match subtitles in size
+- The same controls in every player, from the mini-player to full screen
+
+### New
+
+- **Next and Previous:** every player has Previous and Next buttons either side of the play controls, named for what's playing (Next Channel, Previous Episode, Next Movie). Channels and stations follow the list you're looking at, with its category, filter, search and sort, and go round from the last to the first. A channel that isn't in that list goes to the nearest one that is, and before you've opened a list they go through all your channels. Episodes go through the series and stop at the first and last. For a movie, Next plays what's queued. While you're recording they don't switch, and the player says why.
+- **Next and Previous from the keyboard:** **Playback › Next** (⌘→) and **Playback › Previous** (⌘←), your keyboard's media keys and Control Centre do the same, with **Use Media Keys & Control Centre** on (Settings › General › System). While you're typing in a search or text field, ⌘← and ⌘→ move to the start and end of the line as usual.
+- **Next and Previous on the radio:** the radio player has **Previous Station** and **Next Station** either side of Play/Pause.
+- **More in the More menu:** the player's **More** button now also has **Play in Multi-View** (on a channel), **Stream Diagnostics** (⌘I) and **Close Video**.
+- **When it ends, and which quality:** above the timeline, a live channel shows when its programme ends ("Ends 21:30"). A programme from the archive says **Behind Live** or **Catch-Up**, with how far in you are and its name. A movie or series that comes in several qualities shows which one is playing ("4K").
+
+### Improved
+
+- **Last Watched Channel:** **Playback › Previous Channel**, which goes back to the channel you were watching before, is now called **Last Watched Channel** (⌘L). It works as before.
+- **Live Captions:** they now grow and shrink with the picture, as subtitles do, so at the same size the two match in every player, full screen included. Your **Live Caption Size** (Settings › Playback › Subtitles & Captions) is kept.
+- **Subtitles menu:** it's named for what's playing ("Subtitles from the Movie"), with Off and each subtitle track in one list, then **Subtitle Timing**. Its button fills in while subtitles or Live Captions are on.
+- **Start from Beginning:** a new icon, a circular arrow, so it can't be mistaken for Previous beside it.
+- **The same controls everywhere:** the mini-player, the floating window and the banners on Live TV and Radio show the same buttons in the same order as Now Playing. Where they don't fit on one line they wrap onto two, so none is left out. On a narrow Now Playing page the volume slider gives way first and the mute button stays.
+- **Multi-View:** each stream's close button is the same as the player's, and hides when the pointer rests.
+
+### Fixes
+
+- **Skip messages behind Up Next:** "+10s" or "Speed 1.5×" could be hidden behind the Up Next card. They now appear near the top of the picture.
+- **Up Next over a dropped connection:** Up Next and Skip Intro could cover the message that a stream had dropped. They now step aside until it's back.
+
 ## v0.28.02: Opens Again
 
 ElBee Player no longer depends on a developer certificate, so it can't stop opening when one is withdrawn. If ElBee Player won't open, please download this version manually from elbeehq.com or GitHub.

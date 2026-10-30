@@ -50,32 +50,40 @@ your Mac.
 
 ### Now Playing
 
+- **Next and Previous:** step to the next or previous channel, radio station or episode with the buttons either side of
+  the play controls, **Playback › Next** and **Previous** (⌘→ / ⌘←), your keyboard's media keys or Control Centre.
+  Channels and stations follow the list you're looking at and go round from the last to the first; episodes stop at
+  the first and last. They don't switch while a recording runs.
 - **Rewind live TV:** on a channel that keeps a catch-up archive, click or drag back along the live timeline to watch
   from there, or use **Rewind 1 Minute**; **Jump to Live** takes you back.
-- **A clear control bar** on Now Playing and in full screen: the programme and time left on top, a full-width timeline
-  that shows where a click would land, and Play/Pause in the centre with Record and Favourite on one side and
-  Subtitles, Cast, volume, **More** and Full Screen on the other. Every button lights up under the pointer and says what
-  it does. Scroll over the picture to change the volume.
+- **A clear control bar** on Now Playing and in full screen: the programme and when it ends on top (or, for a movie or
+  episode, the time played and the time left), a full-width timeline that shows where a click would land, and
+  Play/Pause in the centre between **Previous** and **Next**, with Record and Favourite on one side and Subtitles, Cast,
+  volume, **More** and Full Screen on the other. **More** has the playback options, the video settings, Float Video,
+  Play in Multi-View, Stream Diagnostics and Close Video; **Subtitles** lists Off and each subtitle track, their timing
+  and Live Captions. Every button lights up under the pointer and says what it does. Scroll over the picture to change
+  the volume.
 - **Live channels, movies and episodes** all open on one Now Playing page. Live TV shows the programme guide below the
   picture. Movies show their details, cast and director. Episodes show their plot and the episodes up next.
 - **Skip Intro (Beta)** learns a series' opening titles and offers to skip them.
 - **Up Next appears as the credits roll.** ElBee Player spots the end credits in the picture itself and starts a
   6-second countdown, with **Play Now** and **Keep Watching**.
 - **← / → to skip and Space to pause**, with a "+10s" pill, just as in full screen, without bringing up the controls.
-- **Subtitles** from the player itself: switch them on or off, choose the language and pick a size (Small to Extra
+- **Subtitles** from the player itself: choose Off or a subtitle track from one list and pick a size (Small to Extra
   Large) that changes at once, without restarting the stream. While they're on, the controls sit below the picture so
   they never cover them. Subtitles a channel sends as pictures keep the channel's own size.
 - **Subtitle timing:** if a channel's subtitles run ahead of the dialogue or behind it, move them earlier or later in
   half-second steps (⌘[ and ⌘]). The timing is remembered for each channel, film and episode.
 - **Live Captions** (experimental, macOS 26): your Mac writes captions for live channels that have no subtitles, from
   the channel's sound, on your Mac. They build up word by word on two lines that roll up, so what you've read stays
-  put. Only one of captions and subtitles shows at a time.
+  put. They grow and shrink with the picture as subtitles do, so at the same size the two match. Only one of captions
+  and subtitles shows at a time.
 - **Full screen in one smooth move:** the picture grows to fill the screen and shrinks back, with the menu bar and Dock
   hidden and no slide to a new Space. **Use Full-Screen Spaces** (Settings > Playback) gives it a Space of its own.
 - **A movie or episode on its own page:** press Back while one plays and the picture moves to the top of its page,
   above the details, with the usual controls. Browse anywhere else and it carries on in the mini player.
 - **Playback options** (the **More** button, or the Playback menu): move the sound earlier or later for a channel or title
-  (remembered), watch movies and episodes from 0.5× to 2×, jump back to the **Previous Channel** (⌘L), set a **sleep
+  (remembered), watch movies and episodes from 0.5× to 2×, jump back to the **Last Watched Channel** (⌘L), set a **sleep
   timer** (up to 2 hours, or to the end of the programme or movie), and **Save Still** to keep the picture as an image.
 - **Mute stays on** for whatever you play next, until you unmute or quit.
 - **The picture glides** between Now Playing, the Live TV and Guide banners and the mini player, and keeps playing as it
@@ -84,12 +92,14 @@ your Mac.
   decoding, so they cost little energy, 4K included.
 - **HDR:** HDR10 and HLG streams play in 10-bit and show in HDR, brighter than white, on displays that support it.
 - **The same controls in every player:** the mini player, the floating window, the banners, Now Playing and full screen
-  share one set of buttons, with Full Screen always last. A glass **close cross** appears when you point at the picture and ends the video.
+  share one set of buttons in the same order, with Full Screen always last; where they don't fit on one line they wrap
+  onto two. A glass **close cross** appears when you point at the picture and ends the video, Multi-View's included.
 - **Cast to a TV or speaker:** the Cast button in every player lists the TVs and speakers on your network. Pick one and
   what's playing carries on there from the same spot, with Play/Pause, the skips and the progress bar still working.
   **Stop Casting** brings it back to your Mac. **Cast Quality** in Settings › Playback sets how hard your Mac works when
   a device can't play a stream as it is.
-- **Reconnecting… is shown, not hidden:** if a stream drops, a pill over the picture says so while the app tries again.
+- **Reconnecting… is shown, not hidden:** if a stream drops, a pill over the picture says so while the app tries again,
+  and Up Next and Skip Intro step aside until it's back.
 - **A clean mini player:** just the picture, with its controls over it when you point at it.
 - **One click** on a banner's picture opens Now Playing.
 
@@ -240,7 +250,8 @@ See the [changelog](CHANGELOG.md) for what changed in each release.
 | ⌘[ / ⌘] | Subtitles earlier or later |
 | ⌥⌘[ / ⌥⌘] | Sound earlier or later |
 | ⌥⌘← / ⌥⌘→ | Slower or faster (movies and episodes) |
-| ⌘L | Previous channel |
+| ⌘← / ⌘→ | Previous or next channel, station or episode |
+| ⌘L | Last watched channel |
 | ⌥⌘S | Save still |
 | ⇧⌘M | Multi-View |
 | ⇧⌘K | Manage Categories |
