@@ -110,7 +110,8 @@ your Mac.
   picture inside their black bars (with Smooth Picture Moves the bars are trimmed and the glow fills them). It
   changes with a scene at once and stays steady otherwise. In full screen it softly fills the black bars, and on Now
   Playing it spreads into the page around the picture. It also lights the Live TV and Guide banners. In Dark Mode it glows. In Light Mode it gently tints the page,
-  and dark scenes cast a soft shadow instead.
+  and dark scenes cast a soft shadow instead. It rests while Reduce Transparency, Reduce Motion or Increase Contrast is
+  on, and comes back when they're off.
 - **Match Frame Rate** switches your display to a refresh rate that fits the stream in full screen, such as 50 Hz for
   25 or 50 fps or 59.94 Hz for 29.97, so pans don't judder. Your display goes back as it was afterwards. Displays
   with a variable refresh rate, such as a MacBook Pro's built-in display, are left at their own rate.
@@ -143,7 +144,7 @@ your Mac.
   it's later, set a **reminder** or a Series Link. If it has finished, watch it from catch-up.
 - **Day buttons** from catch-up days to a week ahead, a **Now** button, and All / Favourites / Catch-Up filters.
 - **A calm grid:** a thin progress bar on what's on now, earlier programmes dimmed, bells only where a reminder is set,
-  and an amber line marking the time.
+  and a line in your accent colour marking the time.
 
 ### Radio
 
@@ -199,6 +200,9 @@ your Mac.
 
 - **The system's own glass** for the toolbar, player controls, mini player and pop-ups on macOS 26.
 - **Plain Look** (Settings > Appearance) swaps the system glass for a plainer look, if you prefer it.
+- **Your accent colour and display settings:** buttons, switches and highlights follow the accent colour chosen in
+  System Settings (golden amber under Multicolour), and the app follows Reduce Transparency, Increase Contrast, Reduce
+  Motion and Differentiate Without Colour.
 - **Light, Dark or Automatic** for ElBee Player alone, from the sun and moon button by the Settings gear.
 - **Interface Size** makes text larger throughout the app on a big or high-resolution display.
 - **Spotlight search**, **media keys** and **Control Centre** playback controls.

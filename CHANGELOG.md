@@ -3,6 +3,28 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.30.01: Your Colours, Clearer Glass
+
+ElBee Player now uses the accent colour you chose for your Mac, and the controls over a picture stay easy to read in Light Mode and with the accessibility display settings.
+
+### In short
+
+- Your Mac's accent colour, everywhere in the app (amber stays under Multicolour)
+- Controls over a picture are dark and readable in Light Mode too
+- In Dark Mode, the glass behind the player's controls is a little darker than before
+- Reduce Transparency, Increase Contrast, Reduce Motion and Differentiate Without Colour are followed throughout
+
+### Improved
+
+- **Your accent colour:** buttons, switches, selected rows, focus rings and highlights now follow the accent colour chosen in **System Settings › Appearance**. Golden amber is still ElBee Player's own colour, and shows when your accent is set to **Multicolour**; it's a little deeper in Light Mode and with **Increase Contrast**, so it stays readable. Play buttons, progress bars and the logo keep their amber.
+- **Controls over a picture:** the control bar, the close button, badges and messages over a video could turn pale under their white text: always in Light Mode, and in Dark Mode over a bright picture. They're now dark glass in every player and either appearance. **You'll notice this in Dark Mode too:** the glass behind the controls, badges and messages over a video is a little darker than before, so it reads well over bright pictures and looks the same as in Light Mode.
+- **Reduce Transparency:** with it on (**System Settings › Accessibility › Display**), the control bar, cards and buttons over a picture or a page are solid instead of glass. **Plain Look** (Settings › Appearance) is greyed out meanwhile, since it would make no difference.
+- **Increase Contrast:** glass panels and buttons get a clear outline.
+- **Ambient Glow:** it rests while Reduce Transparency, Reduce Motion or Increase Contrast is on, and comes back when they're off. Its switch in Settings and in the player's **More › Video** menu reads Off and is greyed out meanwhile, saying why. Your own setting is kept.
+- **Differentiate Without Colour:** with it on, nothing is shown by colour alone. For example, the toolbar's Now Playing button fills in while Now Playing is open, Radio's chosen genre and a channel's preferred version show a checkmark, and Stream Diagnostics shows a warning sign while a stream struggles.
+- **Window background:** the **Window Background Opacity** slider (Settings › Appearance) is gone. In Dark Mode the window always uses the standard background, as solid as the slider's default; if you had lowered it, the window is now less see-through.
+- **Catch-up icon:** programmes you can watch from catch-up, and **Watch from Catch-Up**, now use a clock icon instead of the rewind arrow, so they can't be mistaken for Skip Back.
+
 ## v0.29.02: Closing in Full Screen
 
 The close button works again in full screen.
