@@ -47,6 +47,13 @@ your Mac.
 - **Arrange Home** to reorder its sections or switch any off, and choose which screen the app opens on.
 - **Pin categories to Home:** right-click a category in Live TV, the TV Guide, Radio, Movies or Series and choose
   **Pin to Home**. It sits under **Pinned** in the Home sidebar, one click away. Drag pins to reorder them.
+- **Back and Forward** (⌘[ and ⌘], or the View menu) take you back through the sections, pages and Now Playing you've
+  visited, as in other Mac apps; **Go To** (⌘1 to ⌘8) jumps straight to a section.
+- **Right-click a channel, station, movie or series** to play it, add it to Favourites, show a channel in the TV Guide,
+  download a movie or mark it as watched, play a channel in Multi-View, or hide it.
+- **Everything is in the menu bar:** playback (Play/Pause, skips, Jump to Live, volume and mute, subtitles, Record),
+  refreshing the library, Favourites, and View options such as Hide Toolbar and Keep Window on Top. Menus with nothing
+  to choose are greyed out.
 
 ### Now Playing
 
@@ -73,7 +80,8 @@ your Mac.
   Large) that changes at once, without restarting the stream. While they're on, the controls sit below the picture so
   they never cover them. Subtitles a channel sends as pictures keep the channel's own size.
 - **Subtitle timing:** if a channel's subtitles run ahead of the dialogue or behind it, move them earlier or later in
-  half-second steps (⌘[ and ⌘]). The timing is remembered for each channel, film and episode.
+  half-second steps (⌃⌘[ and ⌃⌘], or Playback › Subtitle Timing). The timing is remembered for each channel, film
+  and episode.
 - **Live Captions** (experimental, macOS 26): your Mac writes captions for live channels that have no subtitles, from
   the channel's sound, on your Mac. They build up word by word on two lines that roll up, so what you've read stays
   put. They grow and shrink with the picture as subtitles do, so at the same size the two match. Only one of captions
@@ -251,11 +259,19 @@ See the [changelog](CHANGELOG.md) for what changed in each release.
 | ↑ / ↓, Return | Move the Live TV spotlight, then play |
 | ⌘F | Search |
 | ⌘I | Stream diagnostics |
-| ⌘[ / ⌘] | Subtitles earlier or later |
+| ⌘[ / ⌘] | Back or forward |
+| ⌘0 | Now Playing |
+| ⌘1 – ⌘8 | Go to a section (Home to Recently Added) |
+| ⌃⌘[ / ⌃⌘] | Subtitles earlier or later |
 | ⌥⌘[ / ⌥⌘] | Sound earlier or later |
 | ⌥⌘← / ⌥⌘→ | Slower or faster (movies and episodes) |
 | ⌘← / ⌘→ | Previous or next channel, station or episode |
 | ⌘L | Last watched channel |
+| ⌘J | Jump to live |
+| ⌘↑ / ⌘↓, ⌥⌘↓ | Volume up or down, mute |
+| ⌘R / ⌥⌘R | Refresh all, refresh category |
+| ⌘D | Add to or remove from Favourites (what's playing) |
+| ⌥⌘T / ⌃⌘S | Hide or show the toolbar, the sidebar |
 | ⌥⌘S | Save still |
 | ⇧⌘M | Multi-View |
 | ⇧⌘K | Manage Categories |

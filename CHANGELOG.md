@@ -3,6 +3,35 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.31.01: Menus and Shortcuts
+
+ElBee Player's menus now cover everything the app does, with the shortcuts you'd expect from a Mac app, and Back and Forward take you through where you've been.
+
+### In short
+
+- A fuller menu bar: Go To each section, Back and Forward, Hide Toolbar, and more playback controls
+- Right-click menus start with Play, and offer Show in Guide, Download and Mark as Watched
+- New shortcuts for subtitle timing: ⌃⌘[ and ⌃⌘] (⌘[ and ⌘] now go back and forward)
+- Menus with nothing to choose are greyed out
+
+### Changed
+
+- **Subtitle timing has new shortcuts:** **Subtitles Earlier** is now **⌃⌘[** and **Subtitles Later** is **⌃⌘]** (they were ⌘[ and ⌘]). They've moved from the View menu to **Playback › Subtitle Timing**, beside Sound Timing. ⌘[ and ⌘] now go back and forward, as in other Mac apps.
+
+### New
+
+- **A fuller menu bar:**
+  - **View** has **Now Playing** (⌘0), **Go To** each section (⌘1 Home to ⌘8 Recently Added), **Back** and **Forward** (⌘[ and ⌘], through the sections, pages and Now Playing you've visited), **Hide Toolbar** (⌥⌘T), **Show Sidebar** (⌃⌘S) and **Keep Window on Top**.
+  - **Playback** adds **Play/Pause**, **Rewind** and **Skip Forward**, **Jump to Live** (⌘J), **Volume Up** and **Down** (⌘↑ and ⌘↓), **Mute** (⌥⌘↓), **Subtitles** and **Record**.
+  - **Library** adds **Refresh All** (⌘R), **Refresh Category** (⌥⌘R), **Add to Favourites** (⌘D) and **Show in Guide** for what's playing.
+- **Fuller right-click menus:** channels, stations, movies and series now start with **Play** (a series: **Show Episodes**), and offer **Show in Guide** (channels), **Download** and **Mark as Watched** (movies) alongside Play in Multi-View, Favourites, Show Details and Hide. A channel in the TV Guide has the same menu.
+- **Show in Guide** opens the TV Guide with that channel chosen and in view.
+
+### Improved
+
+- **Menus that have nothing to choose are dimmed:** in the Playback menu and the player's **More** and **Subtitles** menus, Speed, Sound Timing, Subtitle Timing, Sleep Timer, Subtitles and Deinterlace Mode are greyed out when nothing in them can be chosen (for example Speed on a live channel), instead of opening onto a list of greyed-out items.
+- **Multi-View** is listed once in the Window menu, with ⇧⌘M.
+
 ## v0.30.01: Your Colours, Clearer Glass
 
 ElBee Player now uses the accent colour you chose for your Mac, and the controls over a picture stay easy to read in Light Mode and with the accessibility display settings.
