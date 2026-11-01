@@ -3,6 +3,36 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.32.01: Native Glass
+
+The player's controls now sit on the Mac's own Liquid Glass, as Apple's apps do: clear over the picture, which dims behind them, and Skip Intro and Up Next grow out of the control bar and melt back into it.
+
+### In short
+
+- Clear glass over the picture, with white controls, the same in Light and Dark
+- The picture dims behind the controls while they show
+- Skip Intro and Up Next grow out of the control bar, side by side
+- The controls hide 2 seconds after the pointer stops (it was 3)
+
+### Changed
+
+- **The player's glass is the system's own:** in Now Playing, the mini player, the floating window and the banners, the controls sit on clear glass with white glyphs, the same in Light and Dark; the full-screen player uses the system's regular glass, and its window stays dark while it shows. Neighbouring glass shares one layer, so pieces blend as they come and go rather than fading.
+- **The controls hide 2 seconds after the pointer stops** (it was 3), and fade in and out in about 0.2 seconds, as in Apple's own player.
+- **Reduce Transparency and Increase Contrast** on the player's and the pages' glass are now drawn by macOS itself, the way Apple's apps show them; the glyphs stay white.
+
+### New
+
+- **The picture dims behind the controls** while they show, so they read over any picture, and brightens again as they go.
+- **Skip Intro and Up Next grow out of the control bar** and melt back into it. If both show, they sit side by side on the bar's right edge; whichever came first keeps its place, and neither moves while the pointer is over the controls.
+- **Channel Spotlight's Record button** grows out of the heart as the preview starts, and the Radio banner's controls and heart share one piece of glass.
+
+### Improved
+
+- **The connection card and Stream Diagnostics** sit on frosted glass, so their text reads over a bright or colourful picture.
+- **Entering and leaving full screen:** the controls and the dimming stay up through macOS's animation, in place and in a full-screen Space, then hide as usual.
+- **Space and the Live TV spotlight's arrow keys** no longer take keyboard focus away from the controls: a button you reach with Tab keeps Space, and a search field keeps its typing.
+- **Multi-View's "Add Channel"** label is easier to read in Light Mode.
+
 ## v0.31.01: Menus and Shortcuts
 
 ElBee Player's menus now cover everything the app does, with the shortcuts you'd expect from a Mac app, and Back and Forward take you through where you've been.

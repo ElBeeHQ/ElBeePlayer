@@ -109,6 +109,8 @@ your Mac.
 - **Reconnecting… is shown, not hidden:** if a stream drops, a pill over the picture says so while the app tries again,
   and Up Next and Skip Intro step aside until it's back.
 - **A clean mini player:** just the picture, with its controls over it when you point at it.
+- **Controls that get out of the way:** in every player they appear as soon as you move the pointer and hide 2 seconds
+  after it stops.
 - **One click** on a banner's picture opens Now Playing.
 
 ### Advanced Video
@@ -221,7 +223,9 @@ your Mac.
 - **Hover feedback everywhere:** toolbar tabs, guide programmes and channel rows light up softly under the pointer.
 - **Stream diagnostics** overlay (⌘I), **audio normalisation** and a **night mode** for quieter evenings.
 - **Data Saver** spots a phone hotspot and limits stream quality, so you don't use up your data.
-- **Glass over the picture:** every control, badge and banner over a video sits on the same glass.
+- **Glass over the picture:** every control, badge and banner over a video sits on the Mac's own clear glass, with
+  the picture dimmed behind the controls while they show. Skip Intro and Up Next grow out of the control bar and melt
+  back into it, as glass does in Apple's apps.
 - **Every setting explains exactly what it does**, grouped so you can find it quickly, and **Search Settings** (⌘F in
   Settings) finds any of them by name or by the words you'd use. Each page has its own Restore Defaults.
 
