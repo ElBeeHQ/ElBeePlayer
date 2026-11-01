@@ -3,6 +3,22 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.33.01: Settings, the Mac Way
+
+Settings is rebuilt as a standard Mac settings window, with six tabs along the top, and your playlists and categories are managed there.
+
+### Changed
+
+- **Six tabs:** General, Playlists, Playback, Live TV, Appearance and Advanced, along the top of the Settings window, each one page of grouped settings. Settings opens on the tab you used last, the window can be resized and keeps its size, and each tab has its own Restore Defaults.
+- **Search** sits in the Settings window's toolbar (⌘F); a result opens its tab and lights up the setting.
+- **Long descriptions** open from a help button beside the setting, so the pages stay short.
+- **Playlists in Settings:** Settings › Playlists lists every playlist beside its details, in place of the Manage Playlists window: add with +, remove with −, more in the ••• menu, Check All under the list, and Switch to This Playlist and Refresh Library Now on the page. Edits you haven't saved are asked about before you move to another playlist or tab. **Sign In Automatically To** moves here from General.
+- **Categories in Settings:** Manage Categories… (⇧⌘K) opens a page of the Playlists tab. Its categories are a list: select several to show or hide them at once, drag to reorder, and right-click for Move to Top, Move Up, Move Down, Move to Bottom and Reorder Channels…
+- **What's New and setup open as sheets** on the main window, as in Apple's apps, with the same Categories list in setup as in Settings.
+- **About ElBee Player** is the Mac's own About window (ElBee Player › About ElBee Player).
+
+Your settings are all kept: none was renamed or reset.
+
 ## v0.32.03: Glass All Around
 
 The last frosted panels over the picture move to clear glass, and Live TV, Radio, Multi-View and Home follow Apple's glass more closely.

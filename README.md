@@ -192,12 +192,12 @@ your Mac.
 - **Content Languages:** tick the languages you want, and only categories, channels and titles in those languages show,
   everywhere in the app.
 - **Hide provider tags** such as "TOP - " or "4K - " in titles.
-- **Manage Categories** to reorder, hide or lock categories and their channels (⇧⌘K).
+- **Manage Categories** to reorder, hide or lock categories and their channels, several at once (⇧⌘K).
 - **Several playlists**, switched from the sidebar, with the catalogue refreshing quietly in the background. The app
   opens on a **playlist chooser** showing each server's status (⌘1 to ⌘9 to sign in), or straight into the playlist
-  you choose in Settings › General › Startup. File › Choose Playlist… (⇧⌘P) goes back to it.
-- **Manage Playlists:** every playlist in a sidebar with its status and library size; add, edit, reorder and remove
-  them. An M3U playlist can name its own TV guide (XMLTV), or you can enter one.
+  you choose in Settings › Playlists. File › Choose Playlist… (⇧⌘P) goes back to it.
+- **Playlists in Settings:** every playlist in a list with its status and library size, in Settings › Playlists; add,
+  edit, reorder and remove them. An M3U playlist can name its own TV guide (XMLTV), or you can enter one.
 - **Backup addresses:** give an account other addresses for the same service. They're tried in order when the main
   server doesn't answer, each shows whether it's working, and the playlist list warns when one stops responding.
 - **Subscription reminder:** a week before your playlist's subscription runs out, a note above the playlist switcher
@@ -226,8 +226,8 @@ your Mac.
 - **Glass over the picture:** every control, badge and banner over a video sits on the Mac's own clear glass, with
   the picture dimmed behind the controls while they show. Skip Intro and Up Next grow out of the control bar and melt
   back into it, as glass does in Apple's apps.
-- **Every setting explains exactly what it does**, grouped so you can find it quickly, and **Search Settings** (⌘F in
-  Settings) finds any of them by name or by the words you'd use. Each page has its own Restore Defaults.
+- **Every setting explains exactly what it does**, on six tabs of a standard Mac settings window, and the search in its
+  toolbar (⌘F) finds any of them by name or by the words you'd use. Each tab has its own Restore Defaults.
 
 ## Install
 
@@ -246,10 +246,10 @@ Sharpening needs Apple Silicon. Everything else works on every supported Mac.
 
 ## Updates
 
-ElBee Player updates itself. Open **Settings → General → Software Updates** and choose **Check for Updates Now…**, or
+ElBee Player updates itself. Open **Settings → General → Updates** and choose **Check for Updates Now…**, or
 leave automatic checks on. Updates are downloaded from this repository and checked against ElBee Player's signing key
 before they're installed. Then the app restarts. Your playlists, favourites and settings are kept. Afterwards a
-**What's New** panel lists what changed in every version since the one you last used (Help › What's New in ElBee
+**What's New** sheet lists what changed in every version since the one you last used (Help › What's New in ElBee
 Player shows it again).
 
 See the [changelog](CHANGELOG.md) for what changed in each release.
