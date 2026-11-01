@@ -3,6 +3,22 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.32.03: Glass All Around
+
+The last frosted panels over the picture move to clear glass, and Live TV, Radio, Multi-View and Home follow Apple's glass more closely.
+
+### Changed
+
+- **The connection card and Stream Diagnostics use clear glass:** Reconnecting, Connection Lost and the small capsule on little pictures, and Stream Diagnostics, now sit on the same clear glass as the controls, with white text, and the picture dims behind them while they show, even with the controls hidden.
+- **Live TV's Channel Spotlight:** Watch, Start from Beginning and the other buttons there are glass buttons, alongside the heart and Record.
+- **Radio's genres** are the Mac's own segmented control, with no band behind them; the genres, sort and find now scroll with the stations.
+- **Multi-View** dims each picture under its glass while the pointer is over it, as the other players do, and an empty slot shows its + on clear glass over the window.
+- **Home's arrows and the Radio player's station logo** sit on clear glass over the artwork.
+
+### Fixed
+
+- **Leaving full screen** no longer makes the controls flicker in Now Playing when the pointer is still: they stay as they were in full screen.
+
 ## v0.32.02: Clear Glass Everywhere
 
 Full screen now uses the same clear glass as Now Playing, so the player looks the same in every state.
