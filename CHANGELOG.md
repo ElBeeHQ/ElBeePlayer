@@ -3,6 +3,36 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.35.01: A Mac Window
+
+ElBee Player's window is laid out as Apple's own apps lay theirs out: a sidebar of sections, a column of categories,
+the page, and an inspector.
+
+### New
+
+- **Sidebar:** Home, Recently Added, Live TV, TV Guide, Catch-Up, Radio, Movies, Series, Favourites and History sit in the sidebar under Watch and Library, with your pinned categories, on the Mac's own selection and glass. The section tabs in the toolbar are gone.
+- **Categories column:** each section's categories (or Catch-Up's channels, or a kind filter for Favourites, History and Recently Added) in a column of their own beside the sidebar, with a Filter Categories field and each category's count. Movies and Series start with All Movies and All Series, as Live TV starts with All Channels, and every count matches its page.
+- **Inspector:** the channel or programme you pick in Live TV or the TV Guide shows at the window's right edge: its picture or artwork, what's on now and next, catch-up, Play and Favourite. The toolbar's Inspector button shows and hides it, and it's remembered. In a narrow window it steps aside, as Apple's inspectors do, and comes back when there's room.
+- **Search:** the Mac's own search field in the toolbar, with suggestions of the first matches as you type. ⌘F puts the cursor there.
+
+### Changed
+
+- **One window:** no New Window and no tabs, and the window is no longer maximised at launch. Its size, place and sidebar width carry over from before.
+- **Now Playing** takes two columns, the sidebar and the player, and the window's title says Now Playing.
+- **Home's banner** takes about a third of the window, and with Reduce Motion on it stays on its title until you pick another.
+- **Sign in, Choose a Playlist and the first library load** are plain pages on the window, as the Mac's own setup screens are.
+- The Spotlight banners above Live TV and the TV Guide are replaced by the inspector; their settings are now Channel Inspector and Programme Inspector.
+- **Times** follow your Mac's clock: 00:35 on a 24-hour Mac, 12:35 AM on a 12-hour one.
+- Posters, Catch-Up programmes, On Now tiles and the pictures that open Now Playing are buttons that VoiceOver and Full Keyboard Access reach.
+- A channel card's logo has corners that follow the card's.
+
+### Fixed
+
+- **Share** sends a title's words and picture as one item, so the share menu no longer says "2 Images".
+- **Settings:** under keyboard focus the tabs say their names, not their symbols'.
+
+Your settings are all kept: none was renamed or reset.
+
 ## v0.34.01: At Home on the Mac
 
 ElBee Player works with the rest of your Mac: the Dock, the menu bar, Control Centre, Share and Quick Look.

@@ -38,15 +38,15 @@ your Mac.
 
 ### A home screen made for you
 
-- **Home** opens on a banner of new releases with backdrops, plots and one-click Play or More Info. It runs edge to
-  edge, under the toolbar and the sidebar.
+- **Home** opens on a banner of new releases with backdrops, plots and one-click Play or More Info, about a third of
+  the window high. It runs edge to edge, under the toolbar and the sidebar.
 - **Continue Watching** picks up exactly where you left off, and **On Now** tiles show what's on your favourite
   channels, how far through it is and what's next.
 - **Recommended for You** and **Because You Watched** are worked out on your Mac from what you watch, favourite and
   finish. Each one says why it was chosen. Nothing leaves your Mac.
 - **Arrange Home** to reorder its sections or switch any off, and choose which screen the app opens on.
 - **Pin categories to Home:** right-click a category in Live TV, the TV Guide, Radio, Movies or Series and choose
-  **Pin to Home**. It sits under **Pinned** in the Home sidebar, one click away. Drag pins to reorder them.
+  **Pin to Sidebar**. It sits under **Pinned** in the sidebar, one click away. Drag pins to reorder them.
 - **Back and Forward** (⌘[ and ⌘], or the View menu) take you back through the sections, pages and Now Playing you've
   visited, as in other Mac apps; **Go To** (⌘1 to ⌘8) jumps straight to a section.
 - **Right-click a channel, station, movie or series** to play it, add it to Favourites, show a channel in the TV Guide,
@@ -208,7 +208,10 @@ your Mac.
 
 ### Feels at home on the Mac
 
-- **The system's own glass** for the toolbar, player controls, mini player and pop-ups on macOS 26.
+- **A Mac window:** the sections in the sidebar, each section's categories in a column beside it (All Channels, All
+  Movies and All Series first, each with its count), the page, and an inspector at the right edge for the channel or
+  programme you pick in Live TV or the TV Guide. The toolbar's search field (⌘F) suggests matches as you type.
+- **The system's own glass** for the toolbar, sidebar, player controls, mini player and pop-ups on macOS 26.
 - **Plain Look** (Settings > Appearance) swaps the system glass for a plainer look, if you prefer it.
 - **Your accent colour and display settings:** buttons, switches and highlights follow the accent colour chosen in
   System Settings (golden amber under Multicolour), and the app follows Reduce Transparency, Increase Contrast, Reduce
@@ -225,7 +228,7 @@ your Mac.
   only sending black, is dropped silently, so you never land on an empty box.
 - **Keychain and the sandbox:** your sign-in is kept in the macOS Keychain, and the app runs in the App Sandbox.
 - **iCloud sync** (optional) shares favourites and Continue Watching between your Macs.
-- **Hover feedback everywhere:** toolbar tabs, guide programmes and channel rows light up softly under the pointer.
+- **Hover feedback everywhere:** guide programmes, channel rows and posters light up softly under the pointer.
 - **Stream diagnostics** overlay (⌘I), **audio normalisation** and a **night mode** for quieter evenings.
 - **Data Saver** spots a phone hotspot and limits stream quality, so you don't use up your data.
 - **Glass over the picture:** every control, badge and banner over a video sits on the Mac's own clear glass, with
