@@ -3,6 +3,14 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.32.02: Clear Glass Everywhere
+
+Full screen now uses the same clear glass as Now Playing, so the player looks the same in every state.
+
+### Changed
+
+- **Full screen uses clear glass:** in place and in a full-screen Space, the controls, Up Next and Skip Intro sit on the same clear glass as in Now Playing, the mini player and the floating window, with the picture dimmed behind them, the same in Light and Dark. The connection card and Stream Diagnostics keep their frosted glass, so their text stays easy to read.
+
 ## v0.32.01: Native Glass
 
 The player's controls now sit on the Mac's own Liquid Glass, as Apple's apps do: clear over the picture, which dims behind them, and Skip Intro and Up Next grow out of the control bar and melt back into it.
