@@ -3,6 +3,34 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.34.01: At Home on the Mac
+
+ElBee Player works with the rest of your Mac: the Dock, the menu bar, Control Centre, Share and Quick Look.
+
+### New
+
+- **Dock menu:** right-click ElBee Player in the Dock for what's playing, Play/Pause, Next and Previous, and your favourites.
+- **Menu bar:** Settings › General › Show in Menu Bar puts ElBee Player at the right of the menu bar, with what's playing, Previous, Play/Pause and Next, and your favourites. It's off unless you turn it on.
+- **Share** a programme from the player's More menu, or a movie or series from its page: its name, its time and its artwork. Never a stream address.
+- **Downloads & Recordings** (Library menu, ⌥⌘L) lists what you've downloaded and recorded. Press Space for Quick Look, as in Finder.
+
+### Changed
+
+- **Control Centre** shows the programme on now for a live channel, with the channel under it, and you can drag its position bar to move through a movie or episode. A radio station plays as sound.
+- **Media keys** belong to ElBee Player only while something is open in the player; with nothing open they go back to the app that played last.
+- **A paused player rests:** paused in Now Playing or full screen, ElBee Player uses close to no processor time.
+- **Settings:** the six tabs sit centred at the top on their own, with search under them. Settings opens with nothing selected; ⌘F puts the cursor in the search field.
+- A movie or series picked from the Dock, the menu bar or Spotlight opens on its page even while Now Playing is up.
+
+### Fixed
+
+- **Parental lock:** locked categories stay out of Spotlight, the Dock menu and the menu bar while the lock is on.
+- **Quit** works while What's New or setup is open: the sheet closes and the app quits.
+- **Categories:** dragging a category that isn't selected moves only that one; a click on the list lets the arrow keys move through it; the first drag works straight away.
+- **Setup's Categories step** scrolls once, not a list inside a scrolling page.
+
+Your settings are all kept: none was renamed or reset.
+
 ## v0.33.01: Settings, the Mac Way
 
 Settings is rebuilt as a standard Mac settings window, with six tabs along the top, and your playlists and categories are managed there.

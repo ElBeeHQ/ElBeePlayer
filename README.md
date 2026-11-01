@@ -215,7 +215,12 @@ your Mac.
   Motion and Differentiate Without Colour.
 - **Light, Dark or Automatic** for ElBee Player alone, from the sun and moon button by the Settings gear.
 - **Interface Size** makes text larger throughout the app on a big or high-resolution display.
-- **Spotlight search**, **media keys** and **Control Centre** playback controls.
+- **Spotlight search**, **media keys** and **Control Centre** playback controls, with the programme on now and a
+  position bar you can drag.
+- **Dock menu and menu bar:** right-click the Dock icon, or turn on Settings › General › Show in Menu Bar, for what's
+  playing, Play/Pause, Next and Previous, and your favourites. Nothing in a locked category is listed there.
+- **Share** a programme or a title (its name, time and artwork), and **Quick Look** (Space) on your downloads and
+  recordings in Library › Downloads & Recordings (⌥⌘L).
 - **Quiet launch:** optionally resume the last channel, muted if you like. A channel that can't be reached, or that is
   only sending black, is dropped silently, so you never land on an empty box.
 - **Keychain and the sandbox:** your sign-in is kept in the macOS Keychain, and the app runs in the App Sandbox.
@@ -226,8 +231,8 @@ your Mac.
 - **Glass over the picture:** every control, badge and banner over a video sits on the Mac's own clear glass, with
   the picture dimmed behind the controls while they show. Skip Intro and Up Next grow out of the control bar and melt
   back into it, as glass does in Apple's apps.
-- **Every setting explains exactly what it does**, on six tabs of a standard Mac settings window, and the search in its
-  toolbar (⌘F) finds any of them by name or by the words you'd use. Each tab has its own Restore Defaults.
+- **Every setting explains exactly what it does**, on six tabs of a standard Mac settings window, and the search under
+  the tabs (⌘F) finds any of them by name or by the words you'd use. Each tab has its own Restore Defaults.
 
 ## Install
 
