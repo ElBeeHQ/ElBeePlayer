@@ -3,6 +3,30 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.35.02: Smooth Scrolling
+
+Live TV, Movies and Series scroll smoothly however large your library is, and the pages look more like the rest of
+the Mac.
+
+### Changed
+
+- **Smooth scrolling:** Live TV's channels and the Movies and Series grids scroll without stutter, even with tens of thousands of titles. Showing and hiding the sidebar is smoother too.
+- **Live TV:** every channel row is the same height, with its columns lined up: the channel, what's on now (in bold, with its progress) and "Next: Programme at 21:00". Click a channel or move with ↑ / ↓ to show it in the inspector; double-click or press Return to play it.
+- **Movies and Series:** larger posters, with each title's year shown once, and the right number of columns at every window width. Click a poster to select it, move with the arrow keys, and double-click or press Return to open it.
+- **Movie and series pages** open on a band of the title's artwork, with Play and its details over it; a series switches seasons with a segmented control, and More Like This follows below.
+- **TV Guide:** a Day pop-up beside Now, a red line and time for now, a narrower channel column, and ↑ / ↓ and Return to move through the channels and play.
+- **Sidebar mini player:** just skip back, Play/Pause, skip forward and Expand, with the close cross.
+- **Favourites and History** filter by kind with a segmented control at the top of the page.
+- **Categories** have an icon each, and Hide Country Prefixes also drops a leading section word ("Movies - Drama" shows as "Drama").
+- **Search:** the toolbar's search field sits in the inspector's part of the toolbar when the inspector shows, and says what it finds (channels, radio, movies and series). Each page's find field is the Mac's own search field.
+- The sidebar's footer is just the playlist menu, and Home's banner says Details.
+
+### Fixed
+
+- Live TV rows show what's on now again; on a narrow window it had been squeezed to nothing.
+
+Your settings are all kept: none was renamed or reset.
+
 ## v0.35.01: A Mac Window
 
 ElBee Player's window is laid out as Apple's own apps lay theirs out: a sidebar of sections, a column of categories,

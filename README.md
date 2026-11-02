@@ -99,8 +99,8 @@ your Mac.
   itself, with hardware decoding: colours follow each stream's own colour settings, and subtitles stay on hardware
   decoding, so they cost little energy, 4K included.
 - **HDR:** HDR10 and HLG streams play in 10-bit and show in HDR, brighter than white, on displays that support it.
-- **The same controls in every player:** the mini player, the floating window, the banners, Now Playing and full screen
-  share one set of buttons in the same order, with Full Screen always last; where they don't fit on one line they wrap
+- **The same controls in every player:** the floating window, the banners, Now Playing and full screen share one set
+  of buttons in the same order, with Full Screen always last; where they don't fit on one line they wrap
   onto two. A glass **close cross** appears when you point at the picture and ends the video, Multi-View's included.
 - **Cast to a TV or speaker:** the Cast button in every player lists the TVs and speakers on your network. Pick one and
   what's playing carries on there from the same spot, with Play/Pause, the skips and the progress bar still working.
@@ -108,7 +108,8 @@ your Mac.
   a device can't play a stream as it is.
 - **Reconnecting… is shown, not hidden:** if a stream drops, a pill over the picture says so while the app tries again,
   and Up Next and Skip Intro step aside until it's back.
-- **A clean mini player:** just the picture, with its controls over it when you point at it.
+- **A clean mini player:** just the picture, with skip back, Play/Pause, skip forward and Expand over it when you
+  point at it.
 - **Controls that get out of the way:** in every player they appear as soon as you move the pointer and hide 2 seconds
   after it stops.
 - **One click** on a banner's picture opens Now Playing.
@@ -134,9 +135,11 @@ your Mac.
 
 ### Live TV
 
-- **Channel spotlight:** click a channel and it fills a banner at the top: what's on, how far through it is, what's
-  next, and Watch, Record and Favourite. Double-click to play straight away, or move through the list with ↑ / ↓ and
-  press Return.
+- **Channel inspector:** click a channel, or move through the list with ↑ / ↓, and it shows in the inspector at the
+  window's right edge: what's on, how far through it is, what's next, and Play and Favourite. Double-click or press
+  Return to play it.
+- **Smooth scrolling:** the list stays smooth with thousands of channels; every row is the same height, with the
+  channel, what's on now and what's next lined up in columns.
 - **Live preview:** the channel you click plays right in the banner. It uses your one stream (most providers allow
   only one), waits a moment as you click down the list, and holds back while you're recording, watching a movie or
   episode, or using Multi-View. Click **Muted** for sound, point at the picture for Mute, Expand to Now Playing and Full
@@ -152,9 +155,10 @@ your Mac.
   shows from its start. Channel names and programme titles stay in view as you scroll through time.
 - **Programme spotlight:** click a programme to see its details. If it's on now, watch it, with the live preview. If
   it's later, set a **reminder** or a Series Link. If it has finished, watch it from catch-up.
-- **Day buttons** from catch-up days to a week ahead, a **Now** button, and All / Favourites / Catch-Up filters.
+- **A Day pop-up** from catch-up days to a week ahead, a **Now** button, and All / Favourites / Catch-Up filters;
+  ↑ / ↓ and Return move through the channels and play.
 - **A calm grid:** a thin progress bar on what's on now, earlier programmes dimmed, bells only where a reminder is set,
-  and a line in your accent colour marking the time.
+  and a red line marking the time.
 
 ### Radio
 
@@ -268,7 +272,7 @@ See the [changelog](CHANGELOG.md) for what changed in each release.
 | --- | --- |
 | Space | Play or pause |
 | ← / → | Skip back or forward |
-| ↑ / ↓, Return | Move the Live TV spotlight, then play |
+| ↑ / ↓, Return | Move through Live TV's channels or the TV Guide, then play |
 | ⌘F | Search |
 | ⌘I | Stream diagnostics |
 | ⌘[ / ⌘] | Back or forward |
