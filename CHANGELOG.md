@@ -3,6 +3,21 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.35.03: Pins and Menus
+
+Pinned categories open the category you pinned, the player's controls stay up while one of its menus is open, and
+Live TV scrolls more smoothly.
+
+### Fixes
+
+- **Pinned categories:** clicking a pin in the sidebar opens its category even when you're already in that section. Before, it stayed on the category you were looking at.
+- **Sidebar highlight:** the sidebar highlights the pin whose category is showing, and goes back to the section when you choose another category. Before, the section stayed highlighted, and clicking it didn't take you off the pinned category.
+- **Player menus:** while a player menu is open (Subtitles, More, or the menu on a stream's status), the controls and the close button stay on screen, in every player and in full screen. Once it closes, whether you choose an item, press Escape or click elsewhere, they hide again as usual. Before, they could hide under an open menu, or stay up for good after Escape.
+- **Opening the app:** no moving amber glow flashes behind the loading screen when the app signs in with a saved login, or behind "Signing in…".
+- **Live TV:** scrolling the channels stutters less while their programme information comes in.
+
+Your settings are all kept: none was renamed or reset.
+
 ## v0.35.02: Smooth Scrolling
 
 Live TV, Movies and Series scroll smoothly however large your library is, and the pages look more like the rest of
