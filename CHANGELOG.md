@@ -3,6 +3,80 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.36.01: A New Look
+
+Home, the TV Guide and Live TV have a new, calmer look, the picture goes straight to its place when it moves, and the
+TV Guide copes better with slow providers.
+
+Your settings are all kept: none was renamed or reset. One new choice starts with a default: the TV Guide shows the
+channels that have a guide until you pick All Channels in Category, which it then remembers.
+
+### In short
+
+- A new Home, with a banner of new films and series
+- A calmer TV Guide that shows the channels with a guide
+- Live TV rows with what's on next, and an inspector beside the list
+- Search results grouped by kind
+- The picture goes straight to its place when it moves
+- Category names on one line
+
+Some controls have moved; the full notes say where.
+
+### New
+
+- **Home:** a banner across the top of the page shows new films and series one at a time, with its colour carried softly under the sidebar and toolbar. Play, Details or View Series are on it; the arrows to step through appear when you point at the banner (they also work from the keyboard and with VoiceOver). Its foot fades softly into the page, and a title shows without the year and country codes some providers add after it. Below it, Continue Watching, On Now, Recently Added Films and Favourite Channels. The two new sections can be moved or hidden in Settings › Appearance › Home.
+- **TV Guide:** quieter programme cells, today opening with the current time a third of the way across, and a red line for now. The TV Guide shows the channels that have programme information; the bar says how many don't, and Category › All Channels in Category shows them all. A channel without a guide says so, and clicking it plays the channel; one whose guide turns out to be empty is left out, and counted, the next time you open its category. With a channel playing, the inspector shows it and its programme is highlighted, so the picture stays in the inspector when you come from Live TV. The TV Guide remembers the category you chose for each playlist, even after you quit.
+- **Live TV:** each row shows the channel, what's on now with its progress, and "Next: … at …" where there's room. The inspector beside the list shows the channel playing, with its colours glowing softly around the picture, in the picture's own shape (a 4:3 or SD channel has no bars at its sides); with nothing playing it shows the channel's logo on a soft wash of its colours.
+- **Channel logos:** a channel without a logo gets a coloured tile with its initials.
+- **Search:** results are grouped by kind (All, Channels, Radio, Movies, Series), each with its count, and Show All lists one kind in full.
+
+### Changed
+
+- **Posters:** Movies and Series show smaller posters, so more titles fit: four or five to a row where there were three at the same width. More Like This keeps its size.
+- **Backgrounds:** pages sit on the Mac's own window background, in Light and Dark.
+- **Sign-in and loading screens:** the splash, signing in, the playlist chooser and the first load share one layout, so the logo stays in one place as you go from one to the next.
+- **Sidebar:** keeps the same width at every window size; it used to narrow in a smaller window.
+- **Catch-Up:** its column matches the other pages, with icons, counts, a filter field and country headings.
+- **Small players:** the mini player and Live TV's inspector share one compact set of controls on a single row, chosen by the player's size; the mini player's controls cover less of the picture.
+- **Volume:** the volume slider stays on the player bar, narrowing in a small window rather than disappearing. In the floating window and Live TV's inspector, the speaker button opens a slider.
+- **Player controls:** they stay on screen while the pointer rests on them, and hide again once you move away.
+- **TV Guide loading:** a guide request that stalls gives up sooner (it used to wait up to two minutes), so one slow reply no longer holds up the other channels' guides.
+- **Rewind 1 Minute** works on a live channel that keeps a catch-up archive even when it has no guide.
+
+### Removed or Moved
+
+- **Live TV's Show, Sort By and Find a Channel:** now in the toolbar's View Options menu.
+- **Live TV's page header:** the All Channels title, the channel count and the filter row are gone; the window's title names the page.
+- **The heart on Live TV rows:** right-click a channel and choose Add to Favourites, or click Favourite in the inspector.
+- **Time left in Live TV rows:** still shown in the inspector.
+- **The TV Guide's category column:** with its filter field and right-click menu, it's replaced by the Category menu at the top of the TV Guide.
+- **The TV Guide's All, Favourites and Catch-Up buttons:** now Show, at the top of the Category menu, with Pin to Sidebar.
+- **Channel numbers in the TV Guide:** the channel column shows the logo and name only.
+- **Home's See All:** your favourites are on the sidebar's Favourites page.
+- **The NEW MOVIE and NEW SERIES badge** on Home's banner is gone.
+
+### Fixes
+
+- **Picture moves:** the picture goes straight to its place when it moves into Now Playing, from full screen, the mini player, the floating window or a title's page. Before, it drifted to one side and then settled.
+- **Ambient Glow:** the light beside each edge of the picture is the colour the picture has there. Before, a bright edge in Now Playing could have a dark band beside it.
+- **Title pages:** a film's or series' artwork fades smoothly into the page. Before, it ended in a hard line with a brighter band below it.
+- **Category names:** each category is on one line in every section, with its full name in its tooltip. Where quality tags tell two categories apart, the tags give way before the name. Before, long names wrapped to two lines and crowded the list.
+- **Black bars in Now Playing and full screen:** the picture keeps one size through a film or episode. Before, a dark scene could crop into the picture, and its size changed again as the scene lightened.
+- **Movie years:** cards show the year a film came out, or none, rather than the year your provider added it.
+- **Playback menu:** Start from Beginning and Rewind 1 Minute are there on a live channel whose programme is in its catch-up archive. Before, Rewind was always greyed out in the menu.
+- **TV Guide times:** with providers that don't send their server's time, programmes no longer show late.
+- **TV Guide:** a channel without a guide no longer says "Loading guide…" for minutes.
+- **Catch-Up:** its preview pictures no longer load in the background while something is playing.
+- **Leaving full screen:** the app no longer quits now and then as the picture returns to the window, with Smooth Picture Moves turned off.
+- **Window subtitle:** a playlist added without a name shows as "Playlist" rather than its server's address.
+
+### Known issues
+
+- **Energy:** Now Playing uses more energy than it should. This is still being worked on.
+- **HDR:** some live HDR channels play in standard range.
+- **Reopening the app:** with Resume Last Channel on Launch on (Settings › General), the last channel plays again even if you closed the video before quitting.
+- **Sidebar:** the selected row is grey rather than your accent colour.
+
 ## v0.35.03: Pins and Menus
 
 Pinned categories open the category you pinned, the player's controls stay up while one of its menus is open, and

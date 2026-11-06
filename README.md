@@ -38,15 +38,17 @@ your Mac.
 
 ### A home screen made for you
 
-- **Home** opens on a banner of new releases with backdrops, plots and one-click Play or More Info, about a third of
-  the window high. It runs edge to edge, under the toolbar and the sidebar.
-- **Continue Watching** picks up exactly where you left off, and **On Now** tiles show what's on your favourite
-  channels, how far through it is and what's next.
+- **Home** opens on a banner of new films and series, one at a time, with one-click **Play** and **Details** (or
+  **View Series**), about a third of the window high. Its colour carries softly under the toolbar and the sidebar.
+- **Continue Watching** picks up exactly where you left off, **On Now** shows what's on now on your favourite and
+  recent channels and how far through it is, and **Recently Added Films** and **Favourite Channels** are a click away.
 - **Recommended for You** and **Because You Watched** are worked out on your Mac from what you watch, favourite and
   finish. Each one says why it was chosen. Nothing leaves your Mac.
-- **Arrange Home** to reorder its sections or switch any off, and choose which screen the app opens on.
-- **Pin categories to Home:** right-click a category in Live TV, the TV Guide, Radio, Movies or Series and choose
-  **Pin to Sidebar**. It sits under **Pinned** in the sidebar, one click away. Drag pins to reorder them.
+- **Arrange Home** in Settings › Appearance › Home to reorder its sections or switch any off, and choose which screen
+  the app opens on.
+- **Pin categories to the sidebar:** right-click a category in Live TV, Radio, Movies or Series, or open the TV Guide's
+  **Category** menu, and choose **Pin to Sidebar**. It sits under **Pinned** in the sidebar, one click away. Drag pins
+  to reorder them.
 - **Back and Forward** (⌘[ and ⌘], or the View menu) take you back through the sections, pages and Now Playing you've
   visited, as in other Mac apps; **Go To** (⌘1 to ⌘8) jumps straight to a section.
 - **Right-click a channel, station, movie or series** to play it, add it to Favourites, show a channel in the TV Guide,
@@ -94,14 +96,15 @@ your Mac.
   (remembered), watch movies and episodes from 0.5× to 2×, jump back to the **Last Watched Channel** (⌘L), set a **sleep
   timer** (up to 2 hours, or to the end of the programme or movie), and **Save Still** to keep the picture as an image.
 - **Mute stays on** for whatever you play next, until you unmute or quit.
-- **The picture glides** between Now Playing, the Live TV and Guide banners and the mini player, and keeps playing as it
-  moves, with no pause (**Smooth Picture Moves**, on by default in Settings > Playback). ElBee Player draws each frame
+- **The picture glides** between Now Playing, Live TV's inspector, a title's page and the mini player, straight to its
+  place, and keeps playing as it moves, with no pause (**Smooth Picture Moves**, on by default in Settings > Playback). ElBee Player draws each frame
   itself, with hardware decoding: colours follow each stream's own colour settings, and subtitles stay on hardware
   decoding, so they cost little energy, 4K included.
 - **HDR:** HDR10 and HLG streams play in 10-bit and show in HDR, brighter than white, on displays that support it.
-- **The same controls in every player:** the floating window, the banners, Now Playing and full screen share one set
-  of buttons in the same order, with Full Screen always last; where they don't fit on one line they wrap
-  onto two. A glass **close cross** appears when you point at the picture and ends the video, Multi-View's included.
+- **The same controls in every player:** the floating window, Live TV's inspector, a title's page, Now Playing and
+  full screen share one set of buttons in the same order, with Full Screen always last; where they don't fit on one
+  line they wrap onto two. The volume slider stays on the bar; where there's no room for it, the speaker button opens
+  one. A glass **close cross** appears when you point at the picture and ends the video, Multi-View's included.
 - **Cast to a TV or speaker:** the Cast button in every player lists the TVs and speakers on your network. Pick one and
   what's playing carries on there from the same spot, with Play/Pause, the skips and the progress bar still working.
   **Stop Casting** brings it back to your Mac. **Cast Quality** in Settings › Playback sets how hard your Mac works when
@@ -111,7 +114,7 @@ your Mac.
 - **A clean mini player:** just the picture, with skip back, Play/Pause, skip forward and Expand over it when you
   point at it.
 - **Controls that get out of the way:** in every player they appear as soon as you move the pointer and hide 2 seconds
-  after it stops.
+  after it stops, but stay while the pointer rests on them.
 - **One click** on a banner's picture opens Now Playing.
 
 ### Advanced Video
@@ -120,7 +123,8 @@ your Mac.
   and costs little energy: it redraws only when its colours change. Widescreen films keep their glow, taken from the
   picture inside their black bars (with Smooth Picture Moves the bars are trimmed and the glow fills them). It
   changes with a scene at once and stays steady otherwise. In full screen it softly fills the black bars, and on Now
-  Playing it spreads into the page around the picture. It also lights the Live TV and Guide banners. In Dark Mode it glows. In Light Mode it gently tints the page,
+  Playing it spreads into the page around the picture. It also lights the picture in Live TV's inspector. In Dark
+  Mode it glows. In Light Mode it gently tints the page,
   and dark scenes cast a soft shadow instead. It rests while Reduce Transparency, Reduce Motion or Increase Contrast is
   on, and comes back when they're off.
 - **Match Frame Rate** switches your display to a refresh rate that fits the stream in full screen, such as 50 Hz for
@@ -135,30 +139,37 @@ your Mac.
 
 ### Live TV
 
+- **Calm rows:** each channel's number, logo and name, what's on now with a thin progress bar, and "Next: … at …" at
+  the row's end where there's room. A channel without a guide shows its name alone.
 - **Channel inspector:** click a channel, or move through the list with ↑ / ↓, and it shows in the inspector at the
-  window's right edge: what's on, how far through it is, what's next, and Play and Favourite. Double-click or press
-  Return to play it.
-- **Smooth scrolling:** the list stays smooth with thousands of channels; every row is the same height, with the
-  channel, what's on now and what's next lined up in columns.
-- **Live preview:** the channel you click plays right in the banner. It uses your one stream (most providers allow
+  window's right edge: the picture, what's on now and how far through it is, what's next, the last few programmes to
+  watch from catch-up, and Play and Favourite. With nothing playing it shows the channel's logo on a soft wash of its
+  colours. Double-click or press Return to play it.
+- **Smooth scrolling:** the list stays smooth with thousands of channels; every row is the same height.
+- **Live preview:** the channel you click plays right in the inspector. It uses your one stream (most providers allow
   only one), waits a moment as you click down the list, and holds back while you're recording, watching a movie or
   episode, or using Multi-View. Click **Muted** for sound, point at the picture for Mute, Expand to Now Playing and Full
-  Screen, or double-click it to open Now Playing. It stays in the banner as you browse other categories.
+  Screen, or double-click it to open Now Playing. It stays in the inspector as you browse other categories.
 - **One row per channel:** HD, 4K, +1 and other versions of a channel share a row, with a button to play each one, or
   right-click for the list, with the sharpest picture marked.
-- **Now and next in every row**, with sorting by number or name, and a find box for the category.
-- **Categories grouped by country** in the sidebar, under headings you can fold away.
+- **View Options** in the toolbar: show all channels, those with a guide or your favourites, sort by number or name,
+  and **Find a Channel…** in the category. Right-click a channel to add it to Favourites.
+- **Categories grouped by country** in the categories column, under headings you can fold away, each name on one line.
 
 ### TV Guide
 
-- **A scrolling guide** you can drag around with the mouse. It opens on the half hour before now, so what's on now
-  shows from its start. Channel names and programme titles stay in view as you scroll through time.
-- **Programme spotlight:** click a programme to see its details. If it's on now, watch it, with the live preview. If
-  it's later, set a **reminder** or a Series Link. If it has finished, watch it from catch-up.
-- **A Day pop-up** from catch-up days to a week ahead, a **Now** button, and All / Favourites / Catch-Up filters;
-  ↑ / ↓ and Return move through the channels and play.
-- **A calm grid:** a thin progress bar on what's on now, earlier programmes dimmed, bells only where a reminder is set,
-  and a red line marking the time.
+- **A scrolling guide** you can drag around with the mouse. Today opens with the current time a third of the way
+  across. Channel names and programme titles stay in view as you scroll through time.
+- **One bar on top:** a **Category** menu with the categories under each country, **Show** (Channels with a Guide, All
+  Channels in Category, Favourites Only, Catch-Up Only) and **Pin to Sidebar**; a **Day** menu from catch-up days to a
+  week ahead; and **Now** (⌘T). The TV Guide remembers the category you chose for each playlist.
+- **Channels with a guide first:** the TV Guide shows the channels that have programme information, and the bar says
+  how many don't. Choose **All Channels in Category** in the Category menu, or click the bar's note, to show them all;
+  a channel without a guide says so, and clicking it plays the channel.
+- **Programme details in the inspector:** click a programme to see its details. If it's on now, watch it. If it's
+  later, set a **reminder** or **Record Series**. If it has finished, watch it from catch-up. ↑ / ↓ and Return move
+  through the channels and play.
+- **A calm grid:** quiet programme cells, bells only where a reminder is set, and a red line marking the time.
 
 ### Radio
 
@@ -213,8 +224,11 @@ your Mac.
 ### Feels at home on the Mac
 
 - **A Mac window:** the sections in the sidebar, each section's categories in a column beside it (All Channels, All
-  Movies and All Series first, each with its count), the page, and an inspector at the right edge for the channel or
-  programme you pick in Live TV or the TV Guide. The toolbar's search field (⌘F) suggests matches as you type.
+  Movies and All Series first; the TV Guide has its Category menu instead), the page on the Mac's own window
+  background, and an inspector at the right edge for the channel or programme you pick in Live TV or the TV Guide.
+  The toolbar's search field (⌘F) suggests matches as you type, and results are grouped by kind (Channels, Radio,
+  Movies, Series), each with Show All.
+- **Smaller posters** in Movies and Series, so more titles fit across the window.
 - **The system's own glass** for the toolbar, sidebar, player controls, mini player and pop-ups on macOS 26.
 - **Plain Look** (Settings > Appearance) swaps the system glass for a plainer look, if you prefer it.
 - **Your accent colour and display settings:** buttons, switches and highlights follow the accent colour chosen in
