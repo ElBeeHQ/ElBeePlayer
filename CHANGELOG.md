@@ -3,6 +3,33 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.36.03: HDR in Full Colour
+
+HDR channels now use your display's full brightness and colour with Smooth Picture Moves, in Live TV's inspector, Now Playing, full screen and the floating window.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- HDR channels in full brightness and colour
+- HDR found on channels sent as a plain stream
+
+### Fixes
+
+- **HDR:** with Smooth Picture Moves on (Settings › Playback), an HDR channel in Live TV's inspector, Now Playing, full screen or the floating window uses the full brightness and colour of a display that supports HDR. Before, it looked dull and washed out. Standard channels look exactly as before.
+- **HDR channels sent as a plain stream:** these are now recognised as HDR. Before, they played as a standard picture.
+
+### Known issues
+
+- **Keychain prompts after an update:** macOS may ask for your Mac password once for each saved playlist. Choose Always Allow.
+- **Some HDR films may not start** with Smooth Picture Moves on.
+- **Colours in some 4K HDR titles:** a 4K HDR episode or film in one particular HDR format can show strongly wrong colours. The app doesn't support that format yet.
+- **HDR with Smooth Picture Moves off:** HDR is shown as a standard picture.
+- **Search field:** with the inspector open on Live TV and the TV Guide, the search field runs across the inspector's edge.
+- **Category column:** the categories column stays at its narrow width in a larger window, so long category names are shortened.
+- **Subtitles:** if subtitles don't appear, turn them off and on again.
+- **External subtitle files:** a separate subtitle file from the provider (such as an .srt) isn't supported.
+
 ## v0.36.02: Episodes and the Inspector
 
 Episodes now move on only after one has really played to its end, Live TV's inspector and the small players are tidier, and preferred subtitle languages are matched better.
