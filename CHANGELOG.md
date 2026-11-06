@@ -3,6 +3,35 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.36.04: Clearer Guide and Banner
+
+Long channel names now read in the TV Guide, Home's banner keeps a title's lettering in view, and every play button over a card or poster is the same amber.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- Long channel names readable in the TV Guide
+- Home's banner keeps the title in its picture in view
+- One amber play button on every card and poster
+
+### Fixes
+
+- **TV Guide channel names:** a long name now shows its first 20 or so characters. Before, a channel with HD and HD HEVC versions showed only the first few letters of its name, because the version labels took the room. The labels now step aside when the name needs the room (choose a version from the channel's menu), and the channel column is a little wider.
+- **Home's banner:** when a title's wide picture has its name lettered into it, the banner now moves the picture so the lettering shows, whether it sits near the picture's top, middle or foot. Before, lettering near the top or foot could be cut off.
+- **Play buttons:** the play button that appears over a card or poster under the pointer is the same amber button everywhere: Home's On Now and Continue Watching cards, posters, radio stations, and a channel's picture in Live TV before it plays. Before, some were grey glass.
+
+### Known issues
+
+- **Keychain prompts after an update:** macOS may ask for your Mac password once for each saved playlist. Choose Always Allow.
+- **Some HDR films may not start** with Smooth Picture Moves on.
+- **Colours in some 4K HDR titles:** a 4K HDR episode or film in one particular HDR format can show strongly wrong colours. The app doesn't support that format yet.
+- **HDR with Smooth Picture Moves off:** HDR is shown as a standard picture.
+- **Search field:** with the inspector open on Live TV and the TV Guide, the search field runs across the inspector's edge.
+- **Category column:** the categories column stays at its narrow width in a larger window, so long category names are shortened.
+- **Subtitles:** if subtitles don't appear, turn them off and on again.
+- **External subtitle files:** a separate subtitle file from the provider (such as an .srt) isn't supported.
+
 ## v0.36.03: HDR in Full Colour
 
 HDR channels now use your display's full brightness and colour with Smooth Picture Moves, in Live TV's inspector, Now Playing, full screen and the floating window.
