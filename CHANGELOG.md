@@ -3,6 +3,36 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.36.02: Episodes and the Inspector
+
+Episodes now move on only after one has really played to its end, Live TV's inspector and the small players are tidier, and preferred subtitle languages are matched better.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- Autoplay no longer skips through several episodes
+- No black bars or thin dark line on Live TV's inspector picture
+- Small players' controls centred, with Play/Pause in the middle
+- Subtitle languages matched by three-letter codes
+- One Just Finished card per programme in Catch-Up
+
+### Fixes
+
+- **Episodes:** the next episode starts only after an episode has played to its end, and only once. Before, an episode that failed or ended at once counted as finished, so autoplay could run through several episodes. An episode that never plays now shows the player's error and stays; one that stops partway says so. A saved place at or past the end starts the episode from the beginning.
+- **Live TV's inspector picture:** a standard-definition channel sent as 16:9 or 4:3 fills its frame instead of sitting between black bars above and below. With Smooth Picture Moves on, a thin dark line along the top of the picture is gone.
+- **Small players:** the controls in the Live TV inspector and the other small players are centred in the picture, with Play/Pause in the middle, and the PLAYING label is hidden while the controls show.
+- **Small players, narrow inspector:** where Expand doesn't fit beside a catch-up channel's LIVE button, it moves to a second row.
+- **Subtitle and audio language:** a preferred language now matches tracks the stream names by three-letter code (such as "eng" or "ger"), so the subtitles you prefer are picked.
+- **Catch-Up:** Just Finished shows one card per programme across a channel's HD and 4K versions (with Group Channel Versions on).
+
+### Known issues
+
+- **Keychain prompts after an update:** macOS may ask for your Mac password once for each saved playlist. Choose Always Allow.
+- **Colours in some 4K HDR titles:** a 4K HDR episode or film in one particular HDR format can show strongly wrong colours. The app doesn't support that format yet.
+- **Subtitles:** if subtitles don't appear, turn them off and on again.
+- **External subtitle files:** a separate subtitle file from the provider (such as an .srt) isn't supported.
+
 ## v0.36.01: A New Look
 
 Home, the TV Guide and Live TV have a new, calmer look, the picture goes straight to its place when it moves, and the
