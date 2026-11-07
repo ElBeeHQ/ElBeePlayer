@@ -3,6 +3,49 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.37.01: New Film and Series Pages (7 November 2026)
+
+Movie and series pages open with the title's wide picture and its details, as Home's banner does, with a series' episodes from every season in one row and the title's other details below; a video you closed no longer plays again at launch.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- Movie and series pages open with the title's wide picture and details, as on Home
+- A series' episodes run in one row across every season, with the Season menu following along
+- Related, Cast & Crew, About and Information below, where the provider lists them
+- A video you closed before quitting no longer plays again at launch
+
+### New
+
+- **Movie and series pages:** a title's page now opens with its wide picture, sharp and in its own shape, as Home's banner shows it, with the title, its type, genres and age rating, a two-line description with More for the rest, the year, running time and rating, then Play (or Resume), Trailer, the version picker, Favourite and Download. Share is in the toolbar. The title shows in the toolbar once you scroll past the picture. Before, the page's top was a heavily blurred picture.
+- **Below the picture:** the page goes on with Related titles, Cast & Crew (shown with their initials), About (the genres and the full description) and Information (released, running time, age rating, country and director). Anything the provider doesn't list is simply left out.
+- **Episodes in one row:** a series' episodes from every season run in one row, in order, so season 2's first episode follows season 1's last. Each card shows the episode's picture, its number, title, three lines of description and running time, and, where you've started it, how far you got; its menu has Play, Mark as Watched (or Unwatched) and Download where available.
+- **Season menu:** the Season menu above the row follows it: as the row scrolls into a season, the menu shows that season, and choosing a season moves the row there.
+- **Notice for one HDR format:** a title whose provider says it uses Dolby Vision profile 5 now says, on its page and over the picture as it starts playing, that its colours may look wrong, as the app can't show that format yet. Nothing else about playing it changes.
+
+### Improved
+
+- **First load:** while the app fetches the TV Guide on its first load, it now says "Guide for the first 200 channels; the rest loads as you browse", and a Continue button lets you start using the app straight away, while the guide carries on loading. Before, it read as if those were all your channels, and there was no way past that step.
+
+### Fixes
+
+- **First-load percentage:** the percentage on the first-load screen counts up cleanly. Before, its digits could look broken while they changed.
+- **Resume at launch:** with Settings › General › Startup › Resume Last Channel on Launch on, a live channel plays again at launch only if it was still playing when you quit. A film or episode playing when you quit leaves nothing playing at launch. Before, the last channel played again even after you'd closed it, or while a film was playing.
+
+### Known issues
+
+- **Colours in some 4K HDR titles:** a 4K HDR episode or film in one particular Dolby Vision format can show strongly wrong colours. The app now says so on its page and in the player, but doesn't support that format yet.
+- **Title pages:** the picture at the top of a movie's or series' page starts below the toolbar while the category list is showing, rather than running up under it as on Home.
+- **Home's banner:** a title whose wide pictures all have its name lettered into them can still show the name twice.
+- **Back after launch:** if the first thing you do after opening the app is play something from Home, Back doesn't return to Home. Choose Home in the sidebar instead.
+- **Keychain prompts after an update:** macOS may ask for your Mac password once for each saved playlist. Choose Always Allow.
+- **HDR with Smooth Picture Moves off:** HDR is shown as a standard picture.
+- **Search field:** with the inspector open on Live TV and the TV Guide, the search field runs across the inspector's edge.
+- **Category column:** the categories column stays at its narrow width in a larger window, so long category names are shortened.
+- **Subtitles:** if subtitles don't appear, turn them off and on again.
+- **External subtitle files:** a separate subtitle file from the provider (such as an .srt) isn't supported.
+
 ## v0.36.06: Fuller Banner, Steadier Picture (7 November 2026)
 
 Home's banner shows a title's wide picture in its own shape with faces in view, with the title's details over it; going back from Now Playing, the picture moves straight to its place; and posters show a quality tag as a small badge.
