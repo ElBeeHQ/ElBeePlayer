@@ -3,6 +3,33 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.36.05: Cleaner Banner and HDR Films
+
+Home's banner shows a title's picture edge to edge, as it is, with no dark shading, and prefers a picture without the name lettered into it; HDR films start with Smooth Picture Moves on.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- Home's banner: no dark shading, and no doubled name where the provider has a clean picture
+- HDR films start with Smooth Picture Moves on
+
+### Fixes
+
+- **Home's banner:** the banner shows a title's picture as it is, running edge to edge and up under the toolbar and sidebar, with no dark fades and a clean edge where the page begins. The picture is no longer moved up or down. Where the provider has several wide pictures for a title, the banner shows the first one without the name lettered into it, so the name isn't shown twice. The title and buttons read through a soft blur behind them only. Before, a moved picture could put its own lettering behind the title, or leave a flat band under the toolbar.
+- **HDR films:** an HDR film now starts and plays in HDR with Smooth Picture Moves on. Before, it stopped with an error a moment after starting.
+
+### Known issues
+
+- **Home's banner:** a title whose wide pictures all have its name lettered into them can still show the name twice.
+- **Keychain prompts after an update:** macOS may ask for your Mac password once for each saved playlist. Choose Always Allow.
+- **Colours in some 4K HDR titles:** a 4K HDR episode or film in one particular HDR format can show strongly wrong colours. The app doesn't support that format yet.
+- **HDR with Smooth Picture Moves off:** HDR is shown as a standard picture.
+- **Search field:** with the inspector open on Live TV and the TV Guide, the search field runs across the inspector's edge.
+- **Category column:** the categories column stays at its narrow width in a larger window, so long category names are shortened.
+- **Subtitles:** if subtitles don't appear, turn them off and on again.
+- **External subtitle files:** a separate subtitle file from the provider (such as an .srt) isn't supported.
+
 ## v0.36.04: Clearer Guide and Banner
 
 Long channel names now read in the TV Guide, Home's banner keeps a title's lettering in view, and every play button over a card or poster is the same amber.
