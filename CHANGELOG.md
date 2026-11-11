@@ -3,6 +3,31 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.40.06: Energy and glow (11 November 2026)
+
+Interlaced HD channels use a fraction of the energy they did, and Ambient Glow is a soft light round the picture again.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- Deinterlacing now runs on the graphics chip: an interlaced HD channel uses around a third of the energy it did
+- Ambient Glow no longer leaves a dark band beside the picture
+- The close button sits on the picture's own top-right corner
+
+### Changed
+
+- **Deinterlacing:** with Smooth Picture Moves on (the default), Yadif, Yadif 2x and Blend now run on the graphics chip instead of the processor, with the same picture: Yadif 2x still shows 50 pictures a second from a 50i channel. On our 1080i test channels with Deinterlacing set to Auto and Yadif 2x, the Energy Impact in the TV Guide fell from about 75 to about 27, and from about 60 to about 16. Interlaced channels are decoded without hardware help on the Mac, and what's left is mostly that decoding.
+- **Channels decoded without hardware help** (interlaced H.264 and MPEG-2, for example) use less energy even with deinterlacing off: their frames are no longer converted on the processor.
+
+### Fixed
+
+- **Ambient Glow:** after a change of channel, the light could start a little way out from the picture, leaving a dark band between them. The light now starts at the picture's edge on every side, every time.
+- **Ambient Glow in full screen:** showing the controls darkened the glow above and below the picture, so it read as a dark band behind the close button. Only the picture is dimmed under the controls now.
+- **Ambient Glow in Light Mode:** dark edges no longer cast a grey shade round the picture.
+- **Close button:** in Now Playing and full screen it sat in the corner of the page or screen, beyond the picture's edge. It now sits on the picture's top-right corner, in its glass circle.
+- **Floating video:** a 4:3 channel's window takes the picture's 4:3 shape.
+
 ## v0.40.05: Polish (11 November 2026)
 
 The full-screen player's controls take less of the picture, the small players are tidier, and switching playlist now stops what was playing.
