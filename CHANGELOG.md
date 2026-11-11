@@ -3,6 +3,28 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.40.05: Polish (11 November 2026)
+
+The full-screen player's controls take less of the picture, the small players are tidier, and switching playlist now stops what was playing.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- The full-screen and Now Playing controls fit on fewer rows, so they cover less of the picture
+- The floating video window works like Picture in Picture
+- Switching playlist stops the video straight away
+
+### Changed
+
+- **Full-screen controls:** Subtitles, Cast, the volume, More and Full Screen stay on the same row as the playback buttons whenever they fit. In a narrower window the volume slider folds into the speaker button (click it to change the volume) before anything moves to another row. The bar's top and bottom padding is smaller.
+- **Small players:** the playback buttons stay on one row; "Expand to Now Playing" no longer drops onto a line of its own.
+- **Floating video:** smaller controls and a smaller close button; Restart, back, Play/Pause, forward and LIVE in the middle; Open Player in the corner opposite the close button; a Mute button; a thin progress line along the bottom edge (a seek bar for catch-up, films and episodes) and the programme's title when you point at the picture. Drop it near a screen corner and it settles into the corner. It keeps its size and place, and shows over full-screen apps and in every Space.
+
+### Fixed
+
+- **Switching playlist:** the video that was playing stopped only when switching from Settings. It now stops the moment any switch starts, and the Now Playing bar clears, before the new playlist signs in.
+
 ## v0.40.04: Keychain (11 November 2026)
 
 All your playlists' sign-ins are now kept together in one keychain item, so after an update macOS asks for your keychain password once, not once for every playlist you've saved.
