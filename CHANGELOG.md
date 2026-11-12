@@ -3,6 +3,34 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.40.08: Channel switcher (12 November 2026)
+
+You can change channel without leaving the picture, Stream Diagnostics stays on the picture, and a live channel that freezes now finds its way back by itself.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- A new channel switcher over the picture: browse channels, see what's on, or open a few rows of the guide, then tune
+- Stream Diagnostics stays on the picture instead of sitting on the glow or the black bars
+- A frozen live channel recovers quietly; channel lists that fail to load are retried; Home stops loading behind the full-screen player
+- A channel numbered 0 no longer shows its number
+
+### Added
+
+- **Channel switcher:** in Now Playing and full screen, press ↑ or ↓, type a channel number, or click the new **Channels** button (the TV glyph, after Favourite in the controls) to open a strip of channels over the picture. Each card shows the logo, number and name, what's on with its progress, and what's next. ← and → move along the strip, a number jumps to that channel, Return (or a click) tunes it, and Esc or ↓ closes it. Press ↑ again, or click the guide button, to open a few rows of the guide over the picture: the channel you're on sits in the middle row, with the next two hours. The strip steps through the same channels as Next and Previous. It closes by itself after 8 seconds, stays out of the way of Up Next and Skip Intro, and is read out by VoiceOver channel by channel. It isn't in the floating window or Multi-View.
+
+### Changed
+
+- **Channel number 0:** a channel numbered 0 no longer shows "0" as its number in the channel list, the switcher or its subtitle.
+
+### Fixed
+
+- **Stream Diagnostics:** the panel was laid out against the whole player rather than the picture, so on a 4:3 or narrow picture it landed on the glow or the black bars. It now sits in the picture's own corner in Now Playing, full screen, the floating window and Multi-View, below the REC badge and clear of the controls, and switches to the compact panel (or shrinks) when the picture is small.
+- **Frozen live channels:** a live channel could stop moving while the app still said it was playing, and stay frozen. The app now watches the video's own clock, and when it stops moving it quietly returns to the live edge within a couple of seconds, with no Reconnecting card. After three quick recoveries in a minute it reconnects as before, and the attempt count clears once the picture moves again.
+- **Channel lists:** when several lists were refreshed together and the connection dropped, each was cut with no retry. They now load one at a time and retry a few times, and the lists you already have are kept if a refresh gives up.
+- **Home under full screen:** Home kept loading titles' details and pictures behind the full-screen player. It now waits, and catches up when it shows again.
+
 ## v0.40.07: Bars (12 November 2026)
 
 A 4:3 programme on a widescreen channel loses its black side bars, Stream Diagnostics says how the picture is made, and
