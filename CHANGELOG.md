@@ -3,6 +3,28 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.40.07: Bars (12 November 2026)
+
+A 4:3 programme on a widescreen channel loses its black side bars, Stream Diagnostics says how the picture is made, and
+Settings has one title bar across the Playlists tab.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- Black side bars are removed from 4:3 programmes shown on widescreen channels
+- Stream Diagnostics shows whether a channel is interlaced, which decoder plays it, and how it's deinterlaced
+- Settings › Playlists has one continuous title bar
+
+### Added
+
+- **Stream Diagnostics** has three new rows. **Scan:** Interlaced or Progressive. **Decoder:** Hardware (your Mac's video engine) or Software; a channel your Mac's decoder can't take is shown as Software even with Hardware decoding chosen. **Deinterlacing:** the mode in use and whether it runs on the graphics chip or the processor, or Off. With Smooth Picture Moves off and Hardware decoding chosen, the decoder isn't shown, as the standard player doesn't say. Multi-View shows Scan, and Decoder when Software decoding is chosen.
+
+### Fixed
+
+- **Black bars:** a 4:3 programme shown in a widescreen HD channel kept its black side bars in Now Playing and full screen. Its picture often starts with a thin grey line where it was scaled up, which hid the picture's edge from the check. The bars now come off once the picture has been bright for a few seconds. Dark scenes still never change the crop, and bars that aren't the same on both sides aren't taken for bars.
+- **Settings › Playlists:** the title bar lit up over the right-hand column only while the pointer was over it. The pages now sit below one continuous title bar, the same with or without the pointer, on every tab.
+
 ## v0.40.06: Energy and glow (11 November 2026)
 
 Interlaced HD channels use a fraction of the energy they did, and Ambient Glow is a soft light round the picture again.
