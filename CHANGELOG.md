@@ -3,6 +3,39 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.40.10: Age ratings (13 November 2026)
+
+A film your provider sends without an age rating can now show one, if you turn it on, and starting the app is quicker and easier to get out of when a server is slow.
+
+Your settings are all kept: none was renamed or reset. Two new ones are added, and the new look-up is off until you turn it on.
+
+### In short
+
+- Films can show an age rating, such as "15 · UK", when your provider doesn't send one (Settings › Parental Controls › Age Ratings)
+- Opening the app goes straight to Home when your library is already on your Mac
+- Signing in gives up after 30 seconds, and you can cancel it at any time
+- The first load of a library has Cancel and Start Watching, and shows its counts
+- Progress bars throughout the app are the standard Mac ones, in your accent colour
+
+### New
+
+- **Age ratings:** with Look Up Missing Age Ratings on, a film you open that has no rating from your provider is looked up in a free public film database, named in the setting's help. It's matched by the film's ID where your provider gives one, otherwise by its exact name and year, and shows nothing rather than risk a wrong rating. The badge shows the rating and its country. Ratings Country picks whose ratings you see; if that country has none, another country's is shown, labelled with its country. Your provider's own rating always comes first. Answers are kept on your Mac, and Settings › Advanced › Storage can clear them. Turning the setting off stops every look-up at once.
+
+### Changed
+
+- **Opening the app:** when your library is already saved on your Mac, the app opens straight to Home instead of showing the full loading screen. A first load still shows it.
+- **Loading your library:** the loading screen now has Cancel and Start Watching, shows how many channels, films and series it has found, and respects Reduce Motion. Its rows are easier to read in Light.
+- **Signing in:** the screen says which playlist it is signing in to. Every address gets 30 seconds before the app gives up, and Cancel (or Esc) takes you back at once.
+- **Messages:** sign-in and loading problems are explained in plain words, with a button that leads to the fix, such as Try Again or Edit Playlist…
+- **Notifications:** the app no longer asks for permission to send notifications when it first opens; it asks when you set your first reminder or recording rule.
+- **Progress bars:** every progress bar is the standard Mac one, in your accent colour, and VoiceOver reads each one.
+- **Welcome:** Esc no longer skips the welcome for good, and the welcome sits in the middle of a large window.
+
+### Fixed
+
+- A failed sign-in that left an empty window now says what went wrong.
+- Screen titles on the sign-in, playlist and loading screens.
+
 ## v0.40.09: Fixes (13 November 2026)
 
 A channel that's missing a piece of video when you tune in now starts quietly, the guide stops loading behind the full-screen player, and the personal-hotspot banner no longer hides under the sidebar.
