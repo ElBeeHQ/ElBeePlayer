@@ -3,6 +3,32 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.40.09: Fixes (13 November 2026)
+
+A channel that's missing a piece of video when you tune in now starts quietly, the guide stops loading behind the full-screen player, and the personal-hotspot banner no longer hides under the sidebar.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- Tuning to a channel with a gap in its stream no longer shows the Reconnecting card; a channel that's really down still does
+- The guide waits while the full-screen player is up, and catches up when you leave full screen
+- The personal-hotspot banner sits over the page, clear of the sidebar, with its whole sentence readable
+- Clearer wording for sign-in and the welcome screen, and a licence line about your rights over the bundled video library
+
+### Changed
+
+- **Wording:** Sign-in and the welcome screen now say 'TV provider', and a failed sign-in explains which address to use.
+
+### Fixed
+
+- **Missing video at tune:** when the first piece of a live channel's stream was missing at the moment you tuned in, the app went to the Reconnecting card. It now tries again quietly, waiting a little longer each time, and the picture starts with no card. A channel that stays down still shows the card, after its quiet tries (about 13 seconds).
+- **Reconnecting card mid-programme:** the count of reconnect attempts never cleared, so after one reconnect every later gap in a live stream went to the card, with longer and longer waits. The count now clears once the picture has played for 15 seconds, and a gap the stream lands on again counts as the same gap.
+- **Guide under full screen:** the guide kept refreshing in the background while a channel played full screen (about 50 requests every few minutes). Background guide loading, and the Guide page's and Live TV's rows, now wait until you leave full screen; the channel switcher's guide rows still load as you open them.
+- **Personal-hotspot banner:** on Home and Now Playing the banner ran under the sidebar, so its first words were hidden, and on Live TV its sentence was cut off. It now starts where the page starts, with a shorter message, and keeps Settings… and Dismiss.
+
+The licence now states your rights over the bundled video library, as that library's own licence requires.
+
 ## v0.40.08: Channel switcher (12 November 2026)
 
 You can change channel without leaving the picture, Stream Diagnostics stays on the picture, and a live channel that freezes now finds its way back by itself.

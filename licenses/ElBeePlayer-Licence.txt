@@ -14,11 +14,13 @@ Copyright (c) 2026 ElBeeHQ. All rights reserved.
 
 3. Third-party software
    ElBee Player includes third-party components, including VLCKit (LGPL 2.1 or later) and Sparkle (MIT), each under its
-   own licence; see the Third-Party Notices. Nothing in this licence limits your rights under those licences, including
-   your right to replace VLCKit with your own build of it.
+   own licence; see the Third-Party Notices. Nothing in this licence limits your rights under those licences. In
+   particular, you may replace the VLCKit library in ElBee Player with your own modified build of it, use ElBee Player
+   with that build for your own use, and reverse engineer ElBee Player as far as you need to debug that change; clauses
+   2(c) and 2(d) do not apply to that.
 
 4. Your content
-   ElBee Player is an independent player. It provides no channels, films or programmes; it plays what your own IPTV
+   ElBee Player is an independent player. It provides no channels, films or programmes; it plays what your own
    provider supplies. You are responsible for having the right to access that content and to record or download it.
 
 5. No warranty
