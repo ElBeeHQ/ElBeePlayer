@@ -3,6 +3,22 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.40.11: Sidebar and sign-in (13 November 2026)
+
+Showing and hiding the sidebar holds the page still on Movies and Live TV, and adding, editing or switching a playlist in Settings now gives up on a server that doesn't answer, as signing in at launch already does.
+
+Your settings are all kept: none was added, renamed or reset.
+
+### In short
+
+- Showing or hiding the sidebar keeps the page beside it still, with a shorter pause overall, on pages with a categories column
+- Adding, editing or switching a playlist in Settings gives up after 30 seconds, and you can cancel it at any time
+
+### Changed
+
+- **Sidebar:** while the sidebar slides in or out, the page beside it keeps its layout and settles once at the end, instead of rearranging at every step of the slide. The pause the slide causes is shorter overall, though a few single frames can still take a little longer.
+- **Playlists in Settings:** Add Playlist, Save and Switch give each server address 30 seconds, like signing in at launch. While they wait, Cancel (or Esc) stops them at once and leaves the form as it was. If the server doesn't answer, the message says so and what to check. A playlist you couldn't switch to now shows why on its own page.
+
 ## v0.40.10: Age ratings (13 November 2026)
 
 A film your provider sends without an age rating can now show one, if you turn it on, and starting the app is quicker and easier to get out of when a server is slow.
