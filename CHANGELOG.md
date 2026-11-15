@@ -3,6 +3,30 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.40.13: A new welcome, sign-in and first load (15 November 2026)
+
+Getting started has been redesigned: one welcome window takes you from choosing how to connect to your library, the first load happens in the library's own window, and a playlist set to open at launch now opens Home straight away.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- A new welcome window: the logo on the left, each step on the right, at a fixed size in the middle of the screen
+- Your first load shows in the library's window, with the sidebar filling in as each section arrives
+- A playlist set to open at launch opens Home at once from what's saved on this Mac
+
+### New
+
+- **Welcome:** three ways to connect (Sign In with Server Details, Use a Playlist Link, Open a Playlist File), or paste a link your provider sent with ⌘V. You can also drop a playlist file on the window, or choose Set Up Later.
+- **First load:** the library's window opens as soon as you've signed in. Each section in the sidebar is dimmed until its list arrives, then shows its count. The page shows the progress, with Cancel and Start Watching, which opens the app once Live TV and Movies are in while the rest carries on loading.
+- **Languages:** a new playlist with three or more languages asks once which ones to show, and whether to hide country prefixes. You can change this later in Settings ▸ Playlists.
+
+### Changed
+
+- **The welcome window:** every screen before your library (Welcome, Sign In, Choose a Playlist, the opening splash and the empty window) shares one window, 1120 × 720 points (larger with a larger Interface Size), centred and not resizable. The logo, name and version sit on the left, with the website and Privacy links. When your library opens, the window goes back to the size and place you had it.
+- **Choose a Playlist:** Check Again sits beside the title, Add Playlist… and Manage Playlists on the left, and Open at Launch at the foot. A click on a playlist signs in, as before.
+- **Opening at launch:** with a playlist set to open at launch and its library already on this Mac, Home opens straight away and the sign-in is checked behind it. If the password is wrong or the account has run out, Choose a Playlist opens with the reason. If the server doesn't answer, your library stays open and the playlist bar says why.
+
 ## v0.40.12: Launch screens, startup and Android (14 November 2026)
 
 The window now opens straight away while your playlists are read, the launch screens give the logo pride of place, and Home tells you ElBee Player is on Android too.
