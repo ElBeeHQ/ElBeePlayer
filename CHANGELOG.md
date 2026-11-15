@@ -3,6 +3,27 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.40.12: Launch screens, startup and Android (14 November 2026)
+
+The window now opens straight away while your playlists are read, the launch screens give the logo pride of place, and Home tells you ElBee Player is on Android too.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- The window opens at once and your saved playlists are read just after, so a Keychain request no longer appears with no window behind it
+- The logo on the launch screens is larger, and grows with the window
+- Home shows a one-time notice that ElBee Player is on Android, and Help ▸ ElBee Player for Android opens its page
+
+### New
+
+- **ElBee Player for Android:** a notice at the top of Home says the app is on Android, with Get It (opens the page in your browser) and Not Now. Either button closes it for good. Help ▸ ElBee Player for Android opens the same page any time.
+
+### Changed
+
+- **Startup:** your saved playlists are read once the window is up and away from the part of the app that draws it, so the window and the splash show at once. The first screen (sign-in, welcome, choosing a playlist or your library) is chosen once they're read, by the same rules as before, which means it now follows a brief splash. If Settings is opened in that moment, Playlists says "Reading your playlists…" and Sign In Automatically To waits until they're in.
+- **Launch screens:** the logo is 144 points at the default window size and grows with taller windows up to 240 points; the wordmark grows with it. The screens scroll above the website link, so nothing runs underneath it, and the note on holding Option at launch is one line under Sign In Automatically To.
+
 ## v0.40.11: Sidebar and sign-in (13 November 2026)
 
 Showing and hiding the sidebar holds the page still on Movies and Live TV, and adding, editing or switching a playlist in Settings now gives up on a server that doesn't answer, as signing in at launch already does.
