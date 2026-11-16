@@ -3,6 +3,29 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.40.14: A new menu bar icon, and hiding from the Dock (16 November 2026)
+
+ElBee Player's menu bar icon is now drawn from its app icon, and it can leave the Dock while its window is minimised.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- The menu bar icon is the app icon's TV, outlined in one colour like the rest of the menu bar
+- New: Hide from Dock When Minimised, in Settings ▸ General ▸ System
+- ElBeeHQ's logo in About ElBee Player and on the welcome window
+
+### New
+
+- **Hide from Dock When Minimised** (Settings ▸ General ▸ System, off by default): while the main window is minimised, ElBee Player leaves the Dock and stays in the menu bar. Choose Open ElBee Player from the menu bar icon, or open the app again, and the window and the Dock icon come back. A floating video stays on top and keeps playing. It needs Show in Menu Bar on.
+- **Quit from the menu bar:** the menu bar icon's menu has Quit ElBee Player, so you can quit without a Dock icon or app menu.
+
+### Changed
+
+- **ElBeeHQ's logo:** About ElBee Player now says "Made by" ElBeeHQ, with the company's logo, and the welcome window is signed "from ElBeeHQ" at the foot of its left side. ElBee Player's own icon and logo are unchanged.
+- **Names in badges and notices:** a title's quality badges say HDR and Spatial Audio, and the notice about one HDR format the app can't show yet names no brand.
+- **The menu bar icon:** the TV from the app icon, with its antennae, play button and feet, as a one-colour outline that matches the menu bar in Light and Dark, in place of the generic TV symbol.
+
 ## v0.40.13: A new welcome, sign-in and first load (15 November 2026)
 
 Getting started has been redesigned: one welcome window takes you from choosing how to connect to your library, the first load happens in the library's own window, and a playlist set to open at launch now opens Home straight away.
@@ -500,10 +523,10 @@ Your settings are all kept: none was renamed or reset.
 
 ### Known issues
 
-- **Now Playing bar:** the bar is new and has so far been tried on Home and going back from Now Playing. On other pages, with the inspector open, for radio and for Dolby Vision titles it hasn't been fully checked yet.
+- **Now Playing bar:** the bar is new and has so far been tried on Home and going back from Now Playing. On other pages, with the inspector open, for radio and for titles in one HDR format it hasn't been fully checked yet.
 - **Clean titles:** checked in Now Playing so far; the bar, History, Continue Watching, window titles, the menu bar, the Dock menu and Control Centre use the same rule but haven't been fully checked yet.
-- **Dolby Vision titles:** on a Mac with an Intel processor these titles still play the old way, with the notice, and so do they while casting or after you change the playback speed or the sound or subtitle timing. While one plays the new way, Save Still, Skip Intro, Up Next as the credits roll, Stream Diagnostics, Match Frame Rate, Ambient Glow, Live Captions and Picture in Picture aren't available yet, and entering or leaving full screen cuts straight across rather than gliding.
-- **Subtitles on Dolby Vision titles:** styled subtitles show as plain text, and if a title has to switch to playing the old way, the subtitle track you chose isn't kept: choose it again in Subtitles.
+- **Titles in one HDR format:** on a Mac with an Intel processor these titles still play the old way, with the notice, and so do they while casting or after you change the playback speed or the sound or subtitle timing. While one plays the new way, Save Still, Skip Intro, Up Next as the credits roll, Stream Diagnostics, Match Frame Rate, Ambient Glow, Live Captions and Picture in Picture aren't available yet, and entering or leaving full screen cuts straight across rather than gliding.
+- **Subtitles on titles in one HDR format:** styled subtitles show as plain text, and if a title has to switch to playing the old way, the subtitle track you chose isn't kept: choose it again in Subtitles.
 - **Title pages:** the picture at the top of a movie's or series' page starts below the toolbar while the category list is showing, rather than running up under it as on Home.
 - **Home's banner:** a title whose wide pictures all have its name lettered into them can still show the name twice.
 - **Back after launch:** if the first thing you do after opening the app is play something from Home, Back doesn't return to Home. Choose Home in the sidebar instead.
@@ -514,31 +537,31 @@ Your settings are all kept: none was renamed or reset.
 - **Subtitles:** if subtitles don't appear, turn them off and on again.
 - **External subtitle files:** a separate subtitle file from the provider (such as an .srt) isn't supported.
 
-## v0.37.02: Dolby Vision in True Colour (7 November 2026)
+## v0.37.02: One HDR Format in True Colour (7 November 2026)
 
-Films and episodes in the Dolby Vision format that used to play with stripes and green and purple colours now play with their real colours on Macs with Apple silicon, and Home's Continue Watching cards show a wide picture instead of a cropped poster.
+Films and episodes in one HDR format that used to play with stripes and green and purple colours now play with their real colours on Macs with Apple silicon, and Home's Continue Watching cards show a wide picture instead of a cropped poster.
 
 Your settings are all kept: none was renamed or reset.
 
 ### In short
 
-- Dolby Vision films and episodes that showed green and purple now play in their real colours
-- Long Dolby Vision episodes with many sound and subtitle tracks start, and pick up where you left off
+- Films and episodes in one HDR format that showed green and purple now play in their real colours
+- Long episodes in that HDR format with many sound and subtitle tracks start, and pick up where you left off
 - The colour notice shows only when a title can't play that way, and is easier to read
 - Continue Watching cards show a wide picture, never a cut-off poster
 
 ### Fixes
 
-- **Colours in some 4K HDR titles:** a film or episode in Dolby Vision profile 5 now plays with its real colours on Macs with Apple silicon, whether the provider sends it as an MKV, MP4 or MPEG-TS stream, with its sound in stereo or 5.1. Before, it showed stripes and strong green and purple colours. Pause, the timeline, skipping, Up Next, resuming where you left off, Close Video and full screen work as for any other title.
-- **Long Dolby Vision episodes:** an hour-long Dolby Vision episode with many sound and subtitle tracks now starts with its picture in real colours, and resuming one you stopped part-way goes straight to the place you left it and shows the picture there. Before, resuming such an episode could leave the player waiting without a picture.
-- **Dolby Vision notice:** the notice that a title's colours may look wrong no longer shows for a title that plays correctly. It shows only when the title has to play the old way, for example if its stream stops arriving, and it's now white text on the player's dark glass, easy to read.
-- **Subtitles on Dolby Vision titles:** subtitles carried in the stream show on these titles, drawn over the picture.
+- **Colours in some 4K HDR titles:** a film or episode in that HDR format now plays with its real colours on Macs with Apple silicon, whether the provider sends it as an MKV, MP4 or MPEG-TS stream, with its sound in stereo or 5.1. Before, it showed stripes and strong green and purple colours. Pause, the timeline, skipping, Up Next, resuming where you left off, Close Video and full screen work as for any other title.
+- **Long episodes in that HDR format:** an hour-long episode in that HDR format with many sound and subtitle tracks now starts with its picture in real colours, and resuming one you stopped part-way goes straight to the place you left it and shows the picture there. Before, resuming such an episode could leave the player waiting without a picture.
+- **HDR format notice:** the notice that a title's colours may look wrong no longer shows for a title that plays correctly. It shows only when the title has to play the old way, for example if its stream stops arriving, and it's now white text on the player's dark glass, easy to read.
+- **Subtitles on titles in one HDR format:** subtitles carried in the stream show on these titles, drawn over the picture.
 - **Continue Watching pictures:** Home's Continue Watching cards show a wide picture: the episode's own picture, or the title's wide picture without its name lettered in, as Home's banner chooses. A title with no wide picture shows its whole poster on a soft, blurred background. Before, the card cropped the poster, cutting off its lettering and faces.
 
 ### Known issues
 
-- **Dolby Vision titles:** on a Mac with an Intel processor these titles still play the old way, with the notice, and so do they while casting or after you change the playback speed or the sound or subtitle timing. While one plays the new way, Save Still, Skip Intro, Up Next as the credits roll, Stream Diagnostics, Match Frame Rate, Ambient Glow, Live Captions and Picture in Picture aren't available yet, and entering or leaving full screen cuts straight across rather than gliding.
-- **Subtitles on Dolby Vision titles:** styled subtitles show as plain text, and if a title has to switch to playing the old way, the subtitle track you chose isn't kept: choose it again in Subtitles.
+- **Titles in one HDR format:** on a Mac with an Intel processor these titles still play the old way, with the notice, and so do they while casting or after you change the playback speed or the sound or subtitle timing. While one plays the new way, Save Still, Skip Intro, Up Next as the credits roll, Stream Diagnostics, Match Frame Rate, Ambient Glow, Live Captions and Picture in Picture aren't available yet, and entering or leaving full screen cuts straight across rather than gliding.
+- **Subtitles on titles in one HDR format:** styled subtitles show as plain text, and if a title has to switch to playing the old way, the subtitle track you chose isn't kept: choose it again in Subtitles.
 - **Title pages:** the picture at the top of a movie's or series' page starts below the toolbar while the category list is showing, rather than running up under it as on Home.
 - **Home's banner:** a title whose wide pictures all have its name lettered into them can still show the name twice.
 - **Back after launch:** if the first thing you do after opening the app is play something from Home, Back doesn't return to Home. Choose Home in the sidebar instead.
@@ -568,7 +591,7 @@ Your settings are all kept: none was renamed or reset.
 - **Below the picture:** the page goes on with Related titles, Cast & Crew (shown with their initials), About (the genres and the full description) and Information (released, running time, age rating, country and director). Anything the provider doesn't list is simply left out.
 - **Episodes in one row:** a series' episodes from every season run in one row, in order, so season 2's first episode follows season 1's last. Each card shows the episode's picture, its number, title, three lines of description and running time, and, where you've started it, how far you got; its menu has Play, Mark as Watched (or Unwatched) and Download where available.
 - **Season menu:** the Season menu above the row follows it: as the row scrolls into a season, the menu shows that season, and choosing a season moves the row there.
-- **Notice for one HDR format:** a title whose provider says it uses Dolby Vision profile 5 now says, on its page and over the picture as it starts playing, that its colours may look wrong, as the app can't show that format yet. Nothing else about playing it changes.
+- **Notice for one HDR format:** a title whose provider says it uses that HDR format now says, on its page and over the picture as it starts playing, that its colours may look wrong, as the app can't show that format yet. Nothing else about playing it changes.
 
 ### Improved
 
@@ -581,7 +604,7 @@ Your settings are all kept: none was renamed or reset.
 
 ### Known issues
 
-- **Colours in some 4K HDR titles:** a 4K HDR episode or film in one particular Dolby Vision format can show strongly wrong colours. The app now says so on its page and in the player, but doesn't support that format yet.
+- **Colours in some 4K HDR titles:** a 4K HDR episode or film in one particular HDR format can show strongly wrong colours. The app now says so on its page and in the player, but doesn't support that format yet.
 - **Title pages:** the picture at the top of a movie's or series' page starts below the toolbar while the category list is showing, rather than running up under it as on Home.
 - **Home's banner:** a title whose wide pictures all have its name lettered into them can still show the name twice.
 - **Back after launch:** if the first thing you do after opening the app is play something from Home, Back doesn't return to Home. Choose Home in the sidebar instead.

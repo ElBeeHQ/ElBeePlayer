@@ -101,7 +101,7 @@ your Mac.
   itself, with hardware decoding: colours follow each stream's own colour settings, and subtitles stay on hardware
   decoding, so they cost little energy, 4K included.
 - **HDR:** HDR10 and HLG streams play in 10-bit and show in HDR, brighter than white, on displays that support it.
-- **Dolby Vision:** films and episodes in Dolby Vision profile 5 play with their real colours on Macs with Apple
+- **One HDR format:** films and episodes in one HDR format play with their real colours on Macs with Apple
   silicon, from MKV, MP4 and MPEG-TS streams, with the stream's subtitles. Where a title can't play that way (on Intel,
   while casting, or at a different speed), it plays as before and says its colours may look wrong.
 - **The same controls in every player:** the floating window, Live TV's inspector, a title's page, Now Playing and
