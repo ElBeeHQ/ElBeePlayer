@@ -43,7 +43,7 @@ with this configuration:
   --disable-avfilter --disable-swscale --disable-swresample --enable-shared --disable-static
   --install-name-dir=@rpath --disable-x86asm --enable-zlib --enable-securetransport
   --enable-demuxer=matroska,mov,mpegts,hls,aac,ac3,eac3 --enable-parser=hevc,h264,aac,ac3
-  --enable-decoder=aac,ac3,eac3 --enable-bsf=aac_adtstoasc,extract_extradata
+  --enable-decoder=aac --enable-bsf=aac_adtstoasc,extract_extradata
   --enable-protocol=file,http,https,tls,tcp,crypto
 They are included as separate dynamic frameworks (ElBee Player.app/Contents/Frameworks/libavformat.framework,
 libavcodec.framework and libavutil.framework), so you can replace them with your own build of the same FFmpeg

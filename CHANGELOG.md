@@ -3,6 +3,33 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.40.16: Format badges (17 November 2026)
+
+Posters and title pages now show a title's picture and sound formats.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- New: 4K, HD, HDR, 5.1, 7.1 and Spatial Audio badges on posters and title pages
+- Stream Diagnostics fills in its Video, Decoder, Network and Buffer rows for every film and episode
+- Home: the Android notice is a slim bar under the toolbar
+
+### New
+
+- **Format badges:** posters (in the grids, Home's shelves, Continue Watching, Search and More Like This) and a title's page show 4K or HD, HDR, and 5.1, 7.1 or Spatial Audio. Picture formats come from a title's and its category's names, so they show at once. Sound formats come from the title's details, so they show once its page has been opened, once the pointer rests on its poster, or a little after the posters on screen stand still (never while you scroll), and they're remembered for next time. Clear Cache forgets them. A series shows only what every one of its episodes agrees on. VoiceOver reads them out (for example "4K, HDR, 5.1 surround sound").
+
+### Changed
+
+- **Stream Diagnostics:** for films and episodes played by the app's own engine, the Video, Decoder, Network and Buffer rows show the stream's details, as they already did for everything else.
+- **Home:** the page shows its banner from the cache at once when it opens.
+- **ElBee Player for Android:** the notice on Home is now a slim one-line bar under the toolbar, with a Get It button and a close button; the page scrolls under it as it does under the toolbar. If you'd already closed the old notice, it doesn't come back. Help ▸ ElBee Player for Android still opens the page.
+- **Surround sound behind streaming playlists:** the app now reads a surround track's details from the stream itself, so the app is smaller and plays the same sound as before.
+
+### Fixed
+
+- A rare crash when the window was resized as the categories list changed.
+
 ## v0.40.15: Spatial Audio, and a smoother sign-in (17 November 2026)
 
 Films and episodes with surround sound can now play it as spatial sound on your Mac, and signing in moves smoothly into the library.
