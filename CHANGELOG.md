@@ -3,6 +3,28 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.40.15: Spatial Audio, and a smoother sign-in (17 November 2026)
+
+Films and episodes with surround sound can now play it as spatial sound on your Mac, and signing in moves smoothly into the library.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- New: Spatial Audio, in Settings ▸ Playback ▸ Audio, on by default
+- After signing in, the window grows into the library in one smooth move
+- Small fixes: the welcome window's name and links, and the version in About
+
+### New
+
+- **Spatial Audio** (Settings ▸ Playback ▸ Audio, on by default): a film or episode with surround sound in the format most streaming services use plays it through macOS's own sound system, so the Mac's speakers and headphones give you spatial sound, and a receiver gets surround. When it's in use, Now Playing shows Spatial Audio (or Surround on a receiver), and so does the Audio row in Stream Diagnostics. Live channels, Multi-View and radio play as before. Switch it off and every title plays as it did.
+
+### Changed
+
+- **Signing in:** once your playlist signs in, the welcome window grows into the library's window in one smooth move, and the library appears at its full size. Before, the window jumped and the library was drawn twice. With Reduce Motion on, the window changes size at once and the library fades in.
+- **The welcome window:** "Player" in the app's name is easier to read in Light, and elbeehq.com is a link in the same style as Privacy.
+- **About ElBee Player** shows the version once ("Version 0.40.15") instead of twice.
+
 ## v0.40.14: A new menu bar icon, and hiding from the Dock (16 November 2026)
 
 ElBee Player's menu bar icon is now drawn from its app icon, and it can leave the Dock while its window is minimised.
