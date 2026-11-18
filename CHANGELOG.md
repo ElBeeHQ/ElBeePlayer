@@ -3,6 +3,38 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.40.17: Region playlists, and full screen that always comes back (18 November 2026)
+
+Playlists that group channels by region now find each category's country, and leaving full screen always returns to Now Playing.
+
+Your settings are all kept: none was renamed or reset. There is one new setting, off unless you turn it on.
+
+### In short
+
+- New: categories under a region such as "EU|" get their country from their names, for languages and headings
+- New: Hide Categories Without a Country (Settings › Playlists › Languages)
+- New: in Manage Categories, set a category's country, or hide a whole region at once
+- A single click on a poster opens its page
+- Leaving full screen always returns to Now Playing
+
+### New
+
+- **Country from a category's name:** a category under a region prefix, such as "EU| France General", or with no prefix, now takes its country from its name. That country decides its language for Show Content In and the heading it sits under. Region prefixes such as EU no longer count as English, so a language filter no longer lets a whole region group through.
+- **Hide Categories Without a Country** (Settings › Playlists › Languages, off by default): while Show Content In leaves languages out, it also hides region categories, such as "EU| Mixed", that don't name a country.
+- **Manage Categories:** right-click a category (or a selection) › Country to choose its country, No Country, or Automatic; the row shows your choice. Right-click › Hide All in EU (or any other region) hides that region's categories, including ones the provider adds later; Show All in EU brings them back. Your choices are kept when the playlist refreshes.
+
+### Changed
+
+- **Posters:** a single click on a poster in Movies, Series and Search opens its page, as on Home. Return and Space open the selected poster, and VoiceOver reads each poster as a button that opens the title's page.
+- **View › Enter Full Screen (Globe-F):** on Now Playing it opens the picture in full screen, as the Full Screen button does.
+
+### Fixed
+
+- Leaving full screen after View › Enter Full Screen or Globe-F left the picture filling the window, with no way back to Now Playing but closing the video. Every way out of full screen now returns to Now Playing.
+- Live TV opens at the playing or selected channel after full screen, Now Playing or another page, instead of at the top of the list.
+- Home's banner no longer dims a moment after Home appears.
+- Home's shelves no longer change places a moment after Home appears: On Now is in place from the start when the guide is already saved.
+
 ## v0.40.16: Format badges (17 November 2026)
 
 Posters and title pages now show a title's picture and sound formats.
