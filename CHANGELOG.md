@@ -3,6 +3,28 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.40.18: Region playlists, fixed (19 November 2026)
+
+Two fixes to 0.40.17's region playlists: Show Content In now hides more of their categories, and Manage Categories in Settings scrolls again.
+
+Your settings are all kept: none was renamed or reset.
+
+### In short
+
+- Show Content In now hides region categories it let through, such as "EU | Malta" and "24/7 | Turkey"
+- Manage Categories in Settings scrolls again, with the trackpad, the mouse, the scroll bar and the keyboard
+
+### Fixed
+
+- **Show Content In** let some categories of region playlists through, although their language wasn't chosen. Now:
+  - countries with no prefix code of their own are known, such as "EU | Malta", "EU | Cyprus", "EU | Georgia" and "EU | Armenia", as are short and native forms such as "EU | Czech Cinema" and "EU | Turk Spor";
+  - a second region's tag in the name counts, such as "EU | EXYU General" or "EU | Scandinave";
+  - after a provider's own tag, such as "24/7 |" or "VIP |", the rest of the name is read, such as "24/7 | Turkey", "24/7 | Arabe" or "VIP | Latin Sport".
+
+  A category whose name says nothing about its language is still shown; use Manage Categories to set its country or hide it.
+- **Group Categories by Country:** "EU | UK General" now goes under United Kingdom, not EU. A country found only from its name, such as Malta, is headed with its name.
+- **Manage Categories** (Settings › Playlists › Categories) didn't scroll: categories below the first screenful couldn't be reached. The list now fills the page and scrolls by itself, as in Setup. The channels and titles you hid one by one are in a short list under it.
+
 ## v0.40.17: Region playlists, and full screen that always comes back (18 November 2026)
 
 Playlists that group channels by region now find each category's country, and leaving full screen always returns to Now Playing.
