@@ -3,6 +3,42 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.41.0: Send to TV, your own guide, and other players (20 November 2026)
+
+You can now send a playlist to your TV, use a guide of your own, and play in another app. Home gains a Recently Added Series row.
+
+Your settings are all kept: none was renamed or reset. There are new settings, which start as they were: ElBee Player still plays everything itself until you choose another player.
+
+### In short
+
+- New: Send to TV, from a playlist's menu in Settings › Playlists
+- New: Use Another Guide for every playlist, with Match Guide Channel… for channels the guide doesn't match by itself
+- New: Play In another app, for live channels, films and episodes
+- New: a Recently Added Series row on Home
+- Home's Details button is now More Info, and Related on title pages is now More Like This
+- Rewinding a channel with no guide shows how far behind live you are
+- Live TV keeps its place in the channel list, and leaving full screen with Globe-F or View ▸ Enter Full Screen always returns to Now Playing
+
+### New
+
+- **Send to TV:** in Settings › Playlists, open a playlist's menu and choose Send to TV…. Open Add from Your Phone or Mac on your TV, pick the TV from the list, check that the same six-digit code shows on both screens, and confirm on the TV. The TV and the Mac must be on the same Wi-Fi (guest networks often keep devices apart). Your password is read only when you pick a TV, and is not kept or logged. A playlist from a file on this Mac can't be sent. The first time, macOS asks to let ElBee Player find devices on your network; the wording now mentions TVs. If macOS blocks that, or no TV is found, the sheet says which, instead of just "No TV found".
+- **Use Another Guide:** Settings › Playlists › your playlist › Guide now has Use Another Guide for every kind of playlist, including Server Sign-In ones. Paste a guide link (.xml or .xml.gz) to show its programmes instead of the provider's guide; a line under it says how it is doing. If the link can't be loaded, the provider's guide is used until you next open the app, and the link is tried again then.
+- **Automatic matching:** channels are matched to the other guide's channels by themselves, using the same rules as ElBee Player for Android and Windows: your own match first, then the provider's guide id, then the exact name, then the name without its tags and quality marks. A name that fits two guide channels is left unmatched rather than guessed.
+- **Match Guide Channel…:** right-click a live channel to choose its guide channel yourself. The sheet suggests likely ones, lists every guide channel with a search box, and has No Guide for This Channel. Use Automatic Match undoes your choice, and is in the menu only while a match is set. The channel's guide is fetched again at once.
+- **Clear Channel Matches** (the Guide section of a playlist): removes the guide channels you matched by hand; automatic matching stays. It asks first.
+- **Play In another app:** Settings › Playback › Play In lets you choose, separately for Live TV and for Films & Series, ElBee Player, Ask Each Time (a list to choose from each time), or another player app on this Mac that opens playlists (editors and apps inside other apps aren't listed). Right-click a channel or film and choose Play In ▸ to pick ElBee Player or an app for just that once, without changing the setting. In the player's More menu, Continue In ▸ (films and episodes, from where you are) and Open In ▸ (live and catch-up) list the apps; choosing one hands the stream over and closes ElBee's player. A short notice appears the first time, because the other app receives the stream's address, which includes your sign-in details. Another player gets the stream only: Up Next, rewind and catch-up controls, subtitle and audio choices and the channel switcher stay in ElBee. If the player you chose isn't installed, ElBee Player plays it and the row says so. Radio always plays in ElBee. Restore Defaults on Playback sets both back to ElBee Player. Settings search finds both rows.
+- **Recently Added Series:** a Home row after Recently Added Films, with one tile for each of the 12 series added or updated most recently. If you had set your own Home order, it appears after Recently Added Films and is shown; you can hide or move it in Settings › Appearance › Home.
+
+### Changed
+
+- **More Info:** the button on Home's banner is now More Info, not Details.
+- **More Like This:** the shelf on a title's page is now More Like This, not Related.
+- **Welcome:** the line under the sign-in fields now reads "Your sign-in details are stored encrypted in this Mac's Keychain."
+- **Rewind with no guide:** in a channel's last hour with no guide, the player now reads "Behind live 2 min" (for example) instead of a time that looked an hour behind, and the bar ends at live. Programmes from the guide are unchanged.
+- **TV Guide:** with another guide in use, Channels with a Guide keeps channels the provider gives no guide id, because they can now be matched by name.
+- **Live TV keeps its place:** after Now Playing, full screen, Back, or another page, the channel list opens where you were, not at the top.
+- **Leaving full screen:** while the picture fills the screen in place, View ▸ Enter Full Screen, Globe-F and the green button now leave it for Now Playing, as Esc does, instead of moving the window into a full-screen Space.
+
 ## v0.40.18: Region playlists, fixed (19 November 2026)
 
 Two fixes to 0.40.17's region playlists: Show Content In now hides more of their categories, and Manage Categories in Settings scrolls again.
