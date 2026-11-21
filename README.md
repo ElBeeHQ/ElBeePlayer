@@ -55,16 +55,19 @@ It's free for personal use, with no account, no adverts and no tracking.
 <table>
   <tr>
     <td width="50%" valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/screenshot-guide-dark.jpg"><img src="assets/screenshot-guide-light.jpg" alt="The TV Guide: channels down the side, a week of programmes across, and what's on now highlighted"></picture>
       <h3>Live TV and the TV Guide</h3>
       <ul>
         <li>A TV Guide a week ahead, with reminders and Record Series.</li>
         <li>Catch-up, and pause and rewind live TV, where your service offers it.</li>
         <li>Multi-View: up to four channels at once.</li>
+        <li>Up Next: a heads-up a minute before something you like starts on another channel.</li>
         <li>Switch channels without leaving full screen: press ↑ or ↓, or type the channel's number.</li>
         <li>Use Another Guide: bring your own programme guide link, with automatic channel matching and Match Guide Channel… for the rest.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/screenshot-title-dark.jpg"><img src="assets/screenshot-title-light.jpg" alt="A film's page: artwork, its 4K, HDR and surround badges and More Like This"></picture>
       <h3>Films and series</h3>
       <ul>
         <li>A page for every title, with artwork, cast, seasons and More Like This.</li>
@@ -77,6 +80,7 @@ It's free for personal use, with no account, no adverts and no tracking.
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/screenshot-live-dark.jpg"><img src="assets/screenshot-live-light.jpg" alt="Live TV: a category list, channels with their own names and logos, and the inspector"></picture>
       <h3>Make it yours</h3>
       <ul>
         <li>Rename Channel… and Change Logo… on any live channel, from a link or a picture.</li>
@@ -87,6 +91,7 @@ It's free for personal use, with no account, no adverts and no tracking.
       </ul>
     </td>
     <td width="50%" valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/screenshot-phone-dark.jpg"><img src="assets/screenshot-phone-light.jpg" alt="Add from Your Phone: a QR code for a phone's camera to scan, and a code to check"></picture>
       <h3>Around your home</h3>
       <ul>
         <li>Add from Your Phone: scan a code with ElBee Player for Android and the playlist arrives, encrypted, with no typing.</li>

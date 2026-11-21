@@ -3,6 +3,32 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.45.0: Up Next for live TV (21 November 2026)
+
+A minute before something you like starts on another channel, a small notice offers to switch.
+
+Your settings and playlists are all kept: none was renamed or reset.
+
+### In short
+
+- New: Up Next for live TV, with Watch and Not Now
+- New: Settings › Playback › Up Next
+- Changed: the Playlists list's buttons are clearer
+- Fixed: the Now Playing bar's LIVE badge is never cut short
+
+### New
+
+- **Up Next:** about a minute before a programme starts on another channel, a card above the Now Playing bar says "Up Next on <channel> in 1 min" with the title, and offers Watch or Not Now. It counts programmes on your favourite channels, programmes named like a favourite title or one of your Record Series, and your reminders (a reminder shows on the card instead of as a second alert, from its own lead time). It is worked out on your Mac from the guide it already has; nothing is sent. Not Now hides that programme; "Don't Show for This Channel" in the card's ⋯ menu hides a channel until you bring it back in Settings. It never shows for the channel you are watching, in Multi-View, in catch-up or during a film or episode. In full screen and the floating window it shows only if you turn on Show in Full Screen. When ElBee Player isn't in front, a notification with a Watch button is used if you have allowed notifications (asked the first time there is something to show).
+- **Settings › Playback › Up Next:** Up Next for Live TV, Show in Full Screen, Programmes on Favourite Channels, Programmes Like Your Favourites and Reminders, and Silenced Channels. Restore Defaults covers them and Settings search finds them.
+
+### Changed
+
+- Settings › Playlists: + is a menu (Add Playlist…, Add from Your Phone…), − removes, and ⋯ holds the playlist's actions and Check All Playlists, in one joined bar as System Settings draws it.
+
+### Fixed
+
+- In a narrow Now Playing bar the LIVE badge was cut short ("L…"); it keeps its full size now.
+
 ## v0.44.0: Back up and restore, and Home follows your country (21 November 2026)
 
 You can now save your settings and playlists to a file and bring them back on this Mac or another one, and Home follows your Preferred Country.
