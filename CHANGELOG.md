@@ -3,6 +3,34 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.43.0: Add from Your Phone, and your own channel names and logos (21 November 2026)
+
+You can now send a playlist from your Android phone to this Mac, and give any live channel a name and a logo of your own.
+
+Your settings and playlists are all kept: none was renamed or reset.
+
+### In short
+
+- New: Add from Your Phone, in the File menu and in Settings › Playlists
+- New: Rename Channel… and Change Logo… in a live channel's menu
+- Searching finds a renamed channel by its new name and by the provider's
+
+### New
+
+- **Add from Your Phone:** File › Add from Your Phone… (or the phone button under the playlist list in Settings › Playlists) shows a code. On your phone, open the camera and point it at the code, then choose Add on this Mac. If your phone has no camera link, it can use six digits instead: check that both screens show the same six digits, then choose They Match. Your phone and this Mac must be on the same Wi-Fi. The Mac listens only while the window is open, and it stops when you close it, when the playlist is added, or after two minutes.
+- **Your details stay private:** the playlist is sent encrypted. Its sign-in details go straight into this Mac's Keychain, like a playlist you typed. A playlist with the same server and username as one you have updates that one. A playlist with a name you already use, but a different login, gets a number after its name.
+- **Rename Channel…:** the name you type shows wherever the channel appears: lists, the TV Guide, search and the player. The guide is still matched by the provider's name. Use Provider's Name goes back.
+- **Change Logo…:** use a link to a picture, or choose a picture file of up to 1 MB. A chosen picture is copied into ElBee Player, at up to 512 points, so your own file is never changed or needed again. Use Provider's Logo goes back.
+
+### Changed
+
+- The Local Network permission text now also says that your phone can send you a playlist.
+- Channels grouped together as versions of one another still show the provider's name.
+
+### Fixed
+
+- After switching between Dark and Light while ElBee Player was open, Live TV's channel names and the Movies and Series titles could be unreadable until the app was reopened.
+
 ## v0.42.0: Preferred Country (21 November 2026)
 
 Choose your country and its channels and titles come first, in every list, followed by other countries that speak its language.
