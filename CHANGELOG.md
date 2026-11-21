@@ -3,6 +3,32 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.44.0: Back up and restore, and Home follows your country (21 November 2026)
+
+You can now save your settings and playlists to a file and bring them back on this Mac or another one, and Home follows your Preferred Country.
+
+Your settings and playlists are all kept: none was renamed or reset.
+
+### In short
+
+- New: Back Up Settings… and Restore from Backup…, in Settings › General › Backup and the File menu
+- New: Home's rows follow Preferred Country
+- Changed: a channel grouped with its other versions shows the name and logo you gave it
+- Changed: Send to TV… is now Send to Another Device…
+
+### New
+
+- **Back Up Settings…:** saves your settings, playlists, favourites, history, hidden and locked categories, and channel names and logos into one `.elbeebackup` file. Add a passphrase to include your sign-in details; without one they are left out. A lost passphrase can't be recovered.
+- **Restore from Backup…:** shows what is in the file first. Merge (the default) adds what is in the backup to what is here; Replace makes this Mac match it, and asks once more before removing playlists that are only here. A restore never unlocks a locked category or changes the parental lock or its PIN.
+- **Home follows Preferred Country:** On Now and Recently Added Films and Series show your country's channels and titles first, then countries that share its language. Continue Watching and Favourites are unchanged.
+
+### Changed
+
+- Renaming or changing the logo of a channel that comes in several versions (HD, SD…) applies to all of them, and the combined row, the inspector and the TV Guide show it.
+- A renamed channel shows its own name in the player when no programme is known, in the floating window and in what you share.
+- Add from Your Phone chooses the network your Mac's default route uses when Wi-Fi and Ethernet are both connected.
+- Send to Another Device… is the new name of Send to TV…; Settings search still finds it by TV.
+
 ## v0.43.0: Add from Your Phone, and your own channel names and logos (21 November 2026)
 
 You can now send a playlist from your Android phone to this Mac, and give any live channel a name and a logo of your own.
