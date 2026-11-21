@@ -3,6 +3,29 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.42.0: Preferred Country (21 November 2026)
+
+Choose your country and its channels and titles come first, in every list, followed by other countries that speak its language.
+
+Your settings are all kept: none was renamed or reset. Preferred Country starts as None, so nothing moves until you choose.
+
+### In short
+
+- New: Preferred Country, in Settings › Playlists › Languages, and as a step after Choose Your Languages
+- Live TV, the TV Guide, Films, Series and Catch-Up list your country first, then countries that share its language
+- People who already use ElBee Player are asked once, after this update
+
+### New
+
+- **Preferred Country:** Settings › Playlists › Languages › Preferred Country, with None first. It is kept for this Mac, not for each playlist. Choosing a country, or None, reorders the lists at once. The list offers the countries of the languages you chose that your playlist has.
+- **Order:** in Live TV, the TV Guide, Films, Series and Catch-Up, the categories, and any "All" list, come in three groups: your country, then other countries that share a language with it (Canada and France, or Belgium and the Netherlands), then the rest. Inside a group the order is the one you had. Favourites, Recently Added and the "All" rows stay at the top. Nothing is hidden or renamed. "UK" and "USA" count as the United Kingdom and the United States.
+- **Set-up step:** after Choose Your Languages, when your playlist has categories from more than one country. Continue needs a choice; Skip keeps the order as it is.
+- **Asked once:** if you already use ElBee Player, the same step opens once after this update, when your library has loaded. Skip, or Continue, and it does not open again by itself.
+
+### Changed
+
+- **Restore Defaults** on Settings › Playlists sets Preferred Country back to None. It does not ask you again.
+
 ## v0.41.0: Send to TV, your own guide, and other players (20 November 2026)
 
 You can now send a playlist to your TV, use a guide of your own, and play in another app. Home gains a Recently Added Series row.
