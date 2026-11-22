@@ -3,6 +3,33 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.46.0: Smarter end credits (22 November 2026)
+
+Up Next finds the end credits more surely, remembers each series, and a film's credits get More Like This.
+
+Your settings and playlists are all kept: none was renamed or reset. Play Next Episode Automatically and Detect End Credits are one choice now, Next Episode, over the same two saved settings.
+
+### In short
+
+- New: Up Next learns where a series' credits begin, and knows a scene after the credits
+- New: a film's credits offer More Like This and Watch Credits
+- New: Match Theme Music (beta, off): listens for a series' theme to find credits and openings, and uses more energy
+- Changed: Settings › Playback › Next Episode: At the End Credits, In the Final Minute or Off
+
+### New
+
+- **Credits are weighed, not guessed:** the picture, the time this series' credits began before, and, with Match Theme Music on, the sound are weighed together. A dark scene alone no longer counts.
+- **Each series is remembered:** where its credits began in the episodes you watched makes the next episode look later and decide sooner. It stays on this Mac and goes in a backup.
+- **A scene after the credits:** when a full picture comes back after the credits, or the series is known to have one, Up Next waits for Play Now and doesn't count down. Choosing Keep Watching for a series again and again stops its countdown.
+- **Films:** at a film's credits a card offers More Like This (the film's page) and Watch Credits. Nothing plays by itself.
+- **Match Theme Music (beta):** needs a relaunch and uses more energy while anything plays, because the app plays the sound itself. The app plays the sound itself, in stereo, so surround passthrough, Even Out Volume and Night Mode don't apply while it is on. Nothing is recorded, the microphone is never used, and no request leaves your Mac.
+- **Skip Intro by sound:** with Match Theme Music on, the opening is also found by its music, so Skip Intro appears when the picture can't show it.
+
+### Changed
+
+- Settings › Playback › Next Episode replaces two switches: At the End Credits, In the Final Minute or Off. Forget All under Learnt Intros also forgets what was learnt about credits.
+- Analysis runs only in the last stretch or the first minutes of a title, at low priority, and stops below 20% battery.
+
 ## v0.45.0: Up Next for live TV (21 November 2026)
 
 A minute before something you like starts on another channel, a small notice offers to switch.

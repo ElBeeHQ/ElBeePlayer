@@ -74,6 +74,7 @@ It's free for personal use, with no account, no adverts and no tracking.
         <li>4K, HD, HDR, 5.1, 7.1 and Spatial Audio badges, so you know what you're getting.</li>
         <li>Spatial Audio: surround sound plays as spatial sound on your Mac.</li>
         <li>Continue Watching and Up Next pick up where you stopped.</li>
+        <li>Skip Intro, and Up Next that finds the end credits, remembers each series and knows when a scene follows them.</li>
         <li>Recently Added rows for new films and series.</li>
       </ul>
     </td>
