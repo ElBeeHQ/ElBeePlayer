@@ -3,6 +3,32 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.49.0: Audio tracks, View Options for Movies and Series, and more ways to play (25 November 2026)
+
+Choose a film's or channel's audio track while watching, sort and filter Movies and Series from the toolbar, try another version of a channel that won't play, and play downloads and recordings from their window.
+
+Your settings and playlists are all kept: none was renamed or reset.
+
+### In short
+
+- New: an Audio button beside Subtitles in the player, and Playback › Audio, to change the sound track while watching
+- New: View Options on Movies and Series: show all, unwatched, in progress or favourites, and sort by date added, title, year or rating
+- New: when a channel won't play, the message offers its other version (Try HD, Try 4K) beside Try Again
+- New: double-click or Return in Downloads & Recordings plays the file in ElBee Player, recordings included
+- Changed: Search lists each channel once, with its versions in the row, as Live TV does
+
+### New
+
+- **Audio tracks:** the player's Audio button, beside Subtitles on Now Playing and in full screen, lists the stream's sound tracks by language and channel layout ("English (5.1)", "French (Stereo)"; a track's layout shows once it has played), and Playback › Audio has the same list. It's greyed out while a stream has only one track, and while casting. A track you choose holds for the rest of the stream, through a reconnection too, and Audio Language in Settings no longer switches away from it.
+- **View Options on Movies and Series:** the toolbar's View Options menu, as on Live TV, has Show (All, Unwatched, In Progress, Favourites) and Sort By (Category Order, Recently Added, Title, Year, and Rating where your provider rates titles). Movies and Series each remember their own choice. It replaces the All, Favourites and In Progress buttons above the posters. A series counts as in progress while one of its episodes is.
+- **Try another version:** when a live channel can't be played, the message offers the next of its other versions (HD, 4K, a +1 or a feed with no quality word) beside Try Again, one at a time, each once.
+- **Play from Downloads & Recordings:** a double-click, Return or Play in the right-click menu plays a download or a recording in the main window, which opens if it was closed. A downloaded movie resumes where you left it, as from its page. Show in Finder and Quick Look are in the right-click menu, with Remove Download for a download. The list has the keyboard as the window opens, so the arrow keys and Return work straight away. The parental lock covers the window: a download or recording from a locked category asks to unlock before it plays or opens in Quick Look, and one saved before this version asks whenever a category is locked. While a channel records, playing a file is refused with a note, as Next and Previous are. Remove Download asks first.
+
+### Changed
+
+- **Search:** channels found by a search are listed as Live TV lists them, with a channel's versions in one row (when Combine Channel Versions is on) and their chips to play each one. Top Results gives a channel one place, not one per version, and the counts count channels.
+- **One name for Start from Beginning:** Watch from Start in the channel inspector, a channel's menu, the TV Guide and Home's On Now card is now Start from Beginning, as in the player and the Catch-Up section.
+
 ## v0.48.0: Safer with providers' data, and clearer in Light Mode (25 November 2026)
 
 A provider's server can no longer make the app read or write files on this Mac, Start Over says what it is, and Light Mode's player and buttons read clearly. This release also brings 0.47.0: Watch from Start wherever a channel plays, a short tour for new viewers, and Your Year in ElBee.
