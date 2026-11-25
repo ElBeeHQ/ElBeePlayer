@@ -3,6 +3,56 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.48.0: Safer with providers' data, and clearer in Light Mode (25 November 2026)
+
+A provider's server can no longer make the app read or write files on this Mac, Start Over says what it is, and Light Mode's player and buttons read clearly. This release also brings 0.47.0: Watch from Start wherever a channel plays, a short tour for new viewers, and Your Year in ElBee.
+
+Your settings and playlists are all kept: none was renamed or reset.
+
+### In short
+
+- Fixed: a provider's server can no longer make the app read or write files on this Mac
+- Fixed: Start Over and Catch-Up were labelled Movie in Now Playing, and the channel's name showed twice in the Now Playing bar
+- Fixed: Light Mode's player controls over a bright Ambient Glow, and the text on amber buttons and the Beta badge
+- New: Show Password beside the password when signing in
+- New (0.47.0): Watch from Start in a channel's menu, the TV Guide and Home's On Now card, and ⌥⌘B while a channel plays
+- New (0.47.0): a three-card tour after first-time setup, and Help › ElBee Player Tour any time
+- New (0.47.0): Your Year in ElBee, with hours watched and your top channels, films and series, all worked out on this Mac
+
+### Fixed
+
+- **Downloads stay in their folder:** a provider's file type is letters and digits only, a title can't start with a dot, and a title with an unusual character no longer loses the finished download.
+- **Web addresses only:** a playlist's TV guide and channels, an HLS channel's playlists, keys and segments, and a restored backup's addresses must be http or https: none can point the app at a file on this Mac. The Dolby Vision player keeps a network stream to network protocols.
+- **Big or broken guides:** a playlist or guide download stops at 256 MB, and a gzip guide at 1 GB unpacked (a guide made of several gzip parts now reads in full). A guide that isn't a guide (a web page, a broken file) now falls back to your provider's guide at once, instead of showing an empty guide for six hours.
+- **Sign-in details kept out of the log:** a release build no longer logs stream addresses, and libvlc logs errors only. A Debug build's log hides the server, user name, password and stream id in every address shape.
+- **Start Over and Catch-Up in Now Playing:** labelled Start Over, Catch-Up or Behind Live (in the window's subtitle too), with the programme's name, the channel and the programme's description, never Movie. The Now Playing bar shows the channel and the programme ("News Channel", "Ocean Life"), not the channel twice. TV Guide's inspector shows the channel while its programme plays from the start.
+- **Light Mode over Ambient Glow:** where the player's controls are wider than a 4:3 picture, the glow behind their ends is dimmed as the picture is, so every button and the time left show.
+- **Amber buttons in Light Mode:** the default button's text was white on amber (2.4:1); it is now dark on amber (7.8:1), as in Dark Mode. Amber text and small marks in Light Mode are a deeper amber (4.7:1 on white), and the Beta badge is that amber on a pale amber capsule. A chosen system accent keeps the system's own text colour.
+- **The only language chosen:** in Languages, the one language left ticked no longer looks dimmed; unticking it goes back to All Languages.
+- **Sign-in messages:** a long sign-in error or note makes the form taller instead of being cut off.
+- **Smoother while buffering and backing up:** a buffered channel reads its copy off the main thread, and a backup's passphrase is applied off the main thread with a spinner, so the window no longer stutters. A video host no longer leaves an observer behind, and a channel buffered for hours no longer keeps every segment address it ever saw.
+
+## v0.47.0: Start Over, a tour and Your Year (25 November 2026)
+
+Start from Beginning is in every menu that plays a channel, a short tour greets new viewers, and Your Year in ElBee shows how much you watched.
+
+Released with 0.48.0, with no release of its own.
+
+Your settings and playlists are all kept: none was renamed or reset.
+
+### In short
+
+- New: Watch from Start in a channel's menu, in a programme's menu in the TV Guide and on Home's On Now card, and ⌥⌘B while a channel plays
+- New: a three-card tour after first-time setup, and Help › ElBee Player Tour any time
+- New: Your Year in ElBee, in its own window and on Home in December and early January: hours watched, top channels, films and series, all worked out on this Mac
+
+### New
+
+- **Start Over from anywhere:** a channel with an archive and a programme on now offers Watch from Start wherever you can play it, even when nothing is playing yet. One step, one stream. Radio doesn't offer it.
+- **A short tour:** after first-time setup, three cards on Home point to Preferred Country, Add from Your Phone and Play In, with Show Me opening the right place. Skip it any time; people already using ElBee Player aren't shown it unasked.
+- **Your Year in ElBee:** Window › Your Year in ElBee. Hours watched, your top five channels, films and series, your busiest month and day, and the split between Live TV, Films, Series and Radio. It starts counting from this version (films and episodes also count what was already saved for this year). Anything in a locked or hidden category counts only toward the total, and adult categories never appear in the top lists.
+- **Private by design:** the tally never leaves this Mac and no request is made. It is kept per account, goes in a backup, and Settings › Advanced › Storage › Forget Viewing History clears it. Home's card can be hidden under Appearance › Home.
+
 ## v0.46.0: Smarter end credits (22 November 2026)
 
 Up Next finds the end credits more surely, remembers each series, and a film's credits get More Like This.
