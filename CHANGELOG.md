@@ -3,6 +3,20 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.49.1: Notices from ElBeeHQ on Home (26 November 2026)
+
+Home can show a short notice from ElBeeHQ, such as a request for testers for ElBee Player for Android.
+
+Your settings and playlists are all kept: none was renamed or reset.
+
+### In short
+
+- New: Home can show a one-line notice from ElBeeHQ, with a link and a close button, such as an invitation to join the Android test
+
+### New
+
+- **Notices on Home:** a one-line bar at the top of Home, where the Android notice sits, can show a notice from ElBeeHQ: its title, a line of detail, a link that opens in your browser (only ever to elbeehq.com or ElBeeHQ's pages on GitHub) and a close button. Closing a notice hides it for good on this Mac. Notices come from one small file on elbeehq.com, signed by ElBeeHQ; the app checks the signature and shows nothing from a file that fails it. The app reads the file when it checks for updates, and never while automatic update checks are off. The request names only the app, with nothing about you, your languages or this Mac, and sends no cookies. The last notice read stays until its end date, so it shows without a connection too.
+
 ## v0.49.0: Audio tracks, View Options for Movies and Series, and more ways to play (25 November 2026)
 
 Choose a film's or channel's audio track while watching, sort and filter Movies and Series from the toolbar, try another version of a channel that won't play, and play downloads and recordings from their window.
