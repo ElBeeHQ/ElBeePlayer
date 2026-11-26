@@ -3,6 +3,44 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.50.0: Find what to watch (26 November 2026)
+
+Narrow Movies and Series by genre, quality and decade, find programmes in Search, and mark a whole series or season as watched.
+
+Your settings and playlists are all kept: none was renamed or reset.
+
+### In short
+
+- New: Genre, Quality and Decade filters on Movies and Series, as a bar of buttons under the toolbar and in View Options
+- New: Search finds programmes on now and later, from the guides the app already has
+- New: Mark Series as Watched on a series' page, and Mark Season as Watched in its Season menu
+- New: Mark as Watched on a film's page, beside the heart
+- New: in the channel switcher's guide, ← and → move an hour at a time, up to 12 hours ahead
+- New: the welcome window offers Add from Your Phone and Restore from a Backup
+- Changed: Auto-Record never uses more streams than your account allows, and never stops what you watch
+- Fixed: the progress line of a channel without catch-up showed as a grey band in Light Mode
+- Fixed: the TV Guide's red now line showed through the Now Playing bar
+
+### New
+
+- **Filters on Movies and Series:** under the toolbar, beside Show, are Genre, Quality (4K, HD, HDR, 5.1, 7.1) and Decade, each a pull-down button that names what it's set to; View Options has the same choices. Choosing several values in one filter shows titles with any of them; choosing in several filters shows titles that match them all. Each filter offers only what the page's titles have, and a title whose genre, quality or year isn't known isn't shown while that filter is set: nothing is downloaded to find out. Films with no genre take the one their category is plainly named for ("Comedy Movies"). Genre is offered only where at least a quarter of the titles have one, and while it's set the page says how many titles' genres are known. While anything narrows the page, the bar says how many titles show ("320 of 8,400 movies") and has Clear. Movies and Series each remember their own choices. The rules are shared with ElBee Player for Android and Windows.
+- **Programmes in Search:** a Programmes section under Channels lists programmes on now or later whose names match, on now first, with when each starts and its channel. A click plays one that's on now and shows a later one in the TV Guide. A Programmes scope lists them all (showing that it's searching until it's done); right-click one to play its channel, see it in the TV Guide, set a reminder or record the series. Hidden and locked channels, and languages you've left out, stay out of these results as they do of the rest of Search. Search looks only in guides the app already has, the programmes saved for channels you've opened recently and another guide you've added once it has loaded, and says so; it never downloads a guide to search. When few channels' guides are saved and there's no other guide, it suggests opening Live TV or adding a guide in Settings › Playlists.
+- **Mark Series and Mark Season as Watched:** a series' page has Mark Series as Watched beside the heart, which marks it watched through its last episode, and Mark Series as Unwatched, which clears that and every episode's place. The Season menu has Mark Season as Watched and Unwatched. An episode you mark or play yourself keeps its own state, and episodes your provider adds later show as unwatched, including a new episode in a season you marked while it was airing. Specials and episodes without a number are marked with their series or season too. Marking a series or season, however long, never pushes other titles' places out of what's remembered. Series marked watched are in backups (an older version reading the backup skips them) and are cleared by Forget Viewing History.
+- **Mark as Watched on a film's page:** a button beside the heart marks the film watched or unwatched, as the right-click menu does.
+- **Later in the channel switcher's guide:** with the guide open over the picture, ← and → move it an hour back or on, up to 12 hours ahead. The whole day's guide is fetched only once you move past what the short guide covers.
+- **Welcome:** besides adding a playlist, the welcome window offers Add from Your Phone and Restore from a Backup.
+
+### Changed
+
+- **Auto-Record and your connections:** Auto-Record counts what you're watching, each Multi-View picture and every recording against the number of streams your account allows (two when your provider doesn't say), and at most two recordings run at once, as before. Downloads in progress count too; a paused channel stops counting once its stream is let go after 3 minutes. A recording that would go over waits rather than stop what you're watching, and starts if a stream frees in time; if none does before the programme ends, it's marked "Skipped: your account allows 1 stream at once" (for example), with a notification. A recording whose stream drops part-way and can't start again keeps what it recorded, marked "Stopped early" with why. A programme first found in another guide is never recorded twice when the channel's own guide loads, and a programme you cancelled stays cancelled. A recording stopped for low disk space keeps what it recorded, marked "Stopped early". Auto-Record also looks through another guide you've added once it has loaded, so Record Series on a programme you found in Search works on channels you've never opened.
+- **Playlists:** a playlist's type reads "Server Sign-In" or "M3U Playlist" under its name, as in its form.
+
+### Fixed
+
+- **Light Mode progress line:** on Now Playing, a live channel without catch-up showed its progress as a grey band in Light Mode; it's now the same thin line as the Now Playing bar's.
+- **TV Guide now line:** the red line marking the time ran on under the Now Playing bar's glass and showed through it; it now stops above the bar.
+- **Notices that start on a given day:** a notice from ElBeeHQ dated to start today now shows at midnight, rather than once Home next redraws.
+
 ## v0.49.2: Notices show sooner after an update (26 November 2026)
 
 A notice from ElBeeHQ now shows on Home soon after you install or update ElBee Player, instead of up to a day later.
