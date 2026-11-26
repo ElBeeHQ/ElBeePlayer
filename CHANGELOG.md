@@ -3,6 +3,20 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.49.2: Notices show sooner after an update (26 November 2026)
+
+A notice from ElBeeHQ now shows on Home soon after you install or update ElBee Player, instead of up to a day later.
+
+Your settings and playlists are all kept: none was renamed or reset.
+
+### In short
+
+- Fixed: after installing or updating, Home's notice from ElBeeHQ could take up to a day to appear
+
+### Fixed
+
+- **Notices after an update:** the app read ElBeeHQ's notices file only when it checked for updates, and the first check after installing or updating comes a day later, so a new notice didn't show for up to a day. Now, while automatic update checks are on, the app also reads the file a few seconds after it opens if it hasn't read it in the last 24 hours, and it still reads it after each update check, never twice within a few minutes. With automatic update checks off, it never reads the file. The request is the same as before: it names only the app and sends no cookies.
+
 ## v0.49.1: Notices from ElBeeHQ on Home (26 November 2026)
 
 Home can show a short notice from ElBeeHQ, such as a request for testers for ElBee Player for Android.

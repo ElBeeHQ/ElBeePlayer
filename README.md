@@ -81,7 +81,7 @@ It's free for personal use, with no account, no adverts and no tracking.
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/screenshot-live-dark.jpg"><img src="assets/screenshot-live-light.jpg" alt="Live TV: a category list, channels with their own names and logos, and the inspector"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/screenshot-live-dark.jpg"><img src="assets/screenshot-live-light.jpg" alt="Live TV: a category list, channels with what's on now, and the inspector with the playing channel's picture"></picture>
       <h3>Make it yours</h3>
       <ul>
         <li>Rename Channel… and Change Logo… on any live channel, from a link or a picture.</li>
