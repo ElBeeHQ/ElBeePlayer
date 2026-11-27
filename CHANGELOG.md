@@ -3,6 +3,26 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.50.1: The TV Guide copes with large playlists (27 November 2026)
+
+With a large playlist, the TV Guide no longer quits and Live TV and the TV Guide use much less memory and energy; and the
+button that shows and hides the inspector no longer turns into an empty circle.
+
+Your settings and playlists are all kept: none was renamed or reset.
+
+### In short
+
+- Fixed: with a large playlist in which one channel name is repeated many times, the TV Guide could quit, and Live TV and the TV Guide used far more memory and energy than they needed
+- Fixed: in Live TV and the TV Guide, the inspector button could show as an empty circle with a tiny "»" while the inspector was open
+- Fixed: the TV Guide's toolbar buttons all fit at its narrowest window width
+
+### Fixed
+
+- **Live TV and the TV Guide with a large playlist:** when one channel name is repeated across a playlist (hundreds of copies in a large one's All Channels), Combine Channel Versions makes it one row with a button for every version. Only a few fit beside the name, but the row still made all of them, and the TV Guide tried every possible number of buttons in turn, so one row could hold hundreds of thousands. The TV Guide's All Channels could make the app quit, and both pages held far more memory than they needed and used energy while they sat open. A row now makes only as many buttons as could fit (at most 40 in Live TV, 8 in the TV Guide's channel column), and every version is still in the channel's menu and the inspector. Scrolling Live TV and the TV Guide takes less work too.
+- **Less work while you browse:** Home's Recently Added rows, its On Now channels, the TV Guide's channel order and the Catch-Up list are worked out once when the library or your choices change, rather than every time the window redraws.
+- **Inspector button:** while the inspector was open, its button moved into the inspector's part of the toolbar, beside the search field. On macOS 27.2 the search field filled that part, so the button was pushed into an overflow menu, drawn as an empty circle with a tiny "»", and the inspector couldn't be closed from the toolbar. The button now stays in the page's part of the toolbar, after View Options, whether the inspector is open or closed, so it is always in the same place and always visible. The search field has the inspector's part to itself, and stays to the right of the inspector's edge.
+- **TV Guide at its narrowest:** with the inspector open, the TV Guide's window can't be made quite as narrow as before (950 points rather than 900), so its five toolbar buttons all fit beside the title and none is hidden in a "»" menu.
+
 ## v0.50.0: Find what to watch (26 November 2026)
 
 Narrow Movies and Series by genre, quality and decade, find programmes in Search, and mark a whole series or season as watched.

@@ -16,7 +16,7 @@
   <a href="https://github.com/ElBeeHQ/ElBeePlayer/releases/latest"><img src="https://img.shields.io/github/v/release/ElBeeHQ/ElBeePlayer?label=release&color=FFB020" alt="Latest release"></a>
   <a href="https://elbeehq.com/mac"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FElBeeHQ%2FElBeePlayer%2Fmain%2Fassets%2Fbadges%2Fminimum.json" alt="macOS 15 or later"></a>
   <a href="https://elbeehq.com/mac"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FElBeeHQ%2FElBeePlayer%2Fmain%2Fassets%2Fbadges%2Fruns-on.json" alt="Runs on Apple silicon or Intel"></a>
-  <a href="https://elbeehq.com"><img src="https://img.shields.io/badge/Windows-coming%20soon-6e7681" alt="Windows: coming soon"></a>
+  <a href="https://apps.microsoft.com/detail/9NZTH1NGKRZW"><img src="https://img.shields.io/badge/Download%20for-Windows-FFB020" alt="Download for Windows"></a>
   <a href="https://github.com/ElBeeHQ/ElBeePlayer/releases"><img src="https://img.shields.io/github/downloads/ElBeeHQ/ElBeePlayer/total?label=downloads&color=FFB020" alt="Total downloads"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/licence-free%20for%20personal%20use-FFB020" alt="Licence: free for personal use"></a>
   <a href="https://elbeehq.com/privacy"><img src="https://img.shields.io/badge/privacy-no%20tracking-FFB020" alt="Privacy: no tracking"></a>
