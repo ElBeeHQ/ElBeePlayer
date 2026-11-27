@@ -3,6 +3,34 @@
 All notable changes to ElBee Player are listed here, newest first. Earlier releases are described on the
 [GitHub releases page](https://github.com/ElBeeHQ/ElBeePlayer/releases).
 
+## v0.50.2: A calmer launch (27 November 2026)
+
+ElBee Player opens straight into your library at its own size, with one quiet loading state, and Live TV's inspector is back.
+
+Your settings and playlists are all kept: none was renamed or reset.
+
+### In short
+
+- Improved: opening the app goes straight to the library window, without a small splash window first
+- Improved: while the library loads, the page shows its shape instead of an empty pane with a spinner
+- Fixed: Live TV's channel inspector, with its live preview, shows again if it had been hidden
+- New: a channel with many versions shows "+N more", which lists them all
+
+### Improved
+
+- **Opening the app:** with a playlist set to sign in at launch, the window opens at the size and place it had last time and stays there, rather than opening as the small welcome window and then jumping to the library. Nothing of the welcome window is drawn over the library as it comes in: the library fades in once the window is ready. The welcome window is still there the first time you open the app, for the playlist chooser and for signing in.
+- **One loading state:** while the library loads, the page shows the shape of what is coming (a banner and two rows) instead of a second spinner, and Home fades in when it's ready, as do On Now and the automatic rows when they arrive.
+- **Catch-Up in the sidebar:** its row is in place from the start for a playlist that had it last time, so the rows below it no longer move down as the library loads.
+- **Saved sign-ins:** if opening your saved sign-ins takes a moment, the window says so, and says to allow access if your Mac asks, rather than looking stalled. A normal update never asks: releases are signed so that the update keeps access to the sign-ins.
+
+### New
+
+- **"+N more" versions:** in Live TV, a channel with more versions than fit shows as many version buttons as fit after its whole name, then "+N more", which lists every version to play.
+
+### Fixed
+
+- **Live TV's inspector:** in 0.50.0 the button that shows and hides it could sit in the toolbar's overflow menu, where it was easy to switch off by mistake. Where the TV Guide's inspector is on, Live TV's is turned back on once with this update; after that, each keeps your choice.
+
 ## v0.50.1: The TV Guide copes with large playlists (27 November 2026)
 
 With a large playlist, the TV Guide no longer quits and Live TV and the TV Guide use much less memory and energy; and the
